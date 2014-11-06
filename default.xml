@@ -2,14 +2,50 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com/"
+           review="android-review.googlesource.com"
+           sync-j="1" />
+
+  <remote  name="ste"
+           fetch="git://github.com/STELIX-Lollipop/"
+           sync-c="true"
+           sync-j="4" />
+
+  <remote  name="cm"
+           fetch="git://github.com/Cyanogenmod/"
+           review="review.cyanogenmod.org"
+           sync-c="true"
+           sync-j="4" />
+
+  <remote  name="cr"
+           fetch="git://github.com/CarbonDev/"
+           review="review.carbonrom.org"
+           sync-c="true"
+           sync-j="4" />
+
+  <remote  name="gh"
+           fetch="git://github.com/"
+           sync-c="true"
+           sync-j="4" />
+
+  <remote  name="sf"
+           fetch="git://git.code.sf.net/p/"
+           sync-c="true"
+           sync-j="4" />
+
+  <remote  name="tm"
+           fetch="git://github.com/TheMuppets/"
+           sync-c="true"
+           sync-j="4" />
+
   <default revision="refs/tags/android-5.0.0_r2"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
+  <project path="build" name="platform_build" groups="pdk,tradefed" remote="ste" revision="lp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="platform/manifest" name="platform_manifest" groups="pdk" remote="ste" revision="lp" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
@@ -279,7 +315,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" />
+  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs" remote="ste" revision="lp" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -395,7 +431,8 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
+  <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="ste" revision="lp" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="ste" revision="lp" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -507,4 +544,5 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
+  <project path="vendor/carbon" name="android_vendor_carbon" revision="lp" remote="ste" />
 </manifest>
