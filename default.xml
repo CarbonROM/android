@@ -23,7 +23,7 @@
            sync-j="4" />
 
   <remote  name="cr"
-           fetch="git://github.com/CarbonDev/"
+           fetch="git://github.com/CarbonROM/"
            review="review.carbonrom.org"
            sync-c="true"
            sync-j="4" />
@@ -47,7 +47,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" groups="pdk,tradefed" remote="ste" revision="lollipop" >
+  <project path="build" name="android_build" groups="pdk,tradefed" remote="cr" revision="lollipop" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android/manifest" name="platform_manifest" groups="pdk" remote="ste" revision="lollipop" />
@@ -532,5 +532,5 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="vendor/carbon" name="android_vendor_carbon" revision="lollipop" remote="ste" />
+  <project path="vendor/carbon" name="android_vendor_carbon" revision="lollipop" remote="cr" />
 </manifest>
