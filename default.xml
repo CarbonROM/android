@@ -532,5 +532,5 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="vendor/carbon" name="android_vendor_carbon" revision="lollipop" remote="cr" />
+  <project path="vendor/carbon" name="android_vendor_carbon" revision="lollipop" remote="ste" />
 </manifest>
