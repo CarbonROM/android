@@ -50,7 +50,7 @@
   <project path="build" name="android_build" groups="pdk,tradefed" remote="cr" revision="lollipop" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android/manifest" name="platform_manifest" groups="pdk" remote="ste" revision="lollipop" />
+  <project path="android" name="android" groups="pdk" remote="ste" revision="lollipop" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
