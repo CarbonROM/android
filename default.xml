@@ -11,6 +11,11 @@
            sync-c="true"
            sync-j="4" />
 
+  <remote  name="td"
+           fetch="git://github.com/TheDolls/"
+           sync-c="true"
+           sync-j="4" />
+
   <remote  name="cm"
            fetch="git://github.com/Cyanogenmod/"
            review="review.cyanogenmod.org"
