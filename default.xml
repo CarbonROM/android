@@ -6,7 +6,7 @@
    <default revision="lollipop"
             remote="carbon"
 			sync-j="4" />
-
+  <project path="android" name="CarbonROM/android" />
   <project path="build" name="CarbonROM/android_build" />
   <project path="abi/cpp" name="CarbonROM/android_abi_cpp" />
   <project path="art" name="CarbonROM/android_art" />
