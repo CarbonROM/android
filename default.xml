@@ -24,9 +24,7 @@
   <project path="development" name="CarbonROM/android_development" />
   <project path="device/asus/deb" name="CarbonROM/android_device_asus_deb" />
   <project path="device/asus/flo" name="CarbonROM/android_device_asus_flo" />
-  <project path="device/asus/flo-kernel" name="CarbonROM/android_device_asus_flo-kernel" />
   <project path="device/asus/fugu" name="CarbonROM/android_device_asus_fugu" />
-  <project path="device/asus/fugu-kernel" name="CarbonROM/android_device_asus_fugu-kernel" />
   <project path="device/asus/grouper" name="CarbonROM/android_device_asus_grouper" />
   <project path="device/asus/tilapia" name="CarbonROM/android_device_asus_tilapia" />
   <project path="device/common" name="CarbonROM/android_device_common" />
@@ -47,13 +45,9 @@
   <project path="device/google/accessory/demokit" name="CarbonROM/android_device_google_accessory_demokit" />
   <project path="device/google/atv" name="CarbonROM/android_device_google_atv" />
   <project path="device/htc/flounder" name="CarbonROM/android_device_htc_flounder" />
-  <project path="device/htc/flounder-kernel" name="CarbonROM/android_device_htc_flounder-kernel" />
   <project path="device/lge/hammerhead" name="CarbonROM/android_device_lge_hammerhead" />
-  <project path="device/lge/hammerhead-kernel" name="CarbonROM/android_device_lge_hammerhead-kernel" />
   <project path="device/lge/mako" name="CarbonROM/android_device_lge_mako" />
-  <project path="device/lge/mako-kernel" name="CarbonROM/android_device_lge_mako-kernel" />
   <project path="device/moto/shamu" name="CarbonROM/android_device_moto_shamu" />
-  <project path="device/moto/shamu-kernel" name="CarbonROM/android_device_moto_shamu-kernel" />
   <project path="device/sample" name="CarbonROM/android_device_sample" />
   <project path="device/samsung/manta" name="CarbonROM/android_device_samsung_manta" />
   <project path="docs/source.android.com" name="CarbonROM/android_docs_source.android.com" />
