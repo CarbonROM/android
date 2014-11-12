@@ -17,261 +17,232 @@
   <project path="abi/cpp" name="CarbonROM/android_abi_cpp" />
   <project path="art" name="CarbonROM/android_art" />
   <project path="bionic" name="CarbonROM/android_bionic" />
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" remote="aosp" revision="android-5.0.0_r2" />
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="bootable/recovery" name="CarbonROM/android_bootable_recovery" />
-  <project path="cts" name="platform/cts" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="dalvik" name="platform/dalvik" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="development" name="CarbonROM/android_development" />
-  <project path="device/asus/deb" name="CarbonROM/android_device_asus_deb" />
-  <project path="device/asus/flo" name="CarbonROM/android_device_asus_flo" />
-  <project path="device/asus/fugu" name="CarbonROM/android_device_asus_fugu" />
-  <project path="device/asus/grouper" name="CarbonROM/android_device_asus_grouper" />
-  <project path="device/asus/tilapia" name="CarbonROM/android_device_asus_tilapia" />
-  <project path="device/common" name="CarbonROM/android_device_common" />
-  <project path="device/generic/arm64" name="CarbonROM/android_device_generic_arm64" />
-  <project path="device/generic/armv7-a-neon" name="CarbonROM/android_device_generic_armv7-a-neon" />
-  <project path="device/generic/common" name="CarbonROM/android_device_generic_common" />
-  <project path="device/generic/goldfish" name="CarbonROM/android_device_generic_goldfish" />
-  <project path="device/generic/mips" name="CarbonROM/android_device_generic_mips" />
-  <project path="device/generic/mini-emulator-arm64" name="CarbonROM/android_device_generic_mini-emulator-arm64" />
-  <project path="device/generic/mini-emulator-armv7-a-neon" name="CarbonROM/android_device_generic_mini-emulator-armv7-a-neon" />
-  <project path="device/generic/mini-emulator-mips" name="CarbonROM/android_device_generic_mini-emulator-mips" />
-  <project path="device/generic/mini-emulator-x86" name="CarbonROM/android_device_generic_mini-emulator-x86" />
-  <project path="device/generic/mini-emulator-x86_64" name="CarbonROM/android_device_generic_mini-emulator-x86_64" />
-  <project path="device/generic/qemu" name="CarbonROM/android_device_generic_qemu" />
-  <project path="device/generic/x86" name="CarbonROM/android_device_generic_x86" />
-  <project path="device/generic/x86_64" name="CarbonROM/android_device_generic_x86_64" />
-  <project path="device/google/accessory/arduino" name="CarbonROM/android_device_google_accessory_arduino" />
-  <project path="device/google/accessory/demokit" name="CarbonROM/android_device_google_accessory_demokit" />
-  <project path="device/google/atv" name="CarbonROM/android_device_google_atv" />
-  <project path="device/htc/flounder" name="CarbonROM/android_device_htc_flounder" />
-  <project path="device/lge/hammerhead" name="CarbonROM/android_device_lge_hammerhead" />
-  <project path="device/lge/mako" name="CarbonROM/android_device_lge_mako" />
-  <project path="device/moto/shamu" name="CarbonROM/android_device_moto_shamu" />
-  <project path="device/sample" name="CarbonROM/android_device_sample" />
-  <project path="device/samsung/manta" name="CarbonROM/android_device_samsung_manta" />
-  <project path="docs/source.android.com" name="CarbonROM/android_docs_source.android.com" />
-  <project path="external/aac" name="CarbonROM/android_external_aac" />
-  <project path="external/android-clat" name="CarbonROM/android_external_android-clat" />
-  <project path="external/ant-glob" name="CarbonROM/android_external_ant-glob" />
-  <project path="external/antlr" name="CarbonROM/android_external_antlr" />
-  <project path="external/apache-harmony" name="CarbonROM/android_external_apache-harmony" />
-  <project path="external/apache-http" name="CarbonROM/android_external_apache-http" />
-  <project path="external/apache-qp" name="CarbonROM/android_external_apache-qp" />
-  <project path="external/apache-xml" name="CarbonROM/android_external_apache-xml" />
-  <project path="external/arduino" name="CarbonROM/android_external_arduino" />
-  <project path="external/bison" name="CarbonROM/android_external_bison" />
-  <project path="external/blktrace" name="CarbonROM/android_external_blktrace" />
-  <project path="external/bluetooth/bluedroid" name="CarbonROM/android_external_bluetooth_bluedroid" />
-  <project path="external/bouncycastle" name="CarbonROM/android_external_bouncycastle" />
-  <project path="external/bsdiff" name="CarbonROM/android_external_bsdiff" />
-  <project path="external/bzip2" name="CarbonROM/android_external_bzip2" />
-  <project path="external/ceres-solver" name="CarbonROM/android_external_ceres-solver" />
-  <project path="external/checkpolicy" name="CarbonROM/android_external_checkpolicy" />
-  <project path="external/chromium-libpac" name="CarbonROM/android_external_chromium-libpac" />
-  <project path="external/chromium-trace" name="CarbonROM/android_external_chromium-trace" />
-  <project path="external/chromium_org" name="CarbonROM/android_external_chromium_org" />
-  <project path="external/chromium_org/sdch/open-vcdiff" name="CarbonROM/android_external_chromium_org_sdch_open-vcdiff" />
-  <project path="external/chromium_org/testing/gtest" name="CarbonROM/android_external_chromium_org_testing_gtest" />
-  <project path="external/chromium_org/third_party/WebKit" name="CarbonROM/android_external_chromium_org_third_party_WebKit" />
-  <project path="external/chromium_org/third_party/angle" name="CarbonROM/android_external_chromium_org_third_party_angle" />
-  <project path="external/chromium_org/third_party/brotli/src" name="CarbonROM/android_external_chromium_org_third_party_brotli_src" />
-  <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="external/chromium_org/third_party/freetype" name="CarbonROM/android_external_chromium_org_third_party_freetype" />
-  <project path="external/chromium_org/third_party/icu" name="CarbonROM/android_external_chromium_org_third_party_icu" />
-  <project path="external/chromium_org/third_party/leveldatabase/src" name="CarbonROM/android_external_chromium_org_third_party_leveldatabase_src" />
-  <project path="external/chromium_org/third_party/libaddressinput/src" name="CarbonROM/android_external_chromium_org_third_party_libaddressinput_src" />
-  <project path="external/chromium_org/third_party/libjingle/source/talk" name="CarbonROM/android_external_chromium_org_third_party_libjingle_source_talk" />
-  <project path="external/chromium_org/third_party/libjpeg_turbo" name="CarbonROM/android_external_chromium_org_third_party_libjpeg_turbo" />
-  <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="CarbonROM/android_external_chromium_org_third_party_libphonenumber_src_phonenumbers" />
-  <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="CarbonROM/android_external_chromium_org_third_party_libphonenumber_src_resources" />
-  <project path="external/chromium_org/third_party/libsrtp" name="CarbonROM/android_external_chromium_org_third_party_libsrtp" />
-  <project path="external/chromium_org/third_party/libvpx" name="CarbonROM/android_external_chromium_org_third_party_libvpx" />
-  <project path="external/chromium_org/third_party/libyuv" name="CarbonROM/android_external_chromium_org_third_party_libyuv" />
-  <project path="external/chromium_org/third_party/mesa/src" name="CarbonROM/android_external_chromium_org_third_party_mesa_src" />
-  <project path="external/chromium_org/third_party/openmax_dl" name="CarbonROM/android_external_chromium_org_third_party_openmax_dl" />
-  <project path="external/chromium_org/third_party/openssl" name="CarbonROM/android_external_chromium_org_third_party_openssl" />
-  <project path="external/chromium_org/third_party/opus/src" name="CarbonROM/android_external_chromium_org_third_party_opus_src" />
-  <project path="external/chromium_org/third_party/ots" name="CarbonROM/android_external_chromium_org_third_party_ots" />
-  <project path="external/chromium_org/third_party/sfntly/cpp/src" name="CarbonROM/android_external_chromium_org_third_party_sfntly_cpp_src" />
-  <project path="external/chromium_org/third_party/skia" name="CarbonROM/android_external_chromium_org_third_party_skia" />
-  <project path="external/chromium_org/third_party/smhasher/src" name="CarbonROM/android_external_chromium_org_third_party_smhasher_src" />
-  <project path="external/chromium_org/third_party/usrsctp/usrsctplib" name="CarbonROM/android_external_chromium_org_third_party_usrsctp_usrsctplib" />
-  <project path="external/chromium_org/third_party/webrtc" name="CarbonROM/android_external_chromium_org_third_party_webrtc" />
-  <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="CarbonROM/android_external_chromium_org_third_party_yasm_source_patched-yasm" />
-  <project path="external/chromium_org/tools/grit" name="CarbonROM/android_external_chromium_org_tools_grit" />
-  <project path="external/chromium_org/tools/gyp" name="CarbonROM/android_external_chromium_org_tools_gyp" />
-  <project path="external/chromium_org/v8" name="CarbonROM/android_external_chromium_org_v8" />
-  <project path="external/clang" name="CarbonROM/android_external_clang" />
-  <project path="external/cmockery" name="CarbonROM/android_external_cmockery" />
-  <project path="external/compiler-rt" name="CarbonROM/android_external_compiler-rt" />
-  <project path="external/conscrypt" name="CarbonROM/android_external_conscrypt" />
-  <project path="external/deqp" name="CarbonROM/android_external_deqp" />
-  <project path="external/dexmaker" name="CarbonROM/android_external_dexmaker" />
-  <project path="external/dhcpcd" name="CarbonROM/android_external_dhcpcd" />
-  <project path="external/dnsmasq" name="CarbonROM/android_external_dnsmasq" />
-  <project path="external/doclava" name="CarbonROM/android_external_doclava" />
-  <project path="external/droiddriver" name="CarbonROM/android_external_droiddriver" />
-  <project path="external/e2fsprogs" name="CarbonROM/android_external_e2fsprogs" />
-  <project path="external/easymock" name="CarbonROM/android_external_easymock" />
-  <project path="external/eclipse-basebuilder" name="CarbonROM/android_external_eclipse-basebuilder" />
-  <project path="external/eclipse-windowbuilder" name="CarbonROM/android_external_eclipse-windowbuilder" />
-  <project path="external/eigen" name="CarbonROM/android_external_eigen" />
-  <project path="external/elfutils" name="CarbonROM/android_external_elfutils" />
-  <project path="external/emma" name="CarbonROM/android_external_emma" />
-  <project path="external/esd" name="CarbonROM/android_external_esd" />
-  <project path="external/expat" name="CarbonROM/android_external_expat" />
-  <project path="external/eyes-free" name="CarbonROM/android_external_eyes-free" />
-  <project path="external/f2fs-tools" name="CarbonROM/android_external_f2fs-tools" />
-  <project path="external/fdlibm" name="CarbonROM/android_external_fdlibm" />
-  <project path="external/fio" name="CarbonROM/android_external_fio" />
-  <project path="external/flac" name="CarbonROM/android_external_flac" />
-  <project path="external/fonttools" name="CarbonROM/android_external_fonttools" />
-  <project path="external/freetype" name="CarbonROM/android_external_freetype" />
-  <project path="external/fsck_msdos" name="CarbonROM/android_external_fsck_msdos" />
-  <project path="external/gcc-demangle" name="CarbonROM/android_external_gcc-demangle" />
-  <project path="external/genext2fs" name="CarbonROM/android_external_genext2fs" />
-  <project path="external/giflib" name="CarbonROM/android_external_giflib" />
-  <project path="external/glide" name="CarbonROM/android_external_glide" />
-  <project path="external/google-diff-match-patch" name="CarbonROM/android_external_google-diff-match-patch" />
-  <project path="external/google-fonts/coming-soon" name="CarbonROM/android_external_google-fonts_coming-soon" />
-  <project path="external/google-fonts/dancing-script" name="CarbonROM/android_external_google-fonts_dancing-script" />
-  <project path="external/google-fonts/carrois-gothic-sc" name="CarbonROM/android_external_google-fonts_carrois-gothic-sc" />
-  <project path="external/google-fonts/cutive-mono" name="CarbonROM/android_external_google-fonts_cutive-mono" />
-  <project path="external/google-tv-pairing-protocol" name="CarbonROM/android_external_google-tv-pairing-protocol" />
-  <project path="external/gtest" name="CarbonROM/android_external_gtest" />
-  <project path="external/guava" name="CarbonROM/android_external_guava" />
-  <project path="external/hamcrest" name="CarbonROM/android_external_hamcrest" />
-  <project path="external/harfbuzz_ng" name="CarbonROM/android_external_harfbuzz_ng" />
-  <project path="external/icu" name="CarbonROM/android_external_icu" />
-  <project path="external/iproute2" name="CarbonROM/android_external_iproute2" />
-  <project path="external/ipsec-tools" name="CarbonROM/android_external_ipsec-tools" />
-  <project path="external/iptables" name="CarbonROM/android_external_iptables" />
-  <project path="external/iputils" name="CarbonROM/android_external_iputils" />
-  <project path="external/jack" name="CarbonROM/android_external_jack" />
-  <project path="external/jarjar" name="CarbonROM/android_external_jarjar" />
-  <project path="external/javasqlite" name="CarbonROM/android_external_javasqlite" />
-  <project path="external/javassist" name="CarbonROM/android_external_javassist" />
-  <project path="external/jdiff" name="CarbonROM/android_external_jdiff" />
-  <project path="external/jemalloc" name="CarbonROM/android_external_jemalloc" />
-  <project path="external/jhead" name="CarbonROM/android_external_jhead" />
-  <project path="external/jline" name="CarbonROM/android_external_jline" />
-  <project path="external/jmdns" name="CarbonROM/android_external_jmdns" />
-  <project path="external/jpeg" name="CarbonROM/android_external_jpeg" />
-  <project path="external/jsilver" name="CarbonROM/android_external_jsilver" />
-  <project path="external/jsmn" name="CarbonROM/android_external_jsmn" />
-  <project path="external/jsoncpp" name="CarbonROM/android_external_jsoncpp" />
-  <project path="external/jsr305" name="CarbonROM/android_external_jsr305" />
-  <project path="external/junit" name="CarbonROM/android_external_junit" />
-  <project path="external/ksoap2" name="CarbonROM/android_external_ksoap2" />
-  <project path="external/kernel-headers" name="CarbonROM/android_external_kernel-headers" />
-  <project path="external/libcap-ng" name="CarbonROM/android_external_libcap-ng" />
-  <project path="external/libcxx" name="CarbonROM/android_external_libcxx" />
-  <project path="external/libcxxabi" name="CarbonROM/android_external_libcxxabi" />
-  <project path="external/libedit" name="CarbonROM/android_external_libedit" />
-  <project path="external/libexif" name="CarbonROM/android_external_libexif" />
-  <project path="external/libhevc" name="CarbonROM/android_external_libhevc" />
-  <project path="external/libgsm" name="CarbonROM/android_external_libgsm" />
-  <project path="external/liblzf" name="CarbonROM/android_external_liblzf" />
-  <project path="external/libmtp" name="CarbonROM/android_external_libmtp" />
-  <project path="external/libnfc-nci" name="CarbonROM/android_external_libnfc-nci" />
-  <project path="external/libnfc-nxp" name="CarbonROM/android_external_libnfc-nxp" />
-  <project path="external/libnl" name="CarbonROM/android_external_libnl" />
-  <project path="external/libogg" name="CarbonROM/android_external_libogg" />
-  <project path="external/libopus" name="CarbonROM/android_external_libopus" />
-  <project path="external/libpcap" name="CarbonROM/android_external_libpcap" />
-  <project path="external/libphonenumber" name="CarbonROM/android_external_libphonenumber" />
-  <project path="external/libpng" name="CarbonROM/android_external_libpng" />
-  <project path="external/libseccomp-helper" name="CarbonROM/android_external_libseccomp-helper" />
-  <project path="external/libselinux" name="CarbonROM/android_external_libselinux" />
-  <project path="external/libsepol" name="CarbonROM/android_external_libsepol" />
-  <project path="external/libssh2" name="CarbonROM/android_external_libssh2" />
-  <project path="external/libunwind" name="CarbonROM/android_external_libunwind" />
-  <project path="external/libusb" name="CarbonROM/android_external_libusb" />
-  <project path="external/libusb-compat" name="CarbonROM/android_external_libusb-compat" />
-  <project path="external/libutf" name="CarbonROM/android_external_libutf" />
-  <project path="external/libvorbis" name="CarbonROM/android_external_libvorbis" />
-  <project path="external/libvpx" name="CarbonROM/android_external_libvpx" />
-  <project path="external/libxml2" name="CarbonROM/android_external_libxml2" />
-  <project path="external/libyuv" name="CarbonROM/android_external_libyuv" />
-  <project path="external/linux-tools-perf" name="CarbonROM/android_external_linux-tools-perf" />
-  <project path="external/littlemock" name="CarbonROM/android_external_littlemock" />
-  <project path="external/lldb" name="CarbonROM/android_external_lldb" />
-  <project path="external/llvm" name="CarbonROM/android_external_llvm" />
-  <project path="external/ltrace" name="CarbonROM/android_external_ltrace" />
-  <project path="external/lzma" name="CarbonROM/android_external_lzma" />
-  <project path="external/markdown" name="CarbonROM/android_external_markdown" />
-  <project path="external/mdnsresponder" name="CarbonROM/android_external_mdnsresponder" />
-  <project path="external/mesa3d" name="CarbonROM/android_external_mesa3d" />
-  <project path="external/messageformat" name="CarbonROM/android_external_messageformat" />
-  <project path="external/mksh" name="CarbonROM/android_external_mksh" />
-  <project path="external/mockito" name="CarbonROM/android_external_mockito" />
-  <project path="external/mockwebserver" name="CarbonROM/android_external_mockwebserver" />
-  <project path="external/mp4parser" name="CarbonROM/android_external_mp4parser" />
-  <project path="external/mtpd" name="CarbonROM/android_external_mtpd" />
-  <project path="external/nanohttpd" name="CarbonROM/android_external_nanohttpd" />
-  <project path="external/nanopb-c" name="CarbonROM/android_external_nanopb-c" />
-  <project path="external/naver-fonts" name="CarbonROM/android_external_naver-fonts" />
-  <project path="external/netcat" name="CarbonROM/android_external_netcat" />
-  <project path="external/netperf" name="CarbonROM/android_external_netperf" />
-  <project path="external/neven" name="CarbonROM/android_external_neven" />
-  <project path="external/nfacct" name="CarbonROM/android_external_nfacct" />
-  <project path="external/nist-pkits" name="CarbonROM/android_external_nist-pkits" />
-  <project path="external/nist-sip" name="CarbonROM/android_external_nist-sip" />
-  <project path="external/noto-fonts" name="CarbonROM/android_external_noto-fonts" />
-  <project path="external/oauth" name="CarbonROM/android_external_oauth" />
-  <project path="external/objenesis" name="CarbonROM/android_external_objenesis" />
-  <project path="external/okhttp" name="CarbonROM/android_external_okhttp" />
-  <project path="external/opencv" name="CarbonROM/android_external_opencv" />
-  <project path="external/openssl" name="CarbonROM/android_external_openssl" />
-  <project path="external/oprofile" name="CarbonROM/android_external_oprofile" />
-  <project path="external/owasp/sanitizer" name="CarbonROM/android_external_owasp_sanitizer" />
-  <project path="external/pcre" name="CarbonROM/android_external_pcre" />
-  <project path="external/pdfium" name="CarbonROM/android_external_pdfium" />
-  <project path="external/pixman" name="CarbonROM/android_external_pixman" />
-  <project path="external/ppp" name="CarbonROM/android_external_ppp" />
-  <project path="external/proguard" name="CarbonROM/android_external_proguard" />
-  <project path="external/protobuf" name="CarbonROM/android_external_protobuf" />
-  <project path="external/qemu" name="CarbonROM/android_external_qemu" />
-  <project path="external/qemu-pc-bios" name="CarbonROM/android_external_qemu-pc-bios" />
-  <project path="external/regex-re2" name="CarbonROM/android_external_regex-re2" />
-  <project path="external/replicaisland" name="CarbonROM/android_external_replicaisland" />
-  <project path="external/robolectric" name="CarbonROM/android_external_robolectric" />
-  <project path="external/safe-iop" name="CarbonROM/android_external_safe-iop" />
-  <project path="external/scrypt" name="CarbonROM/android_external_scrypt" />
-  <project path="external/sepolicy" name="CarbonROM/android_external_sepolicy" />
-  <project path="external/sfntly" name="CarbonROM/android_external_sfntly" />
-  <project path="external/skia" name="CarbonROM/android_external_skia" />
-  <project path="external/smack" name="CarbonROM/android_external_smack" />
-  <project path="external/smali" name="CarbonROM/android_external_smali" />
-  <project path="external/sonivox" name="CarbonROM/android_external_sonivox" />
-  <project path="external/speex" name="CarbonROM/android_external_speex" />
-  <project path="external/sqlite" name="CarbonROM/android_external_sqlite" />
-  <project path="external/srec" name="CarbonROM/android_external_srec" />
-  <project path="external/srtp" name="CarbonROM/android_external_srtp" />
-  <project path="external/stlport" name="CarbonROM/android_external_stlport" />
-  <project path="external/strace" name="CarbonROM/android_external_strace" />
-  <project path="external/stressapptest" name="CarbonROM/android_external_stressapptest" />
-  <project path="external/svox" name="CarbonROM/android_external_svox" />
-  <project path="external/tagsoup" name="CarbonROM/android_external_tagsoup" />
-  <project path="external/tcpdump" name="CarbonROM/android_external_tcpdump" />
-  <project path="external/timezonepicker-support" name="CarbonROM/android_external_timezonepicker-support" />
-  <project path="external/tinyalsa" name="CarbonROM/android_external_tinyalsa" />
-  <project path="external/tinycompress" name="CarbonROM/android_external_tinycompress" />
-  <project path="external/tinyxml" name="CarbonROM/android_external_tinyxml" />
-  <project path="external/tinyxml2" name="CarbonROM/android_external_tinyxml2" />
-  <project path="external/tremolo" name="CarbonROM/android_external_tremolo" />
-  <project path="external/valgrind" name="CarbonROM/android_external_valgrind" />
-  <project path="external/vixl" name="CarbonROM/android_external_vixl" />
-  <project path="external/webp" name="CarbonROM/android_external_webp" />
-  <project path="external/webrtc" name="CarbonROM/android_external_webrtc" />
-  <project path="external/wpa_supplicant_8" name="CarbonROM/android_external_wpa_supplicant_8" />
-  <project path="external/xmlwriter" name="CarbonROM/android_external_xmlwriter" />
-  <project path="external/xmp_toolkit" name="CarbonROM/android_external_xmp_toolkit" />
-  <project path="external/yaffs2" name="CarbonROM/android_external_yaffs2" />
-  <project path="external/zlib" name="CarbonROM/android_external_zlib" />
-  <project path="external/zopfli" name="CarbonROM/android_external_zopfli" />
-  <project path="external/zxing" name="CarbonROM/android_external_zxing" />
+  <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="dalvik" name="platform/dalvik" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="development" name="platform/development" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/aac" name="platform/external/aac" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/android-clat" name="platform/external/android-clat" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/ant-glob" name="platform/external/ant-glob" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/apache-harmony" name="platform/external/apache-harmony" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/apache-http" name="platform/external/apache-http" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/apache-qp" name="platform/external/apache-qp" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/apache-xml" name="platform/external/apache-xml" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/arduino" name="platform/external/arduino" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/bison" name="platform/external/bison" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/blktrace" name="platform/external/blktrace" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/bouncycastle" name="platform/external/bouncycastle" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/bsdiff" name="platform/external/bsdiff" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/bzip2" name="platform/external/bzip2" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/ceres-solver" name="platform/external/ceres-solver" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/checkpolicy" name="platform/external/checkpolicy" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium-libpac" name="platform/external/chromium-libpac" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium-trace" name="platform/external/chromium-trace" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org" name="platform/external/chromium_org" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/brotli/src" name="platform/external/chromium_org/third_party/brotli/src" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/icu" name="platform/external/chromium_org/third_party/icu" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/leveldatabase/src" name="platform/external/chromium_org/third_party/leveldatabase/src" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/libaddressinput/src" name="platform/external/chromium_org/third_party/libaddressinput/src" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/libjingle/source/talk" name="platform/external/chromium_org/third_party/libjingle/source/talk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/libjpeg_turbo" name="platform/external/chromium_org/third_party/libjpeg_turbo" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/libsrtp" name="platform/external/chromium_org/third_party/libsrtp" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/libvpx" name="platform/external/chromium_org/third_party/libvpx" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/libyuv" name="platform/external/chromium_org/third_party/libyuv" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/openmax_dl" name="platform/external/chromium_org/third_party/openmax_dl" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/skia" name="platform/external/chromium_org/third_party/skia" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/smhasher/src" name="platform/external/chromium_org/third_party/smhasher/src" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/usrsctp/usrsctplib" name="platform/external/chromium_org/third_party/usrsctp/usrsctplib" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/webrtc" name="platform/external/chromium_org/third_party/webrtc" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/clang" name="platform/external/clang" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/cmockery" name="platform/external/cmockery" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/conscrypt" name="platform/external/conscrypt" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/deqp" name="platform/external/deqp" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/dexmaker" name="platform/external/dexmaker" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/dhcpcd" name="platform/external/dhcpcd" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/doclava" name="platform/external/doclava" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/droiddriver" name="platform/external/droiddriver" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/easymock" name="platform/external/easymock" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/eigen" name="platform/external/eigen" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/elfutils" name="platform/external/elfutils" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/emma" name="platform/external/emma" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/esd" name="platform/external/esd" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/expat" name="platform/external/expat" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/eyes-free" name="platform/external/eyes-free" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/fdlibm" name="platform/external/fdlibm" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/fio" name="platform/external/fio" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/flac" name="platform/external/flac" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/fonttools" name="platform/external/fonttools" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/freetype" name="platform/external/freetype" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/gcc-demangle" name="platform/external/gcc-demangle" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/genext2fs" name="platform/external/genext2fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/giflib" name="platform/external/giflib" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/glide" name="platform/external/glide" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/google-fonts/carrois-gothic-sc" name="platform/external/google-fonts/carrois-gothic-sc" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/google-fonts/cutive-mono" name="platform/external/google-fonts/cutive-mono" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/gtest" name="platform/external/gtest" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/guava" name="platform/external/guava" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/hamcrest" name="platform/external/hamcrest" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/icu" name="platform/external/icu" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/iproute2" name="platform/external/iproute2" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/iptables" name="platform/external/iptables" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/iputils" name="platform/external/iputils" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/jack" name="platform/external/jack" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/jarjar" name="platform/external/jarjar" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/javasqlite" name="platform/external/javasqlite" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/javassist" name="platform/external/javassist" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/jdiff" name="platform/external/jdiff" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/jemalloc" name="platform/external/jemalloc" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/jhead" name="platform/external/jhead" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/jline" name="platform/external/jline" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/jmdns" name="platform/external/jmdns" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/jpeg" name="platform/external/jpeg" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/jsilver" name="platform/external/jsilver" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/jsmn" name="platform/external/jsmn" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/jsoncpp" name="platform/external/jsoncpp" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/jsr305" name="platform/external/jsr305" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/junit" name="platform/external/junit" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/ksoap2" name="platform/external/ksoap2" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/kernel-headers" name="platform/external/kernel-headers" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libcap-ng" name="platform/external/libcap-ng" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libcxx" name="platform/external/libcxx" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libcxxabi" name="platform/external/libcxxabi" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libedit" name="platform/external/libedit" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libexif" name="platform/external/libexif" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libhevc" name="platform/external/libhevc" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libgsm" name="platform/external/libgsm" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/liblzf" name="platform/external/liblzf" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libmtp" name="platform/external/libmtp" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libnl" name="platform/external/libnl" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libogg" name="platform/external/libogg" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libopus" name="platform/external/libopus" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libpcap" name="platform/external/libpcap" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libphonenumber" name="platform/external/libphonenumber" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libpng" name="platform/external/libpng" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libselinux" name="platform/external/libselinux" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libsepol" name="platform/external/libsepol" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libssh2" name="platform/external/libssh2" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libunwind" name="platform/external/libunwind" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libusb" name="platform/external/libusb" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libusb-compat" name="platform/external/libusb-compat" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libutf" name="platform/external/libutf" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libvorbis" name="platform/external/libvorbis" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libvpx" name="platform/external/libvpx" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libxml2" name="platform/external/libxml2" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libyuv" name="platform/external/libyuv" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/littlemock" name="platform/external/littlemock" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/lldb" name="platform/external/lldb" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/llvm" name="platform/external/llvm" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/ltrace" name="platform/external/ltrace" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/lzma" name="platform/external/lzma" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/markdown" name="platform/external/markdown" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/mdnsresponder" name="platform/external/mdnsresponder" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/mesa3d" name="platform/external/mesa3d" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/messageformat" name="platform/external/messageformat" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/mksh" name="platform/external/mksh" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/mockito" name="platform/external/mockito" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/mockwebserver" name="platform/external/mockwebserver" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/mp4parser" name="platform/external/mp4parser" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/mtpd" name="platform/external/mtpd" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/nanohttpd" name="platform/external/nanohttpd" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/nanopb-c" name="platform/external/nanopb-c" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/naver-fonts" name="platform/external/naver-fonts" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/netcat" name="platform/external/netcat" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/netperf" name="platform/external/netperf" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/neven" name="platform/external/neven" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/nfacct" name="platform/external/nfacct" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/nist-pkits" name="platform/external/nist-pkits" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/nist-sip" name="platform/external/nist-sip" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/oauth" name="platform/external/oauth" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/objenesis" name="platform/external/objenesis" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/okhttp" name="platform/external/okhttp" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/opencv" name="platform/external/opencv" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/openssl" name="platform/external/openssl" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/oprofile" name="platform/external/oprofile" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/pcre" name="platform/external/pcre" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/pdfium" name="platform/external/pdfium" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/pixman" name="platform/external/pixman" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/ppp" name="platform/external/ppp" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/proguard" name="platform/external/proguard" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/protobuf" name="platform/external/protobuf" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/qemu" name="platform/external/qemu" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/regex-re2" name="platform/external/regex-re2" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/replicaisland" name="platform/external/replicaisland" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/robolectric" name="platform/external/robolectric" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/safe-iop" name="platform/external/safe-iop" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/scrypt" name="platform/external/scrypt" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/sepolicy" name="platform/external/sepolicy" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/sfntly" name="platform/external/sfntly" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/skia" name="platform/external/skia" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/smali" name="platform/external/smali" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/sonivox" name="platform/external/sonivox" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/speex" name="platform/external/speex" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/sqlite" name="platform/external/sqlite" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/srec" name="platform/external/srec" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/srtp" name="platform/external/srtp" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/stlport" name="platform/external/stlport" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/strace" name="platform/external/strace" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/stressapptest" name="platform/external/stressapptest" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/svox" name="platform/external/svox" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/tagsoup" name="platform/external/tagsoup" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/tcpdump" name="platform/external/tcpdump" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/tinyalsa" name="platform/external/tinyalsa" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/tinycompress" name="platform/external/tinycompress" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/tinyxml2" name="platform/external/tinyxml2" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/tremolo" name="platform/external/tremolo" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/valgrind" name="platform/external/valgrind" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/vixl" name="platform/external/vixl" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/webp" name="platform/external/webp" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/webrtc" name="platform/external/webrtc" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/xmlwriter" name="platform/external/xmlwriter" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/yaffs2" name="platform/external/yaffs2" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/zlib" name="platform/external/zlib" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/zopfli" name="platform/external/zopfli" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/zxing" name="platform/external/zxing" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="frameworks/av" name="CarbonROM/android_frameworks_av" />
   <project path="frameworks/base" name="CarbonROM/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CarbonROM/android_frameworks_compile_libbcc" />
@@ -309,50 +280,9 @@
   <project path="frameworks/volley" name="CarbonROM/android_frameworks_volley" />
   <project path="frameworks/webview" name="CarbonROM/android_frameworks_webview" />
   <project path="frameworks/wilhelm" name="CarbonROM/android_frameworks_wilhelm" />
-  <project path="hardware/akm" name="CarbonROM/android_hardware_akm" />
-  <project path="hardware/broadcom/libbt" name="CarbonROM/android_hardware_broadcom_libbt" />
-  <project path="hardware/broadcom/wlan" name="CarbonROM/android_hardware_broadcom_wlan" />
-  <project path="hardware/intel/audio_media" name="CarbonROM/android_hardware_intel_audio_media" />
-  <project path="hardware/intel/bootstub" name="CarbonROM/android_hardware_intel_bootstub" />
-  <project path="hardware/intel/common/bd_prov" name="CarbonROM/android_hardware_intel_common_bd_prov" />
-  <project path="hardware/intel/common/libmix" name="CarbonROM/android_hardware_intel_common_libmix" />
-  <project path="hardware/intel/common/libstagefrighthw" name="CarbonROM/android_hardware_intel_common_libstagefrighthw" />
-  <project path="hardware/intel/common/libva" name="CarbonROM/android_hardware_intel_common_libva" />
-  <project path="hardware/intel/common/libwsbm" name="CarbonROM/android_hardware_intel_common_libwsbm" />
-  <project path="hardware/intel/common/omx-components" name="CarbonROM/android_hardware_intel_common_omx-components" />
-  <project path="hardware/intel/common/utils" name="CarbonROM/android_hardware_intel_common_utils" />
-  <project path="hardware/intel/common/wrs_omxil_core" name="CarbonROM/android_hardware_intel_common_wrs_omxil_core" />
-  <project path="hardware/intel/img/hwcomposer" name="CarbonROM/android_hardware_intel_img_hwcomposer" />
-  <project path="hardware/intel/img/libdrm" name="CarbonROM/android_hardware_intel_img_libdrm" />
-  <project path="hardware/intel/img/psb_headers" name="CarbonROM/android_hardware_intel_img_psb_headers" />
-  <project path="hardware/intel/img/psb_video" name="CarbonROM/android_hardware_intel_img_psb_video" />
-  <project path="hardware/invensense" name="CarbonROM/android_hardware_invensense" />
-  <project path="hardware/libhardware" name="CarbonROM/android_hardware_libhardware" />
-  <project path="hardware/libhardware_legacy" name="CarbonROM/android_hardware_libhardware_legacy" />
-  <project path="hardware/nvidia/audio" name="CarbonROM/android_hardware_nvidia_audio" />
-  <project path="hardware/nvidia/tegra124" name="CarbonROM/android_hardware_nvidia_tegra124" />
-  <project path="hardware/qcom/audio" name="CarbonROM/android_hardware_qcom_audio" />
-  <project path="hardware/qcom/bt" name="CarbonROM/android_hardware_qcom_bt" />
-  <project path="hardware/qcom/display" name="CarbonROM/android_hardware_qcom_display" />
-  <project path="hardware/qcom/gps" name="CarbonROM/android_hardware_qcom_gps" />
-  <project path="hardware/qcom/keymaster" name="CarbonROM/android_hardware_qcom_keymaster" />
-  <project path="hardware/qcom/media" name="CarbonROM/android_hardware_qcom_media" />
-  <project path="hardware/qcom/msm8960" name="CarbonROM/android_hardware_qcom_msm8960" />
-  <project path="hardware/qcom/msm8x26" name="CarbonROM/android_hardware_qcom_msm8x26" />
-  <project path="hardware/qcom/msm8x27" name="CarbonROM/android_hardware_qcom_msm8x27" />
-  <project path="hardware/qcom/msm8x74" name="CarbonROM/android_hardware_qcom_msm8x74" />
-  <project path="hardware/qcom/msm8x84" name="CarbonROM/android_hardware_qcom_msm8x84" />
-  <project path="hardware/qcom/power" name="CarbonROM/android_hardware_qcom_power" />
-  <project path="hardware/qcom/sensors" name="CarbonROM/android_hardware_qcom_sensors" />
-  <project path="hardware/qcom/wlan" name="CarbonROM/android_hardware_qcom_wlan" />
-  <project path="hardware/ril" name="CarbonROM/android_hardware_ril" />
-  <project path="hardware/samsung_slsi/exynos5" name="CarbonROM/android_hardware_samsung_slsi_exynos5" />
-  <project path="hardware/ti/omap3" name="CarbonROM/android_hardware_ti_omap3" />
-  <project path="hardware/ti/omap4-aah" name="CarbonROM/android_hardware_ti_omap4-aah" />
-  <project path="hardware/ti/omap4xxx" name="CarbonROM/android_hardware_ti_omap4xxx" />
   <project path="libcore" name="CarbonROM/android_libcore" />
   <project path="libnativehelper" name="CarbonROM/android_libnativehelper" />
-  <project path="ndk" name="platform/ndk" remote="aosp" revision="android-5.0.0_r2" />
+  <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="packages/apps/BasicSmsReceiver" name="CarbonROM/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="CarbonROM/android_packages_apps_Bluetooth" />
   <project path="packages/apps/Browser" name="CarbonROM/android_packages_apps_Browser" />
@@ -425,60 +355,60 @@
   <project path="packages/wallpapers/MusicVisualization" name="CarbonROM/android_packages_wallpapers_MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="CarbonROM/android_packages_wallpapers_NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="CarbonROM/android_packages_wallpapers_PhaseBeam" />
-  <project path="pdk" name="platform/pdk" groups="pdk" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/clang/darwin-x86/host/3.4" name="platform/prebuilts/clang/darwin-x86/host/3.4" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/clang/darwin-x86/host/3.5" name="platform/prebuilts/clang/darwin-x86/host/3.5" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/clang/darwin-x86/mips/3.3" name="platform/prebuilts/clang/darwin-x86/mips/3.3" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/clang/darwin-x86/x86/3.3" name="platform/prebuilts/clang/darwin-x86/x86/3.3" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/clang/linux-x86/host/3.4" name="platform/prebuilts/clang/linux-x86/host/3.4" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/clang/linux-x86/host/3.5" name="platform/prebuilts/clang/linux-x86/host/3.5" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/devtools" name="platform/prebuilts/devtools" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" remote="aosp" revision="android-5.0.0_r2" />
+  <project path="pdk" name="platform/pdk" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/clang/darwin-x86/host/3.4" name="platform/prebuilts/clang/darwin-x86/host/3.4" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/clang/darwin-x86/host/3.5" name="platform/prebuilts/clang/darwin-x86/host/3.5" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/clang/darwin-x86/mips/3.3" name="platform/prebuilts/clang/darwin-x86/mips/3.3" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/clang/darwin-x86/x86/3.3" name="platform/prebuilts/clang/darwin-x86/x86/3.3" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/clang/linux-x86/host/3.4" name="platform/prebuilts/clang/linux-x86/host/3.4" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/clang/linux-x86/host/3.5" name="platform/prebuilts/clang/linux-x86/host/3.5" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/devtools" name="platform/prebuilts/devtools" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" remote="aosp" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="sdk" name="platform/sdk" remote="aosp" revision="android-5.0.0_r2" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="sdk" name="platform/sdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="system/core" name="CarbonROM/android_system_core" />
   <project path="system/extras" name="CarbonROM/android_system_extras" />
   <project path="system/keymaster" name="CarbonROM/android_system_keymaster" />
@@ -486,19 +416,20 @@
   <project path="system/netd" name="CarbonROM/android_system_netd" />
   <project path="system/security" name="CarbonROM/android_system_security" />
   <project path="system/vold" name="CarbonROM/android_system_vold" />
-  <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="tools/adt/idea" name="platform/tools/adt/idea" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="tools/base" name="platform/tools/base" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="tools/build" name="platform/tools/build" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="tools/emulator" name="platform/tools/emulator" remote="aosp" revision="android-5.0.0_r2" />
+  <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="tools/adt/idea" name="platform/tools/adt/idea" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="tools/base" name="platform/tools/base" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="tools/build" name="platform/tools/build" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="tools/emulator" name="platform/tools/emulator" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="tools/external/fat32lib" name="CarbonROM/android_tools_external_fat32lib" />
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="tools/idea" name="platform/tools/idea" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="tools/loganalysis" name="platform/tools/loganalysis" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="tools/studio/cloud" name="platform/tools/studio/cloud" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="tools/studio/translation" name="platform/tools/studio/translation" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="tools/swt" name="platform/tools/swt" remote="aosp" revision="android-5.0.0_r2" />
-  <project path="tools/tradefederation" name="platform/tools/tradefederation" remote="aosp" revision="android-5.0.0_r2" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="tools/idea" name="platform/tools/idea" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="tools/loganalysis" name="platform/tools/loganalysis" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="tools/studio/cloud" name="platform/tools/studio/cloud" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="tools/studio/translation" name="platform/tools/studio/translation" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="tools/swt" name="platform/tools/swt" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="tools/tradefederation" name="platform/tools/tradefederation" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
 
 </manifest>
+
