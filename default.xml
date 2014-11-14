@@ -58,7 +58,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="android" groups="pdk" remote="ste" revision="lollipop" />
+  <project path="android" name="android" groups="pdk" remote="cr" revision="lollipop" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
@@ -587,5 +587,5 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
-  <project path="vendor/carbon" name="android_vendor_carbon" revision="lollipop" remote="ste" />
+  <project path="vendor/carbon" name="android_vendor_carbon" revision="lollipop" remote="cr" />
 </manifest>
