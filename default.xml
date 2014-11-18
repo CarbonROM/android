@@ -304,7 +304,7 @@
   <project path="external/ntfs-3g" name="/android_external_ntfs-3g" remote="cm" revision="cm-12.0" />
   <project path="external/oauth" name="platform/external/oauth" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/okhttp" name="/android_external_okhttp" groups="pdk-cw-fw" remote="cm" revision="cm-12.0" />
+  <project path="external/okhttp" name="android_external_okhttp" groups="pdk-cw-fw" remote="cm" revision="cm-12.0" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/openssl" name="platform/external/openssl" groups="pdk" remote="aosp" />
   <project path="external/oprofile" name="platform/external/oprofile" groups="pdk-cw-fs" remote="aosp" />
