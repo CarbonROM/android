@@ -419,7 +419,7 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="cm" revision="cm-12.0" />
   <project path="hardware/nvidia/audio" name="android_hardware_nvidia_audio" groups="nvidia_audio" remote="cm" revision="cm-12.0" />
   <project path="hardware/nvidia/tegra124" name="android_hardware_nvidia_tegra124" groups="tegra124" remote="cm" revision="cm-12.0" />
-  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-12.0" remote="cm" />
+  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-12.0" />
   <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8960" remote="cm" />
   <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8974" remote="cm" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="cm" revision="cm-12.0" />
