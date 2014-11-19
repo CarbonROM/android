@@ -92,6 +92,7 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" remote="aosp" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" remote="aosp" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cm" revision="cm-12.0" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" />
   
@@ -434,6 +435,7 @@
   <project path="hardware/qcom/media/msm8974" name="android_hardware_qcom_media" groups="qcom" revision="cm-12.0-aosp" remote="cm" />
   <project path="hardware/qcom/media/msm8084" name="android_hardware_qcom_media" groups="qcom" revision="cm-12.0-aosp" remote="cm" />
   <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8960" remote="cm" />
+  <project path="hardware/qcom/media-caf/msm8226" name="android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8226" remote="cm" />
   <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8974" remote="cm" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" remote="aosp" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" remote="aosp" />
