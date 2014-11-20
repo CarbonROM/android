@@ -376,7 +376,6 @@
   <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
-  <project path="frameworks/opt/connectivity" name="android_frameworks_opt_connectivity" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="frameworks/ex" name="android_frameworks_ex" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="frameworks/mff" name="android_frameworks_mff" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="frameworks/minikin" name="android_frameworks_minikin" groups="pdk-cw-fs" remote="cm" revision="refs/heads/cm-12.0" />
