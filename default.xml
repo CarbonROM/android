@@ -10,6 +10,11 @@
            sync-c="true"
            sync-j="8" />
 
+  <remote  name="stelix"
+           fetch="git://github.com/STELIX/"
+           sync-c="true"
+           sync-j="8" />
+
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/"
            review="review.cyanogenmod.org"
@@ -56,7 +61,7 @@
            sync-c="true"
            sync-j="8" />
 
-  <project path="build" name="android_build" groups="pdk,tradefed" remote="ste" revision="lollipop" >
+  <project path="build" name="android_build" groups="pdk,tradefed" remote="stelix" revision="lollipop" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
