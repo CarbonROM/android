@@ -264,7 +264,7 @@
   <project path="external/libsepol" name="android_external_libsepol" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="external/libssh2" name="platform/external/libssh2" remote="aosp" />
   <project path="external/libtar" name="android_external_libtar" remote="cm" revision="refs/heads/cm-12.0" />
-  <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" remote="cm" revision="refs/heads/cm-12.0" />
+  <project path="external/libtruezip" name="android_external_libtruezip" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" remote="aosp" />
   <project path="external/libusb" name="android_external_libusb" groups="pdk-cw-fs" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="external/libusbx" name="android_external_libusbx" remote="cm" revision="refs/heads/cm-12.0" />
@@ -356,7 +356,7 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" remote="aosp" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" remote="aosp" />
-  <project path="external/unrar" name="CyanogenMod/android_external_unrar" remote="cm" revision="refs/heads/cm-12.0" />
+  <project path="external/unrar" name="android_external_unrar" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" remote="aosp" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" remote="aosp" />
   <project path="external/vim" name="android_external_vim" remote="cm" revision="refs/heads/cm-12.0" />
@@ -368,7 +368,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" remote="aosp" />
-  <project path="external/zip" name="CyanogenMod/android_external_zip" remote="cm" revision="refs/heads/cm-12.0" />
+  <project path="external/zip" name="android_external_zip" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="external/zlib" name="android_external_zlib" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
