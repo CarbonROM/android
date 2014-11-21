@@ -590,7 +590,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" groups="pdk,tools" />
 
   <!-- System and Tool Packages -->
-  <project path="system/core" name="android_system_core" groups="pdk" remote="ste" revision="lollipop" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
