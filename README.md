@@ -1,4 +1,4 @@
-STELIX AOSP Source
+STELIX CM Carbonized Source
 ===================
 
 Initialize Repositories:
