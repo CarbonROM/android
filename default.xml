@@ -1,40 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com/"
+           review="android-review.googlesource.com"
+           sync-j="4" />
+
   <remote  name="carbon"
            fetch="https://github.com/CarbonROM/"
            review="review.carbonrom.org"
-           sync-j="8" />
-
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com/"
-           review="android-review.googlesource.com" />
+           sync-j="4" />
 
   <remote  name="cm"
            fetch="git://github.com/Cyanogenmod/"
            review="review.cyanogenmod.org"
            sync-c="true"
-           sync-j="8" />
+           sync-j="4" />
 
-  <remote  name="gh"
-           fetch="git://github.com/"
-           sync-c="true"
-           sync-j="8" />
-
-  <remote  name="tm"
-           fetch="git://github.com/TheMuppets/"
-           sync-c="true"
-           sync-j="8" />
-
-  <default revision="refs/tags/android-5.0.0_r6"
+  <default revision="refs/tags/android-5.0.1_r1"
            remote="aosp"
-           sync-j="8" />
+           sync-j="4" />
 
+  <!-- Manifest -->
+  <project path="android" name="android" remote="carbon" revision="lollipop" />
+
+  <!-- Let's build the Carbon -->
   <project path="build" name="android_build" remote="carbon" revision="lollipop" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <!-- Let's start the Carbon -->
-  <project path="android" name="android" remote="carbon" revision="lollipop" />
   <project path="abi/cpp" name="android_abi_cpp" remote="carbon" revision="lollipop" />
   <project path="art" name="android_art" remote="carbon" revision="lollipop" />
   <project path="bionic" name="android_bionic" remote="carbon" revision="lollipop" />
