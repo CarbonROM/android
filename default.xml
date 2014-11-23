@@ -65,7 +65,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <!-- Manifest -->
   <project path="android" name="android" groups="pdk" remote="ste" revision="lollipop" />
 
   <!-- Let's start the Carbon -->
@@ -98,7 +97,6 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" remote="aosp" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" remote="aosp" />
-  <project path="device/qcom/common" name="android_device_qcom_common" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" />
@@ -365,12 +363,12 @@
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" remote="aosp" />
   <project path="external/unrar" name="android_external_unrar" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" remote="aosp" />
-  <project path="external/vim" name="android_external_vim" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" remote="aosp" />
+  <project path="external/vim" name="android_external_vim" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" remote="aosp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" remote="aosp" />
-  <!--project path="external/whispersystems/TextSecure" name="android_external_whispersystems_TextSecure" remote="cm" revision="refs/heads/cm-12.0" />
-  <project path="external/whispersystems/WhisperPush" name="android_external_whispersystems_WhisperPush" remote="cm" revision="refs/heads/cm-12.0" /-->
+  <!-- project path="external/whispersystems/TextSecure" name="android_external_whispersystems_TextSecure" remote="cm" revision="refs/heads/cm-12.0" />
+  <project path="external/whispersystems/WhisperPush" name="android_external_whispersystems_WhisperPush" remote="cm" revision="refs/heads/cm-12.0" / -->
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" remote="aosp" />
@@ -508,10 +506,11 @@
   <project path="packages/apps/SpeechRecorder" name="android_packages_apps_SpeechRecorder" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" remote="cm" revision="refs/heads/cm-12.0" />
-  <!-- <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="cm" revision="refs/heads/cm-12.0" /> -->
-  <!-- <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" revision="refs/heads/cm-12.0" /> -->
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="cm" revision="refs/heads/cm-12.0" />
+  <!-- <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="cm" revision="refs/heads/cm-12.0" /> -->
+  <!-- <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" revision="refs/heads/cm-12.0" /> -->
+  <!-- <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="cm" revision="refs/heads/cm-12.0" /> -->
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/experimental" name="android_packages_experimental" remote="cm" revision="refs/heads/cm-12.0" />
