@@ -60,12 +60,12 @@ Build the Code:
 
 Submitting Patches
 ------------------
-Patches are always welcome!  Please submit your patches via CarbonDev Gerrit!
+Patches are always welcome!  Please submit your patches via CarbonROM Gerrit!
 You can do this by using these commands:
 
     Setting up for repo upload: (run these commands once)
-    git config --global review.review.carbonrom.org.username <Your username registered at CarbonDev gerrit>
-    git config --global review.review.carbonrom.org.email <Your email registered at CarbonDev gerrit>
+    git config --global review.review.carbonrom.org.username <Your username registered at CarbonROM gerrit>
+    git config --global review.review.carbonrom.org.email <Your email registered at CarbonROM gerrit>
 
     (From root android directory)
     . build/envsetup.sh
@@ -79,6 +79,6 @@ For more help on using this tool, use this command: repo help upload
 Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
 Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
 
-To view the status of your and others' patches, visit [Carbondev Code Review](http://review.carbonrom.org/)
+To view the status of your and others' patches, visit [CarbonROM Code Review](http://review.carbonrom.org/)
 
 If you have any issues/questions please contact us in channel: #teamcarbon  server: irc.freenode.net
