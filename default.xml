@@ -189,7 +189,7 @@
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fw" remote="aosp" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" remote="aosp" />
-  <!-- <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="refs/heads/cm-12.0" /> -->
+  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="external/fio" name="platform/external/fio" remote="aosp" />
   <project path="external/flac" name="android_external_flac" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="external/fonttools" name="platform/external/fonttools" remote="aosp" />
@@ -348,7 +348,7 @@
   <project path="external/square/javawriter" name="android_external_square_javawriter" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" remote="aosp" />
-  <!-- <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="cm" revision="refs/heads/cm-12.0" /> -->
+  <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="aosp" />
   <project path="external/strace" name="android_external_strace" groups="pdk-cw-fs" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk-cw-fs" remote="aosp" />
@@ -492,7 +492,7 @@
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="refs/heads/cm-12.0" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="cm" revision="refs/heads/cm-12.0" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/OMA-DM" name="android_packages_apps_OMA-DM" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
