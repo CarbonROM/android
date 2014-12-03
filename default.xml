@@ -56,7 +56,7 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <default revision="refs/tags/android-5.0.0_r7"
+  <default revision="refs/tags/android-5.0.1_r1"
            remote="aosp"
            sync-c="true"
            sync-j="8" />
@@ -380,7 +380,7 @@
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
+  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="ste" revision="lollipop" />
   <project path="frameworks/base" name="android_frameworks_base" remote="ste" revision="lollipop" />
   <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
