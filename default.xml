@@ -7,11 +7,13 @@
 
   <remote  name="ste"
            fetch="git://github.com/STELIX-Lollipop/"
+           review="review.carbonrom.org"
            sync-c="true"
            sync-j="8" />
 
   <remote  name="stelix"
            fetch="git://github.com/STELIX/"
+           review="review.carbonrom.org"
            sync-c="true"
            sync-j="8" />
 
@@ -32,6 +34,10 @@
            review="review.carbonrom.org"
            sync-c="true"
            sync-j="8" />
+
+  <remote  name="omnirom"
+           review="gerrit.omnirom.org"
+           fetch="https://github.com/omnirom" />
 
   <remote  name="td"
            fetch="git://github.com/TheDolls/"
@@ -499,6 +505,7 @@
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="cm" revision="refs/heads/cm-12.0" />
+  <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="omnirom" revision="android-5.0" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/Provision" name="android_packages_apps_Provision" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/ROMControl" name="android_packages_apps_ROMControl" revision="lollipop" remote="ste" />
