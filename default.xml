@@ -15,6 +15,10 @@
            fetch="https://github.com/"
            review="review.cyanogenmod.org"
            sync-j="8" />
+
+ <remote  name="omni"
+          review="gerrit.omnirom.org"
+          fetch="https://github.com/omnirom" />
 		   
   <remote name="gh"
           fetch="https://github.com/"
@@ -35,7 +39,7 @@
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
 
   <!-- Use TWRP from OmniROM -->
-  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="gh" revision="android-5.0" groups="pdk" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omni" revision="android-5.0" groups="pdk" />
 
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" />
@@ -55,6 +59,7 @@
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
+  <project path="external/busybox" name="android_external_busybox" remote="omni" revision="android-5.0" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
