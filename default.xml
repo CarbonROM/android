@@ -460,6 +460,7 @@
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
+  <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdf" remote="cm" revision="cm-12.0-caf" />
   <project path="hardware/samsung_slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="refs/heads/cm-12.0" />
@@ -550,7 +551,7 @@
   <project path="packages/wallpapers/MusicVisualization" name="android_packages_wallpapers_MusicVisualization" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/wallpapers/NoiseField" name="android_packages_wallpapers_NoiseField" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="cm" revision="refs/heads/cm-12.0" />
-  <!-- <project path="packages/wallpapers/PhotoPhase" name="android_packages_wallpapers_PhotoPhase" remote="cm" revision="refs/heads/cm-12.0" /> -->
+  <project path="packages/wallpapers/PhotoPhase" name="android_packages_wallpapers_PhotoPhase" remote="cm" revision="refs/heads/cm-12.0" />
 
 	<!-- Prebuilts -->
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" remote="aosp" />
