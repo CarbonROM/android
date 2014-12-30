@@ -376,8 +376,8 @@
   <project path="packages/services/Telephony" name="CarbonROM/android_packages_services_Telephony" remote="carbon" revision="lollipop" />
 
   <!-- Applications from Cyangenmod -->
-  <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="cm" revision="cm-12.0" />
-  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="cm" revision="cm-12.0" />
+  <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" remote="cm" revision="cm-12.0" />
+  <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="cm" revision="cm-12.0" />
 
   <!-- Start Wallpapers and Screensavers -->
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
