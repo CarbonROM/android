@@ -25,7 +25,7 @@
 		  sync-j="8" />
 
   <default remote="aosp"
-           revision="refs/tags/android-5.0.1_r1" />
+           revision="refs/tags/android-5.0.2_r1" />
 
   <project path="android" name="CarbonROM/android" remote="carbon" revision="lollipop" />
 
