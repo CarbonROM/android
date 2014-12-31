@@ -394,6 +394,7 @@
   <!-- End Wallpapers and Screensavers -->
 
   <!-- Start Prebuilts and Build Tools -->
+  <project path="development" name="platform/development" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
