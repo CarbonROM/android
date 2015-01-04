@@ -518,10 +518,10 @@
   <project path="packages/apps/SpeechRecorder" name="android_packages_apps_SpeechRecorder" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" remote="cm" revision="refs/heads/cm-12.0" />
+  <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="cm" revision="refs/heads/cm-12.0" />
   <!-- <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="cm" revision="refs/heads/cm-12.0" /> -->
-  <!-- <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" revision="refs/heads/cm-12.0" /> -->
   <!-- <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="cm" revision="refs/heads/cm-12.0" /> -->
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="cm" revision="refs/heads/cm-12.0" />
