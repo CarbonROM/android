@@ -249,8 +249,6 @@
   <project path="external/kissfft" name="android_external_kissfft" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="external/koush/ion" name="ion" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="refs/heads/cm-12.0" />
-  <project path="external/koush/Superuser" name="Superuser" remote="cm" revision="refs/heads/cm-12.0" />
-  <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" />
@@ -609,6 +607,7 @@
   <!-- System and Tool Packages -->
   <project path="system/core" name="android_system_core" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
+  <project path="system/extras/su" name="android_system_extras_su" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
