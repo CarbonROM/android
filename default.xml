@@ -9,20 +9,20 @@
   <remote  name="carbon"
            fetch="https://github.com/"
            review="review.carbonrom.org"
-           sync-j="8" />
+           sync-j="4" />
 
   <remote  name="cm"
            fetch="https://github.com/"
            review="review.cyanogenmod.org"
-           sync-j="8" />
+           sync-j="4" />
 
- <remote  name="omni"
-          review="gerrit.omnirom.org"
-          fetch="https://github.com/omnirom" />
-		   
-  <remote name="gh"
-          fetch="https://github.com/"
-		  sync-j="8" />
+  <remote  name="omni"
+           review="gerrit.omnirom.org"
+           fetch="https://github.com/omnirom" />
+
+  <remote  name="gh"
+           fetch="https://github.com/"
+           sync-j="4" />
 
   <default remote="aosp"
            revision="refs/tags/android-5.0.2_r1" />
@@ -43,7 +43,7 @@
 
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" />
-  
+
   <!-- Start External Libraries -->
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
@@ -341,7 +341,7 @@
   <project path="packages/apps/Mms" name="CarbonROM/android_packages_apps_Mms" remote="carbon" revision="lollipop" />
   <project path="packages/apps/Music" name="CarbonROM/android_packages_apps_Music" remote="carbon" revision="lollipop" />
   <project path="packages/apps/MusicFX" name="CarbonROM/android_packages_apps_MusicFX" remote="carbon" revision="lollipop" />
-  <project path="packages/apps/Nfc" name="CarbonROM/android_ackages_apps_Nfc" remote="carbon" revision="lollipop" />
+  <project path="packages/apps/Nfc" name="CarbonROM/android_packages_apps_Nfc" remote="carbon" revision="lollipop" />
   <project path="packages/apps/OneTimeInitializer" name="CarbonROM/android_packages_apps_OneTimeInitializer" remote="carbon" revision="lollipop" />
   <project path="packages/apps/PackageInstaller" name="CarbonROM/android_packages_apps_PackageInstaller" remote="carbon" revision="lollipop" />
   <project path="packages/apps/Phone" name="CarbonROM/android_packages_apps_Phone" remote="carbon" revision="lollipop" />
