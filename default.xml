@@ -78,7 +78,7 @@
   <project path="art" name="android_art" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
-  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" remote="aosp" />
+  <project path="cts" name="android_cts" groups="cts,pdk-cw-fs" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" />
