@@ -341,7 +341,7 @@
   <project path="packages/apps/Mms" name="CarbonROM/android_packages_apps_Mms" remote="carbon" revision="lollipop" />
   <project path="packages/apps/Music" name="CarbonROM/android_packages_apps_Music" remote="carbon" revision="lollipop" />
   <project path="packages/apps/MusicFX" name="CarbonROM/android_packages_apps_MusicFX" remote="carbon" revision="lollipop" />
-  <project path="packages/apps/Nfc" name="CarbonROM/android_ackages_apps_Nfc" remote="carbon" revision="lollipop" />
+  <project path="packages/apps/Nfc" name="CarbonROM/android_packages_apps_Nfc" remote="carbon" revision="lollipop" />
   <project path="packages/apps/OneTimeInitializer" name="CarbonROM/android_packages_apps_OneTimeInitializer" remote="carbon" revision="lollipop" />
   <project path="packages/apps/PackageInstaller" name="CarbonROM/android_packages_apps_PackageInstaller" remote="carbon" revision="lollipop" />
   <project path="packages/apps/Phone" name="CarbonROM/android_packages_apps_Phone" remote="carbon" revision="lollipop" />
