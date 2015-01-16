@@ -3,29 +3,26 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
-           review="android-review.googlesource.com"
-           sync-j="4" />
+           review="android-review.googlesource.com" />
 
   <remote  name="carbon"
            fetch="https://github.com/"
-           review="review.carbonrom.org"
-           sync-j="4" />
+           review="review.carbonrom.org" />
 
   <remote  name="cm"
            fetch="https://github.com/"
-           review="review.cyanogenmod.org"
-           sync-j="4" />
+           review="review.cyanogenmod.org" />
 
   <remote  name="omni"
-           review="gerrit.omnirom.org"
-           fetch="https://github.com/omnirom" />
+           fetch="https://github.com/omnirom"
+           review="gerrit.omnirom.org" />
 
   <remote  name="gh"
-           fetch="https://github.com/"
-           sync-j="4" />
+           fetch="https://github.com/" />
 
   <default remote="aosp"
-           revision="refs/tags/android-5.0.2_r1" />
+           revision="refs/tags/android-5.0.2_r1"
+           sync-j="4" />
 
   <project path="android" name="CarbonROM/android" remote="carbon" revision="lollipop" />
 
@@ -309,6 +306,11 @@
   <project path="frameworks/wilhelm" name="CarbonROM/android_frameworks_wilhelm" remote="carbon" revision="lollipop" groups="pdk-cw-fs" />
   <!-- End Frameworks -->
 
+  <!-- Common Hardware -->
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
+  <!-- End Common Hardware -->
+
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
@@ -374,10 +376,6 @@
   <project path="packages/services/Mms" name="CarbonROM/android_packages_services_Mms" remote="carbon" revision="lollipop" />
   <project path="packages/services/Telecomm" name="CarbonROM/android_packages_services_Telecomm" remote="carbon" revision="lollipop" />
   <project path="packages/services/Telephony" name="CarbonROM/android_packages_services_Telephony" remote="carbon" revision="lollipop" />
-
-  <!-- Applications from Cyangenmod -->
-  <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" remote="cm" revision="cm-12.0" />
-  <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="cm" revision="cm-12.0" />
 
   <!-- Start Wallpapers and Screensavers -->
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
@@ -451,13 +449,17 @@
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
   <!-- End Prebuilts and Build Tools -->
 
-  <project path="system/core" name="platform/system/core" groups="pdk" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
-  <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" />
-  <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
+  <!-- Start System -->
+  <project path="system/core" name="CarbonROM/android_system_core" groups="pdk" remote="carbon" revision="lollipop" />
+  <project path="system/extras" name="CarbonROM/android_system_extras" groups="pdk" remote="carbon" revision="lollipop" />
+  <project path="system/keymaster" name="CarbonROM/android_system_keymaster" groups="pdk" remote="carbon" revision="lollipop" />
+  <project path="system/media" name="CarbonROM/android_system_media" groups="pdk" remote="carbon" revision="lollipop" />
+  <project path="system/netd" name="CarbonROM/android_system_netd" groups="pdk" remote="carbon" revision="lollipop" />
+  <project path="system/security" name="CarbonROM/android_system_security" groups="pdk" remote="carbon" revision="lollipop" />
+  <project path="system/vold" name="CarbonROM/android_system_vold" groups="pdk" remote="carbon" revision="lollipop" />
+  <!-- End System -->
+
+  <!-- Starat Tools -->
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -472,6 +474,9 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+  <!-- End Tools -->
 
+  <!-- Start non-source repos -->
   <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" revision="lollipop" />
+  <!-- End non-source repos -->
 </manifest>
