@@ -520,8 +520,8 @@
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="cm" revision="refs/heads/cm-12.0" />
-  <!-- <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="cm" revision="refs/heads/cm-12.0" /> -->
-  <!-- <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="cm" revision="refs/heads/cm-12.0" /> -->
+  <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="cm" revision="refs/heads/cm-12.0" />
+  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/experimental" name="android_packages_experimental" remote="cm" revision="refs/heads/cm-12.0" />
@@ -534,7 +534,7 @@
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/providers/PartnerBookmarksProvider" name="android_packages_providers_PartnerBookmarksProvider" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="cm" revision="refs/heads/cm-12.0" />
-  <!-- <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" remote="cm" revision="refs/heads/cm-12.0" /> -->
+  <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/providers/TvProvider" name="android_packages_providers_TvProvider" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/providers/UserDictionaryProvider" name="android_packages_providers_UserDictionaryProvider" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/screensavers/Basic" name="android_packages_screensavers_Basic" remote="cm" revision="refs/heads/cm-12.0" />
