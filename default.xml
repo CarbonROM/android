@@ -505,6 +505,7 @@
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="cm" revision="refs/heads/cm-12.0" />
+  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omnirom" revision="android-5.0" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="cm" revision="refs/heads/cm-12.0" />
