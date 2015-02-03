@@ -67,15 +67,15 @@
            sync-c="true"
            sync-j="8" />
 
-<!-- Carbon Manifest -->
+  <!-- STELIX Manifest -->
   <project path="android" name="android" groups="pdk" remote="ste" revision="lollipop" />
 
-<!-- Build Carbon -->
+  <!-- Build STELIX -->
   <project path="build" name="android_build" groups="pdk,tradefed" remote="ste" revision="lollipop" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <!-- Let's start the Carbon -->
+  <!-- Let's start the STELIX -->
   <project path="abi/cpp" name="android_abi_cpp" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="art" name="android_art" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="cm" revision="refs/heads/cm-12.0" />
