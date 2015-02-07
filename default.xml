@@ -8,7 +8,7 @@
   <remote  name="ste"
            fetch="git://github.com/STELIX-Lollipop/"
            review="review.carbonrom.org"
-           revision="refs/tags/lollipop"
+           revision="refs/heads/lollipop"
            sync-c="true"
            sync-j="8" />
 
@@ -21,7 +21,7 @@
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/"
            review="review.cyanogenmod.org"
-           revision="cm-12.0"
+           revision="refs/heads/cm-12.0"
            sync-c="true"
            sync-j="8" />
 
