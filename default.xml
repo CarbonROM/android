@@ -21,7 +21,7 @@
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/"
            review="review.cyanogenmod.org"
-           revision="refs/tags/cm-12.0"
+           revision="cm-12.0"
            sync-c="true"
            sync-j="8" />
 
