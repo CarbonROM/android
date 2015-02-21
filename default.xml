@@ -269,41 +269,41 @@
   <!-- Frameworks are from CarbonROM for stability -->
   <project path="frameworks/av" name="CarbonROM/android_frameworks_av" remote="carbon" revision="lp" groups="pdk" />
   <project path="frameworks/base" name="CarbonROM/android_frameworks_base" remote="carbon" revision="lp" groups="pdk-cw-fs" />
-  <project path="frameworks/compile/libbcc" name="CarbonROM/android_frameworks_compile_libbcc" remote="carbon" revision="lp" groups="pdk" />
-  <project path="frameworks/compile/mclinker" name="CarbonROM/android_frameworks_compile_mclinker" remote="carbon" revision="lp" groups="pdk" />
-  <project path="frameworks/compile/slang" name="CarbonROM/android_frameworks_compile_slang" remote="carbon" revision="lp" groups="pdk" />
+  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
+  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/ex" name="CarbonROM/android_frameworks_ex" remote="carbon" revision="lp" groups="pdk-cw-fs" />
-  <project path="frameworks/mff" name="CarbonROM/android_frameworks_mff" remote="carbon" revision="lp" groups="pdk-cw-fs" />
-  <project path="frameworks/minikin" name="CarbonROM/android_frameworks_minikin" remote="carbon" revision="lp" groups="pdk-cw-fs" />
-  <project path="frameworks/ml" name="CarbonROM/android_frameworks_ml" remote="carbon" revision="lp" groups="pdk-cw-fs" />
-  <project path="frameworks/multidex" name="CarbonROM/android_frameworks_multidex" remote="carbon" revision="lp" groups="pdk-cw-fs" />
+  <project path="frameworks/mff" name="platform/frameworks/mff" groups="pdk-cw-fs" />
+  <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
+  <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
+  <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
   <project path="frameworks/native" name="CarbonROM/android_frameworks_native" remote="carbon" revision="lp" groups="pdk" />
-  <project path="frameworks/opt/bitmap" name="CarbonROM/android_frameworks_opt_bitmap" remote="carbon" revision="lp" />
-  <project path="frameworks/opt/bluetooth" name="CarbonROM/android_frameworks_opt_bluetooth" remote="carbon" revision="lp" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/calendar" name="CarbonROM/android_frameworks_opt_calendar" remote="carbon" revision="lp" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/carddav" name="CarbonROM/android_frameworks_opt_carddav" remote="carbon" revision="lp" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/chips" name="CarbonROM/android_frameworks_opt_chips" remote="carbon" revision="lp" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
+  <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs" />
   <project path="frameworks/opt/colorpicker" name="CarbonROM/android_frameworks_opt_colorpicker" remote="carbon" revision="lp" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/datetimepicker" name="CarbonROM/android_frameworks_opt_datetimepicker" remote="carbon" revision="lp" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/emoji" name="CarbonROM/android_frameworks_opt_emoji" remote="carbon" revision="lp" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/inputmethodcommon" name="CarbonROM/android_frameworks_opt_inputmethodcommon" remote="carbon" revision="lp" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs" />
   <project path="frameworks/opt/mms" name="CarbonROM/android_frameworks_opt_mms" remote="carbon" revision="lp" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/net/ims" name="CarbonROM/android_frameworks_opt_net_ims" remote="carbon" revision="lp" groups="frameworks_ims,pdk-cw-fs" />
-  <project path="frameworks/opt/net/voip" name="CarbonROM/android_frameworks_opt_net_voip" remote="carbon" revision="lp" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" />
+  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/wifi" name="CarbonROM/android_frameworks_opt_net_wifi" remote="carbon" revision="lp" groups="pdk" />
-  <project path="frameworks/opt/net/ethernet" name="CarbonROM/android_frameworks_opt_net_ethernet" remote="carbon" revision="lp" />
-  <project path="frameworks/opt/photoviewer" name="CarbonROM/android_frameworks_opt_photoviewer" remote="carbon" revision="lp" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/setupwizard" name="CarbonROM/android_frameworks_opt_setupwizard" remote="carbon" revision="lp" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
+  <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/telephony" name="CarbonROM/android_frameworks_opt_telephony" remote="carbon" revision="lp" groups="pdk" />
-  <project path="frameworks/opt/timezonepicker" name="CarbonROM/android_frameworks_opt_timezonepicker" remote="carbon" revision="lp" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/vcard" name="CarbonROM/android_frameworks_opt_vcard" remote="carbon" revision="lp" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/widget" name="CarbonROM/android_frameworks_opt_widget" remote="carbon" revision="lp" groups="pdk-cw-fs" />
-  <project path="frameworks/rs" name="CarbonROM/android_frameworks_rs" remote="carbon" revision="lp" groups="pdk" />
+  <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
+  <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="CarbonROM/android_frameworks_support" remote="carbon" revision="lp" groups="pdk-cw-fs" />
-  <project path="frameworks/testing" name="CarbonROM/android_frameworks_testing" remote="carbon" revision="lp" groups="pdk-cw-fs" />
-  <project path="frameworks/volley" name="CarbonROM/android_frameworks_volley" remote="carbon" revision="lp" groups="pdk-cw-fs" />
+  <project path="frameworks/testing" name="platform/frameworks/testing" groups="pdk-cw-fs" />
+  <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
   <project path="frameworks/webview" name="CarbonROM/android_frameworks_webview" remote="carbon" revision="lp" groups="pdk-cw-fs" />
-  <project path="frameworks/wilhelm" name="CarbonROM/android_frameworks_wilhelm" remote="carbon" revision="lp" groups="pdk-cw-fs" />
+  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
   <!-- End Frameworks -->
 
   <!-- Common Hardware -->
@@ -452,10 +452,10 @@
   <!-- Start System -->
   <project path="system/core" name="CarbonROM/android_system_core" groups="pdk" remote="carbon" revision="lp" />
   <project path="system/extras" name="CarbonROM/android_system_extras" groups="pdk" remote="carbon" revision="lp" />
-  <project path="system/keymaster" name="CarbonROM/android_system_keymaster" groups="pdk" remote="carbon" revision="lp" />
+  <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="CarbonROM/android_system_media" groups="pdk" remote="carbon" revision="lp" />
   <project path="system/netd" name="CarbonROM/android_system_netd" groups="pdk" remote="carbon" revision="lp" />
-  <project path="system/security" name="CarbonROM/android_system_security" groups="pdk" remote="carbon" revision="lp" />
+  <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="CarbonROM/android_system_vold" groups="pdk" remote="carbon" revision="lp" />
   <!-- End System -->
 
