@@ -316,65 +316,65 @@
   <project path="ndk" name="platform/ndk" />
 
   <!-- Applications From CarbonROM for stability -->
-  <project path="packages/apps/BasicSmsReceiver" name="CarbonROM/android_packages_apps_BasicSmsReceiver" remote="carbon" revision="lp" />
+  <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="CarbonROM/android_packages_apps_Bluetooth" remote="carbon" revision="lp" groups="pdk-cw-fs" />
   <project path="packages/apps/Browser" name="CarbonROM/android_packages_apps_Browser" remote="carbon" revision="lp" />
-  <project path="packages/apps/Calculator" name="CarbonROM/android_packages_apps_Calculator" remote="carbon" revision="lp" />
-  <project path="packages/apps/Calendar" name="CarbonROM/android_packages_apps_Calendar" remote="carbon" revision="lp" />
+  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
+  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="CarbonROM/android_packages_apps_Camera" remote="carbon" revision="lp" />
   <project path="packages/apps/Camera2" name="CarbonROM/android_packages_apps_Camera2" remote="carbon" revision="lp"/>
-  <project path="packages/apps/CellBroadcastReceiver" name="CarbonROM/android_packages_apps_CellBroadcastReceiver" remote="carbon" revision="lp" />
-  <project path="packages/apps/CertInstaller" name="CarbonROM/android_packages_apps_CertInstaller" remote="carbon" revision="lp" groups="pdk-cw-fs" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
+  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
   <project path="packages/apps/Contacts" name="CarbonROM/android_packages_apps_Contacts" remote="carbon" revision="lp" />
   <project path="packages/apps/ContactsCommon" name="CarbonROM/android_packages_apps_ContactsCommon" remote="carbon" revision="lp" />
   <project path="packages/apps/DeskClock" name="CarbonROM/android_packages_apps_DeskClock" remote="carbon" revision="lp" />
   <project path="packages/apps/Dialer" name="CarbonROM/android_packages_apps_Dialer" remote="carbon" revision="lp" />
   <project path="packages/apps/Email" name="CarbonROM/android_packages_apps_Email" remote="carbon" revision="lp" />
-  <project path="packages/apps/Exchange" name="CarbonROM/android_packages_apps_Exchange" remote="carbon" revision="lp" />
+  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="CarbonROM/android_packages_apps_Gallery" remote="carbon" revision="lp" />
   <project path="packages/apps/Gallery2" name="CarbonROM/android_packages_apps_Gallery2" remote="carbon" revision="lp" />
-  <project path="packages/apps/HTMLViewer" name="CarbonROM/android_packages_apps_HTMLViewer" remote="carbon" revision="lp" />
+  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="CarbonROM/android_packages_apps_InCallUI" remote="carbon" revision="lp" />
-  <project path="packages/apps/KeyChain" name="CarbonROM/android_packages_apps_KeyChain" remote="carbon" revision="lp" />
+  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="CarbonROM/android_packages_apps_Launcher2" remote="carbon" revision="lp" />
   <project path="packages/apps/Launcher3" name="CarbonROM/android_packages_apps_Launcher3" remote="carbon" revision="lp" />
-  <project path="packages/apps/LegacyCamera" name="CarbonROM/android_packages_apps_LegacyCamera" remote="carbon" revision="lp" />
-  <project path="packages/apps/ManagedProvisioning" name="CarbonROM/android_packages_apps_ManagedProvisioning" remote="carbon" revision="lp" />
+  <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
+  <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
   <project path="packages/apps/Mms" name="CarbonROM/android_packages_apps_Mms" remote="carbon" revision="lp" />
   <project path="packages/apps/Music" name="CarbonROM/android_packages_apps_Music" remote="carbon" revision="lp" />
-  <project path="packages/apps/MusicFX" name="CarbonROM/android_packages_apps_MusicFX" remote="carbon" revision="lp" />
+  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="CarbonROM/android_packages_apps_Nfc" remote="carbon" revision="lp" />
-  <project path="packages/apps/OneTimeInitializer" name="CarbonROM/android_packages_apps_OneTimeInitializer" remote="carbon" revision="lp" />
+  <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="CarbonROM/android_packages_apps_PackageInstaller" remote="carbon" revision="lp" />
-  <project path="packages/apps/Phone" name="CarbonROM/android_packages_apps_Phone" remote="carbon" revision="lp" />
-  <project path="packages/apps/PhoneCommon" name="CarbonROM/android_packages_apps_PhoneCommon" remote="carbon" revision="lp" />
+  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
+  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/Protips" name="CarbonROM/android_packages_apps_Protips" remote="carbon" revision="lp" />
   <project path="packages/apps/Provision" name="CarbonROM/android_packages_apps_Provision" remote="carbon" revision="lp" />
   <project path="packages/apps/QuickSearchBox" name="CarbonROM/android_packages_apps_QuickSearchBox" remote="carbon" revision="lp" />
   <project path="packages/apps/Settings" name="CarbonROM/android_packages_apps_Settings" remote="carbon" revision="lp" />
-  <project path="packages/apps/SmartCardService" name="CarbonROM/android_packages_apps_SmartCardService" remote="carbon" revision="lp" />
-  <project path="packages/apps/SoundRecorder" name="CarbonROM/android_packages_apps_SoundRecorder" remote="carbon" revision="lp" />
-  <project path="packages/apps/SpareParts" name="CarbonROM/android_packages_apps_SpareParts" remote="carbon" revision="lp" />
-  <project path="packages/apps/SpeechRecorder" name="CarbonROM/android_packages_apps_SpeechRecorder" remote="carbon" revision="lp" />
-  <project path="packages/apps/Stk" name="CarbonROM/android_packages_apps_Stk" remote="carbon" revision="lp" />
-  <project path="packages/apps/Tag" name="CarbonROM/android_packages_apps_Tag" remote="carbon" revision="lp" />
-  <project path="packages/apps/TvSettings" name="CarbonROM/android_packages_apps_TvSettings" remote="carbon" revision="lp" />
+  <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
+  <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
+  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
+  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
+  <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="CarbonROM/android_packages_apps_UnifiedEmail" remote="carbon" revision="lp" />
   <project path="packages/apps/VoiceDialer" name="CarbonROM/android_packages_apps_VoiceDialer" remote="carbon" revision="lp" />
-  <project path="packages/experimental" name="CarbonROM/android_packages_experimental" remote="carbon" revision="lp" />
+  <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="CarbonROM/android_packages_inputmethods_LatinIME" remote="carbon" revision="lp" />
-  <project path="packages/inputmethods/OpenWnn" name="CarbonROM/android_packages_inputmethods_OpenWnn" remote="carbon" revision="lp" />
-  <project path="packages/providers/ApplicationsProvider" name="CarbonROM/android_packages_providers_ApplicationsProvider" remote="carbon" revision="lp" />
-  <project path="packages/providers/CalendarProvider" name="CarbonROM/android_packages_providers_CalendarProvider" remote="carbon" revision="lp" groups="pdk-cw-fs" />
-  <project path="packages/providers/ContactsProvider" name="CarbonROM/android_packages_providers_ContactsProvider" remote="carbon" revision="lp" groups="pdk-cw-fs" />
+  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
+  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
+  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" />
+  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/DownloadProvider" name="CarbonROM/android_packages_providers_DownloadProvider" remote="carbon" revision="lp" groups="pdk-cw-fs" />
   <project path="packages/providers/MediaProvider" name="CarbonROM/android_packages_providers_MediaProvider" remote="carbon" revision="lp" groups="pdk-cw-fs" />
-  <project path="packages/providers/PartnerBookmarksProvider" name="CarbonROM/android_packages_providers_PartnerBookmarksProvider" remote="carbon" revision="lp" />
+  <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="CarbonROM/android_packages_providers_TelephonyProvider" remote="carbon" revision="lp" />
-  <project path="packages/providers/TvProvider" name="CarbonROM/android_packages_providers_TvProvider" remote="carbon" revision="lp" />
-  <project path="packages/providers/UserDictionaryProvider" name="CarbonROM/android_packages_providers_UserDictionaryProvider" remote="carbon" revision="lp" groups="pdk-cw-fs" />
-  <project path="packages/services/Mms" name="CarbonROM/android_packages_services_Mms" remote="carbon" revision="lp" />
-  <project path="packages/services/Telecomm" name="CarbonROM/android_packages_services_Telecomm" remote="carbon" revision="lp" />
+  <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" />
+  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs" />
+  <project path="packages/services/Mms" name="platform/packages/services/Mms" />
+  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" />
   <project path="packages/services/Telephony" name="CarbonROM/android_packages_services_Telephony" remote="carbon" revision="lp" />
 
   <!-- Start Wallpapers and Screensavers -->
