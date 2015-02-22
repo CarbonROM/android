@@ -347,7 +347,6 @@
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="CarbonROM/android_packages_apps_PackageInstaller" remote="carbon" revision="lp" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
-  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/Protips" name="CarbonROM/android_packages_apps_Protips" remote="carbon" revision="lp" />
   <project path="packages/apps/Provision" name="CarbonROM/android_packages_apps_Provision" remote="carbon" revision="lp" />
   <project path="packages/apps/QuickSearchBox" name="CarbonROM/android_packages_apps_QuickSearchBox" remote="carbon" revision="lp" />
