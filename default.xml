@@ -114,35 +114,18 @@
 
   <!-- Bacon CM -->
   <project name="android_device_oneplus_bacon" path="device/oneplus/bacon" remote="ste" />
-  <project name="android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="cm" />
-  <project name="android_device_oppo_common" path="device/oppo/common" remote="cm" />
-  <project name="android_device_qcom_common" path="device/qcom/common" remote="cm" />
-  <project name="android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="cm" />
-  <project name="proprietary_vendor_oneplus" path="vendor/oneplus" remote="tm" />
-  <project name="proprietary_vendor_oppo" path="vendor/oppo" remote="tm" />
 
   <!-- HammerHead -->
   <project name="android_device_lge_hammerhead" path="device/lge/hammerhead" remote="ste" />
-  <project name="android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="cm" />
-  <project name="proprietary_vendor_lge" path="vendor/lge" remote="tm" />
-  <project name="proprietary_vendor_broadcom" path="vendor/broadcom" remote="tm" />
 
   <!-- Flo -->
-  <project name="android_device_asus_flo" path="device/asus/flo" remote="ste" revision="lp5.1" />
-  <project name="device/asus/flo-kernel" path="device/asus/flo-kernel" />
-  <project name="android_kernel_google_msm" path="kernel/google/msm" remote="cm" />
-  <project name="proprietary_vendor_asus" path="vendor/asus" remote="tm" />
-
+  <project name="android_device_asus_flo" path="device/asus/flo" remote="ste" />
+  
   <!-- M7  -->
   <project name="android_device_htc_m7" path="device/htc/m7" remote="ste" />
-  <project name="android_device_htc_m7-common" path="device/htc/m7-common" remote="cm" />
-  <project name="android_device_htc_msm8960-common" path="device/htc/msm8960-common" remote="cm" />
-  <project name="android_kernel_htc_msm8960" path="kernel/htc/msm8960" remote="ste" />
-  <project name="android_hardware_qcom_fm" path="hardware/qcom/fm" remote="cm" />
 
   <!-- M8  -->
   <project name="android_device_htc_m8" path="device/htc/m8" remote="ste" />
-  <project name="android_kernel_htc_msm8974" path="kernel/htc/msm8974" remote="ste" />
   
   <!-- External Packages -->
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
