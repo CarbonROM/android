@@ -675,4 +675,5 @@
 
   <!-- Vendor Packages -->
   <project path="vendor/stelix" name="android_vendor_stelix" remote="ste" />
+  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="cm" />
 </manifest>
