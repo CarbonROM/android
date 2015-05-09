@@ -101,21 +101,6 @@
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" />
 
-  <!-- Bacon CM -->
-  <project name="android_device_oneplus_bacon" path="device/oneplus/bacon" remote="ste" />
-
-  <!-- HammerHead -->
-  <project name="android_device_lge_hammerhead" path="device/lge/hammerhead" remote="ste" />
-
-  <!-- Flo -->
-  <project name="android_device_asus_flo" path="device/asus/flo" remote="ste" />
-  
-  <!-- M7  -->
-  <project name="android_device_htc_m7" path="device/htc/m7" remote="ste" />
-
-  <!-- M8  -->
-  <project name="android_device_htc_m8" path="device/htc/m8" remote="ste" />
-  
   <!-- External Packages -->
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" remote="aosp" />
