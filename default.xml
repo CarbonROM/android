@@ -99,6 +99,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" remote="aosp" />
   <project path="device/google/atv" name="android_device_google_atv" groups="device" remote="cm"/>
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cm" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" />
 
   <!-- External Packages -->
