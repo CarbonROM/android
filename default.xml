@@ -524,7 +524,7 @@
   <project path="packages/apps/InCallUI" name="CarbonROM/android_packages_apps_InCallUI" remote="carbon" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="cm" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" remote="cm" />
+  <project path="CarbonROM/packages/apps/Mms" name="android_packages_apps_Mms-caf" remote="carbon" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="cm" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="cm" />
@@ -558,7 +558,7 @@
   <project path="packages/screensavers/PhotoTable" name="android_packages_screensavers_PhotoTable" remote="cm" />
   <project path="packages/screensavers/WebView" name="android_packages_screensavers_WebView" remote="cm" />
   <project path="packages/services/Mms" name="android_packages_services_Mms" remote="cm" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="cm" />
+  <project path="CarbonROM/packages/services/Telecomm" name="android_packages_services_Telecomm" remote="carbon" />
   <project path="packages/services/Telephony" name="CarbonROM/android_packages_services_Telephony" remote="carbon" />
   <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_Basic" remote="cm" />
   <project path="packages/wallpapers/Galaxy4" name="android_packages_wallpapers_Galaxy4" remote="cm" />
