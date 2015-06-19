@@ -105,6 +105,7 @@
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/android-mock" name="android_external_android-mock" remote="cm" />
+  <project path="external/android/support-prebuilt" name="external_android_support-prebuilt" revision="master" remote="cm" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" />
   <project path="external/ant-glob" name="android_external_ant-glob" groups="pdk-cw-fs" remote="cm" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="cm" />
