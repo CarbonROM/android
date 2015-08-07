@@ -387,7 +387,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="CarbonROM/android_frameworks_av" groups="pdk" remote="carbon" />
-  <project path="frameworks/base" name="CarbonROM/android_frameworks_base" remote="carbon" revision="lp-5.1-new" />
+  <project path="frameworks/base" name="CarbonROM/android_frameworks_base" remote="carbon" />
   <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" groups="pdk" remote="cm" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" groups="pdk" remote="cm" />
   <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" groups="pdk" remote="cm" />
@@ -521,7 +521,7 @@
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="cm" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" />
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" remote="cm" />
-  <project path="packages/apps/InCallUI" name="CarbonROM/android_packages_apps_InCallUI" remote="carbon" revision="lp-5.1-new" />
+  <project path="packages/apps/InCallUI" name="CarbonROM/android_packages_apps_InCallUI" remote="carbon" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="cm" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" />
   <project path="packages/apps/Mms" name="CarbonROM/android_packages_apps_Mms-caf" remote="carbon" />
@@ -531,7 +531,7 @@
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="cm" />
   <project path="packages/apps/Profiles" name="android_packages_apps_Profiles" remote="cm" />
   <project path="packages/apps/Provision" name="android_packages_apps_Provision" remote="cm" />
-  <project path="packages/apps/Settings" name="CarbonROM/android_packages_apps_Settings" remote="carbon" revision="lp-5.1-new" />
+  <project path="packages/apps/Settings" name="CarbonROM/android_packages_apps_Settings" remote="carbon" />
   <project path="packages/apps/SmartCardService" name="android_packages_apps_SmartCardService" remote="cm" />
   <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="cm" />
   <project path="packages/apps/SpeechRecorder" name="android_packages_apps_SpeechRecorder" remote="cm" />
@@ -645,6 +645,6 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
 
   <!-- Vendor Packages -->
-  <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" revision="lp-5.1-new" />
+  <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="cm" />
 </manifest>
