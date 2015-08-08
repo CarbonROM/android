@@ -646,5 +646,5 @@
 
   <!-- Vendor Packages -->
   <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
-  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="cm" />
+  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="carbon" />
 </manifest>
