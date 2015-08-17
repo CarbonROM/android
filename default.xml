@@ -395,6 +395,7 @@
   <project path="frameworks/opt/bluetooth" name="android_frameworks_opt_bluetooth" groups="pdk-cw-fs" remote="cm" />
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" remote="cm" />
   <project path="frameworks/opt/carddav" name="android_frameworks_opt_carddav" remote="cm" />
+  <project path="frameworks/opt/cards" name="CarbonTEAM/frameworks_opt_cards" remote="carbon" />
   <project path="frameworks/opt/chips" name="android_frameworks_opt_chips" groups="pdk-cw-fs" remote="cm" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="cm" />
   <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" remote="cm" />
