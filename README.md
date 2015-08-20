@@ -67,7 +67,7 @@ You can do this by using these commands:
 
     (From root android directory)
     . build/envsetup.sh
-    repo start lp .
+    repo start lp5.1.1 .
     (Make your changes and commit)
     repo upload .
 
