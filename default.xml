@@ -418,7 +418,7 @@
   <project path="frameworks/opt/telephony" name="CarbonROM/android_frameworks_opt_telephony" groups="pdk" remote="carbon" />
   <project path="frameworks/opt/timezonepicker" name="CyanogenMod/android_frameworks_opt_timezonepicker" remote="cm" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="cm" />
-  <project path="frameworks/opt/widget" name="CyanogenMod/platform/frameworks/opt/widget" remote="aosp" />
+  <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" />
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" remote="cm" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" remote="cm" />
   <project path="frameworks/volley" name="CyanogenMod/android_frameworks_volley" remote="cm" />
