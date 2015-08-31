@@ -14,8 +14,8 @@
 
   <remote  name="carbon"
            fetch="git://github.com/"
-           review="review.carbonteam.org"
-           revision="refs/heads/lp5.1.1"
+           review="review.carbonrom.org"
+           revision="refs/heads/lp5.1"
            sync-c="true"
            sync-j="8" />
 
@@ -52,11 +52,11 @@
            sync-c="true"
            sync-j="8" />
 
-  <!-- CarbonTEAM Manifest -->
-  <project path="android" name="CarbonTEAM/android" groups="pdk" remote="carbon" />
+  <!-- Carbon Manifest -->
+  <project path="android" name="CarbonROM/android" groups="pdk" remote="carbon" />
 
   <!-- Build Carbon -->
-  <project path="build" name="CarbonTEAM/android_build" groups="pdk,tradefed" remote="carbon" >
+  <project path="build" name="CarbonROM/android_build" groups="pdk,tradefed" remote="carbon" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -380,8 +380,8 @@
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="CarbonTEAM/android_frameworks_av" groups="pdk" remote="carbon" />
-  <project path="frameworks/base" name="CarbonTEAM/android_frameworks_base" remote="carbon" />
+  <project path="frameworks/av" name="CarbonROM/android_frameworks_av" groups="pdk" remote="carbon" />
+  <project path="frameworks/base" name="CarbonROM/android_frameworks_base" remote="carbon" />
   <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" groups="pdk" remote="cm" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" groups="pdk" remote="cm" />
   <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" groups="pdk" remote="cm" />
@@ -409,7 +409,7 @@
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" remote="cm" />
   <project path="frameworks/opt/photoviewer" name="android_frameworks_opt_photoviewer" remote="cm" />
   <project path="frameworks/opt/setupwizard" name="android_frameworks_opt_setupwizard" groups="pdk-cw-fs" remote="cm" />
-  <project path="frameworks/opt/telephony" name="CarbonTEAM/android_frameworks_opt_telephony" groups="pdk" remote="carbon" />
+  <project path="frameworks/opt/telephony" name="CarbonROM/android_frameworks_opt_telephony" groups="pdk" remote="carbon" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="cm" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" />
@@ -510,23 +510,23 @@
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="cm" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="cm" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="cm" />
-  <project path="packages/apps/Dialer" name="CarbonTEAM/android_packages_apps_Dialer" remote="carbon" />
+  <project path="packages/apps/Dialer" name="CarbonROM/android_packages_apps_Dialer" remote="carbon" />
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="cm" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="cm" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="cm" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" />
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" remote="cm" />
-  <project path="packages/apps/InCallUI" name="CarbonTEAM/android_packages_apps_InCallUI" remote="carbon" />
+  <project path="packages/apps/InCallUI" name="CarbonROM/android_packages_apps_InCallUI" remote="carbon" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="cm" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" />
-  <project path="packages/apps/Mms" name="CarbonTEAM/android_packages_apps_Mms-caf" remote="carbon" />
+  <project path="packages/apps/Mms" name="CarbonROM/android_packages_apps_Mms-caf" remote="carbon" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="cm" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="cm" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="cm" />
   <project path="packages/apps/Profiles" name="android_packages_apps_Profiles" remote="cm" />
   <project path="packages/apps/Provision" name="android_packages_apps_Provision" remote="cm" />
-  <project path="packages/apps/Settings" name="CarbonTEAM/android_packages_apps_Settings" remote="carbon" />
+  <project path="packages/apps/Settings" name="CarbonROM/android_packages_apps_Settings" remote="carbon" />
   <project path="packages/apps/SmartCardService" name="android_packages_apps_SmartCardService" remote="cm" />
   <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="cm" />
   <project path="packages/apps/SpeechRecorder" name="android_packages_apps_SpeechRecorder" remote="cm" />
@@ -553,8 +553,8 @@
   <project path="packages/screensavers/PhotoTable" name="android_packages_screensavers_PhotoTable" remote="cm" />
   <project path="packages/screensavers/WebView" name="android_packages_screensavers_WebView" remote="cm" />
   <project path="packages/services/Mms" name="android_packages_services_Mms" remote="cm" />
-  <project path="packages/services/Telecomm" name="CarbonTEAM/android_packages_services_Telecomm" remote="carbon" />
-  <project path="packages/services/Telephony" name="CarbonTEAM/android_packages_services_Telephony" remote="carbon" />
+  <project path="packages/services/Telecomm" name="CarbonROM/android_packages_services_Telecomm" remote="carbon" />
+  <project path="packages/services/Telephony" name="CarbonROM/android_packages_services_Telephony" remote="carbon" />
   <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_Basic" remote="cm" />
   <project path="packages/wallpapers/Galaxy4" name="android_packages_wallpapers_Galaxy4" remote="cm" />
   <project path="packages/wallpapers/HoloSpiral" name="android_packages_wallpapers_HoloSpiral" remote="cm" />
@@ -640,6 +640,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
 
   <!-- Vendor Packages -->
-  <project path="vendor/carbon" name="CarbonTEAM/android_vendor_carbon" remote="carbon" />
-  <project path="vendor/cmsdk" name="CarbonTEAM/cm_platform_sdk" remote="carbon" />
+  <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
+  <project path="vendor/cmsdk" name="CarbonROM/cm_platform_sdk" remote="carbon" />
+
 </manifest>

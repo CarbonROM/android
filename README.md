@@ -1,9 +1,9 @@
-CarbonTEAM Source
+CarbonROM Source
 ===================
 
 Getting Started
 ---------------
-To get started with the CarbonTEAM sources, you'll need to get
+To get started with the CarbonROM sources, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/version-control.html).
 
 
@@ -28,7 +28,7 @@ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/rep
 You may need to reboot for these changes to take effect.
 Now enter the following to initialize the repository:
 
-    cd ~/CarbonTEAM
+    cd ~/CarbonROM
 
 
 Repositories:
@@ -36,7 +36,7 @@ Repositories:
 
 Before you continue --> run this in the terminal
 ----------------------------------------
-    repo init -u https://github.com/CarbonTEAM/android.git -b lp5.1.1 && repo sync -f
+    repo init -u https://github.com/CarbonROM/android.git -b lp5.1.1 && repo sync -f
 
 *PLEASE NOTE THAT YOU MUST USE THE -f flag when repo syncing/initializing if you want to sync with our default -j8 setup as android.googlesource seems to like to reject your requests if you set your -jflag too high.
 if you wish to avoid this issue run it repo sync -j1 otherwise -f (force) is recommended so it will resync the repos it gets error codes on. Thank you and have a nice day.*
@@ -58,12 +58,12 @@ Build the Code:
 
 Submitting Patches
 ------------------
-Patches are always welcome!  Please submit your patches via CarbonTEAM Gerrit!
+Patches are always welcome!  Please submit your patches via CarbonROM Gerrit!
 You can do this by using these commands:
 
     Setting up for repo upload: (run these commands once)
-    git config --global review.review.carbonteam.org.username <Your username registered at CarbonTEAM gerrit>
-    git config --global review.review.carbonteam.org.email <Your email registered at CarbonTEAM gerrit>
+    git config --global review.review.carbonrom.org.username <Your username registered at CarbonROM gerrit>
+    git config --global review.review.carbonrom.org.email <Your email registered at CarbonROM gerrit>
 
     (From root android directory)
     . build/envsetup.sh
@@ -77,4 +77,10 @@ For more help on using this tool, use this command: repo help upload
 Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
 Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
 
-To view the status of your and others' patches, visit [CarbonTEAM Code Review](http://review.carbonteam.org/)
+To view the status of your and others' patches, visit [CarbonROM Code Review](http://review.carbonrom.org/)
+
+If you have any issues/questions please contact us in channel:
+ #carbonrom       //General-related questions
+ #carbonrom-dev   //Development-related questions
+
+ server: irc.freenode.net
