@@ -395,7 +395,7 @@
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" remote="cm" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" remote="cm" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" remote="cm" />
-  <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="gh" />
+  <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="gh" revision="lp5.1" />
   <project path="frameworks/opt/chips" name="CyanogenMod/android_frameworks_opt_chips" groups="pdk-cw-fs" remote="cm" />
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" remote="cm" />
   <project path="frameworks/opt/datetimepicker" name="CyanogenMod/android_frameworks_opt_datetimepicker" remote="cm" />
