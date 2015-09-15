@@ -15,7 +15,7 @@
   <remote  name="carbon"
            fetch="git://github.com/"
            review="review.carbonrom.org"
-           revision="refs/heads/LP5.1.1"
+           revision="refs/heads/lp5.1.1"
            sync-c="true"
            sync-j="8" />
 
@@ -381,7 +381,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="CarbonROM/android_frameworks_av" groups="pdk" remote="carbon" />
-  <project path="frameworks/base" name="CarbonROM/android_frameworks_base" remote="carbon" />
+  <project path="frameworks/base" name="CarbonROM/android_frameworks_base" remote="carbon" revision="LP5.1.1" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" remote="cm" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" remote="cm" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" remote="cm" />
@@ -395,7 +395,7 @@
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" remote="cm" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" remote="cm" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" remote="cm" />
-  <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="gh" revision="lp5.1" />
+  <project path="frameworks/opt/cards" name="CarbonROM/frameworks_opt_cards" remote="carbon" revision="lp5.1.1" />
   <project path="frameworks/opt/chips" name="CyanogenMod/android_frameworks_opt_chips" groups="pdk-cw-fs" remote="cm" />
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" remote="cm" />
   <project path="frameworks/opt/datetimepicker" name="CyanogenMod/android_frameworks_opt_datetimepicker" remote="cm" />
@@ -526,7 +526,7 @@
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" remote="cm" />
   <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" remote="cm" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" remote="cm" />
-  <project path="packages/apps/Settings" name="CarbonROM/android_packages_apps_Settings" remote="carbon" />
+  <project path="packages/apps/Settings" name="CarbonROM/android_packages_apps_Settings" remote="carbon" revision="lp5.1.1" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" remote="cm" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" remote="cm" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" remote="cm" />
