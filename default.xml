@@ -122,7 +122,7 @@
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" remote="aosp" />
   <project path="external/cardslib" name="CyanogenMod/android_external_cardslib" remote="cm" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" remote="aosp" />
+  <project path="external/checkpolicy" name="CarbonROM/android_external_checkpolicy" remote="carbon" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" remote="aosp" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" remote="aosp" />
   <project path="external/chromium_org" name="CyanogenMod/android_external_chromium_org" remote="cm" />
