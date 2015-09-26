@@ -522,7 +522,7 @@
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" remote="cm" />
   <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" remote="cm" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" remote="cm" />
-  <project path="packages/apps/Settings" name="CarbonROM/android_packages_apps_Settings" remote="carbon" revision="lp5.1.1" />
+  <project path="packages/apps/Settings" name="CarbonROM/android_packages_apps_Settings" remote="carbon" revision="LP5.1.1" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" remote="cm" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" remote="cm" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" remote="cm" />
