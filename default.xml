@@ -550,7 +550,6 @@
   <project path="packages/screensavers/Basic" name="CyanogenMod/android_packages_screensavers_Basic" remote="cm" />
   <project path="packages/screensavers/PhotoTable" name="CyanogenMod/android_packages_screensavers_PhotoTable" remote="cm" />
   <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" remote="cm" />
-  <project path="packages/services/AntiPiracy" name="AlmightyMegadeth00/AntiPiracySupport" remote="gh" revision="master" />
   <project path="packages/services/Mms" name="CyanogenMod/android_packages_services_Mms" remote="cm" />
   <project path="packages/services/Telecomm" name="CarbonROM/android_packages_services_Telecomm" remote="carbon" />
   <project path="packages/services/Telephony" name="CarbonROM/android_packages_services_Telephony" remote="carbon" />
