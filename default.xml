@@ -502,8 +502,8 @@
   <project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" remote="cm" />
   -->
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm" />
-  <!-- <project path="packages/apps/CMHome" name="CyanogenMod/android_packages_apps_CMHome" remote="cm" />
-  <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" remote="cm" /> -->
+  <!-- <project path="packages/apps/CMHome" name="CyanogenMod/android_packages_apps_CMHome" remote="cm" /> -->
+  <project path="packages/apps/CMUpdater" name="CarbonROM/android_packages_apps_CMUpdater" remote="carbon" />
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" remote="cm" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="cm" />
   <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" remote="cm" />
