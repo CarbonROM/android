@@ -65,7 +65,7 @@
   <project path="art" name="CyanogenMod/android_art" groups="pdk" remote="cm" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" remote="cm" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" remote="cm" />
-  <project path="bootable/recovery-cot" name="ProjectOpenCannibal/carbon_bootable_recovery" remote="carbon" />
+  <project path="bootable/recovery-carbon" name="ProjectOpenCannibal/carbon_bootable_recovery" remote="carbon" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" remote="cm" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
