@@ -23,9 +23,9 @@
            sync-j="4" />
 
   <!-- Carbon Manifest -->
-  <project path="android" name="CarbonROM/android" groups="pdk" remote="carbon" />
+  <project path="android" name="CarbonBeta/android" groups="pdk" remote="carbon" />
 
-  <project path="build" name="CarbonROM/android_build" groups="pdk" remote="carbon" >
+  <project path="build" name="CarbonBeta/android_build" groups="pdk" remote="carbon" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -483,6 +483,6 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" /> 
+  <project path="vendor/carbon" name="CarbonBeta/android_vendor_carbon" remote="carbon" />
 
 </manifest>
