@@ -38,7 +38,7 @@ Repositories:
 
 Before you continue --> run this in the terminal
 ----------------------------------------
-    repo init -u https://github.com/CarbonROM/android.git -b CR-4.0 && repo sync -f
+    repo init -u https://github.com/CarbonROM/android.git -b cr-4.0 && repo sync -f
 
 *PLEASE NOTE THAT YOU MUST USE THE -f flag when repo syncing/initializing if you want to sync with our default -j8 setup as android.googlesource seems to like to reject your requests if you set your -jflag too high.
 if you wish to avoid this issue run it repo sync -j1 otherwise -f (force) is recommended so it will resync the repos it gets error codes on. Thank you and have a nice day.*
@@ -69,7 +69,7 @@ You can do this by using these commands:
 
     (From root android directory)
     . build/envsetup.sh
-    repo start CR-4.0 .
+    repo start cr-4.0 .
     (Make your changes and commit)
     repo upload .
 

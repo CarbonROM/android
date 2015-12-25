@@ -18,16 +18,21 @@
            sync-c="true"
            sync-j="8" />
 
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
   <default revision="refs/tags/android-6.0.1_r3"
            remote="aosp"
            sync-j="4" />
 
-  <!-- Carbon Manifest -->
-  <project path="android" name="CarbonROM/android" groups="pdk" remote="carbon" />
-
+  <!-- Begin CarbonROM -->
   <project path="build" name="CarbonROM/android_build" groups="pdk" remote="carbon" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="android" name="CarbonROM/android" groups="pdk" remote="carbon" />
+  <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
+
+  <!-- Begin AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
@@ -482,7 +487,4 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-
-  <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
-
 </manifest>
