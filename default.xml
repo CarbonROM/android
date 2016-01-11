@@ -30,8 +30,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="CarbonROM/android" groups="pdk" remote="carbon" />
-  <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
   <project path="packages/apps/CarbonFibers" name="CarbonROM/android_packages_apps_CarbonFibers" remote="carbon" />
+  <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
 
   <!-- Begin AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
