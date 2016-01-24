@@ -26,13 +26,23 @@
            sync-j="4" />
 
   <!-- Begin CarbonROM -->
+  <project path="android" name="CarbonROM/android" groups="pdk" remote="carbon" />
   <project path="build" name="CarbonROM/android_build" groups="pdk" remote="carbon" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="CarbonROM/android" groups="pdk" remote="carbon" />
+  <project path="frameworks/base" name="CarbonROM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="hardware/broadcom/libbt" name="CarbonROM/android_hardware_broadcom_libbt" groups="pdk" remote="carbon" />
+  <project path="hardware/qcom/gps" name="CarbonROM/android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="carbon" />
   <project path="packages/apps/CarbonFibers" name="CarbonROM/android_packages_apps_CarbonFibers" remote="carbon" />
+  <project path="packages/apps/Settings" name="CarbonROM/android_packages_apps_Settings" groups="pdk-fs" remote="carbon" />
+  <project path="prebuilts/misc" name="CarbonROM/android_prebuilts_misc" groups="pdk" remote="carbon" />
+  <project path="system/core" name="CarbonROM/android_system_core" remote="carbon" />
   <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
+
+  <!-- Begin CyanogenMod -->
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="gh" revision="cm-13.0" />
+  <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="gh" revision="cm-13.0" />
+  <project path="external/toybox" name="CyanogenMod/android_external_toybox" groups="pdk" remote="gh" revision="cm-13.0" />
 
   <!-- Begin AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -258,7 +268,6 @@
   <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
-  <project path="external/toybox" name="CyanogenMod/android_external_toybox" groups="pdk" remote="gh" revision="cm-13.0" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/v8" name="platform/external/v8" groups="pdk" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
@@ -274,7 +283,6 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="CarbonROM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -311,7 +319,6 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="CarbonROM/android_hardware_broadcom_libbt" groups="pdk" remote="carbon" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
@@ -337,7 +344,6 @@
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
   <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" />
-  <project path="hardware/qcom/gps" name="CarbonROM/android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="carbon" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
@@ -394,7 +400,6 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="CarbonROM/android_packages_apps_Settings" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
@@ -458,7 +463,6 @@
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" />
-  <project path="prebuilts/misc" name="CarbonROM/android_prebuilts_misc" groups="pdk" remote="carbon" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" />
