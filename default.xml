@@ -30,6 +30,7 @@
   <project path="build" name="CarbonROM/android_build" groups="pdk" remote="carbon" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="external/libnfc-nci" name="CarbonROM/android_external_libnfc-nci" groups="pdk" remote="carbon" />
   <project path="frameworks/base" name="CarbonROM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="hardware/broadcom/libbt" name="CarbonROM/android_hardware_broadcom_libbt" groups="pdk" remote="carbon" />
   <project path="hardware/qcom/gps" name="CarbonROM/android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="carbon" />
@@ -178,7 +179,6 @@
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
