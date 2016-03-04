@@ -43,6 +43,7 @@
   <project path="prebuilts/misc" name="CarbonROM/android_prebuilts_misc" groups="pdk" remote="carbon" />
   <project path="system/core" name="CarbonROM/android_system_core" remote="carbon" />
   <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
+  <project path="vendor/chromium" name="CarbonROM/android_vendor_chromium" remote="carbon" revision="cr-4.0" />
 
   <!-- Begin CyanogenMod -->
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="gh" revision="cm-13.0" />
@@ -384,7 +385,7 @@
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" groups="pdk-fs"/>
+  <!-- <project path="packages/apps/Browser" name="platform/packages/apps/Browser" groups="pdk-fs"/> -->
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
