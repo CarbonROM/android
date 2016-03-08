@@ -40,6 +40,7 @@
   <project path="hardware/qcom/media/default" name="CarbonROM/android_hardware_qcom_media" groups="qcom" remote="carbon" />
   <project path="packages/apps/CarbonFibers" name="CarbonROM/android_packages_apps_CarbonFibers" remote="carbon" />
   <project path="packages/apps/Settings" name="CarbonROM/android_packages_apps_Settings" groups="pdk-fs" remote="carbon" />
+  <project path="packages/apps/CMUpdater" name="CarbonROM/android_packages_apps_CMUpdater" remote="carbon" revision="cr-4.0" />
   <project path="prebuilts/misc" name="CarbonROM/android_prebuilts_misc" groups="pdk" remote="carbon" />
   <project path="system/core" name="CarbonROM/android_system_core" remote="carbon" />
   <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
