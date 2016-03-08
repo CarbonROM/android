@@ -40,7 +40,7 @@
   <project path="frameworks/base" name="CarbonROM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="frameworks/native" name="CarbonROM/android_frameworks_native" groups="pdk" remote="carbon" />
   <project path="hardware/broadcom/libbt" name="CarbonROM/android_hardware_broadcom_libbt" groups="pdk" remote="carbon" />
-  <project path="hardware/libhardware" name="CarbonROM/hardware_libhardware" groups="pdk" remote="carbon" />
+  <project path="hardware/libhardware" name="CarbonROM/android_hardware_libhardware" groups="pdk" remote="carbon" />
   <project path="hardware/qcom/audio/default" name="CarbonROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="carbon" />
   <project path="hardware/qcom/display" name="CarbonROM/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="carbon" />
   <project path="hardware/qcom/camera" name="CarbonROM/android_hardware_qcom_camera" groups="qcom,qcom_camera" remote="carbon" />
