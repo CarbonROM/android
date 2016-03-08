@@ -27,7 +27,7 @@
 
   <!-- Begin CarbonROM -->
   <project path="android" name="CarbonROM/android" groups="pdk" remote="carbon" />
-  <project path="bionic" name="CarbonROM/android_bionic" remote="carbon" >
+  <project path="bionic" name="CarbonROM/android_bionic" remote="carbon" />
   <project path="build" name="CarbonROM/android_build" groups="pdk" remote="carbon" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
