@@ -47,6 +47,7 @@ if you wish to avoid this issue run it repo sync -j1 otherwise -f (force) is rec
 Building the System
 ---------------
 
+Please note that if you are building on Mac OS X, you are required to install coreutils from MacPorts before you continue.
 Initialize the environment with the envsetup.sh script. Note that replacing "source" with a single dot saves a few characters, and the short form is more commonly used in documentation.
 
     . build/envsetup.sh
