@@ -31,6 +31,8 @@
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bootable/recovery" name="CarbonROM/android_bootable_recovery" groups="pdk" remote="carbon" />
+  <project path="external/exfat" name="CarbonROM/android_external_exfat" groups="pdk" remote="carbon" />
+  <project path="external/fuse" name="CarbonROM/android_external_fuse" groups="pdk" remote="carbon" />
   <project path="external/toybox" name="CarbonROM/android_external_toybox" groups="pdk" remote="carbon" />
   <project path="frameworks/av" name="CarbonROM/android_frameworks_av" groups="pdk" remote="carbon" />
   <project path="frameworks/base" name="CarbonROM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
