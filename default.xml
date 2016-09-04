@@ -31,9 +31,6 @@
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bootable/recovery" name="CarbonROM/android_bootable_recovery" groups="pdk" remote="carbon" />
-  <project path="external/exfat" name="CarbonROM/android_external_exfat" groups="pdk" remote="carbon" />
-  <project path="external/fuse" name="CarbonROM/android_external_fuse" groups="pdk" remote="carbon" />
-  <project path="external/ntfs-3g" name="CarbonROM/android_external_ntfs-3g" groups="pdk" remote="carbon" />
   <project path="external/toybox" name="CarbonROM/android_external_toybox" groups="pdk" remote="carbon" />
   <project path="frameworks/av" name="CarbonROM/android_frameworks_av" groups="pdk" remote="carbon" />
   <project path="frameworks/base" name="CarbonROM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
@@ -53,9 +50,13 @@
   <project path="prebuilts/misc" name="CarbonROM/android_prebuilts_misc" groups="pdk" remote="carbon" />
   <project path="system/core" name="CarbonROM/android_system_core" groups="pdk" remote="carbon" />
   <project path="system/sepolicy" name="CarbonROM/android_system_sepolicy" groups="pdk" remote="carbon" />
-  <project path="system/vold" name="CarbonROM/android_system_vold" groups="pdk" remote="carbon" />
   <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
 
+  <!-- Begin OmniROM -->
+  <project path="external/exfat" name="omnirom/android_external_exfat" groups="pdk" remote="gh" revision="android-7.0" />
+  <project path="external/fuse" name="omnirom/android_external_fuse" groups="pdk" remote="gh" revision="android-7.0" />
+  <project path="external/ntfs-3g" name="omnirom/android_external_ntfs-3g" groups="pdk" remote="gh" revision="android-7.0" />
+  <project path="system/vold" name="omnirom/android_system_vold" groups="pdk" remote="gh" revision="android-7.0" />
   <!-- Begin AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
