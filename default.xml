@@ -45,6 +45,7 @@
   <project path="hardware/qcom/keymaster" name="CarbonROM/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="carbon" />
   <project path="hardware/qcom/media" name="CarbonROM/android_hardware_qcom_media" groups="qcom,qcom_media" remote="carbon" />
   <project path="packages/apps/Bluetooth" name="CarbonROM/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="packages/apps/CarbonFibers" name="CarbonROM/android_packages_apps_CarbonFibers" remote="carbon" />
   <project path="packages/apps/Nfc" name="CarbonROM/android_packages_apps_Nfc" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/PackageInstaller" name="CarbonROM/android_packages_apps_PackageInstaller" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/Settings" name="CarbonROM/android_packages_apps_Settings" groups="pdk-fs" remote="carbon" />
