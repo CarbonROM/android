@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- FIRST: Remove unused/forked AOSP Projects -->
+  <include name="remove.xml" />
+
+  <!-- Include forked AOSP -->
+  <include name="carbon-aosp.xml" />
+
+  <!-- CarbonROM Projects -->
+  <project path="android" name="CarbonROM/android" groups="pdk" remote="carbon" />
+
+  <project path="bootable/recovery" name="CarbonROM/android_bootable_recovery" groups="pdk" remote="carbon" />
+
+  <project path="packages/apps/CarbonFibers" name="CarbonROM/android_packages_apps_CarbonFibers" remote="carbon" />
+  <project path="packages/apps/Vanilla" name="CarbonROM/android_packages_apps_Vanilla" groups="pdk-fs" remote="carbon" />
+
+  <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
+  <project path="vendor/chromium" name="CarbonROM/android_vendor_chromium" remote="carbon" />
+
+  <!-- Begin TeamSubstratum -->
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" groups="pdk-fs" remote="gh" revision="master" />
+
+</manifest>
