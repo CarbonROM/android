@@ -87,3 +87,11 @@ If you have any issues/questions please contact us in channel:
  #carbonrom-dev   //Development-related questions
 
  server: irc.freenode.net
+
+Help in translating CarbonROM
+---------------
+We use crowdin for our ROMs translation. If you want to help with that, you can do so here.
+https://crowdin.com/project/carbonrom
+
+The available projects to translate will be updated when new things come into Carbon, so be sure to keep on checking the page.
+Thanks a lot to those who helped translating the ROM!
