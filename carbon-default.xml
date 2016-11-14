@@ -12,7 +12,6 @@
   <project path="bootable/recovery" name="CarbonROM/android_bootable_recovery" groups="pdk" remote="carbon" />
 
   <project path="packages/apps/CarbonFibers" name="CarbonROM/android_packages_apps_CarbonFibers" remote="carbon" />
-  <project path="packages/apps/Vanilla" name="CarbonROM/android_packages_apps_Vanilla" groups="pdk-fs" remote="carbon" />
 
   <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
   <project path="vendor/chromium" name="CarbonROM/android_vendor_chromium" remote="carbon" />
@@ -20,4 +19,6 @@
   <!-- Begin TeamSubstratum -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" groups="pdk-fs" remote="gh" revision="master" />
 
+  <!-- Begin Vanilla Music -->
+  <project path="packages/apps/Vanilla" name="vanilla-music/vanilla" groups="pdk-fs" remote="gh" revision="master" />
 </manifest>
