@@ -19,7 +19,7 @@
   <project path="vendor/chromium" name="CarbonROM/android_vendor_chromium" remote="carbon" />
 
   <!-- Begin TeamSubstratum -->
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" groups="pdk-fs" remote="gh" revision="master" />
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" groups="pdk-fs" remote="gh" revision="n" />
 
   <!-- Begin Vanilla Music -->
   <project path="packages/apps/Vanilla" name="vanilla-music/vanilla" groups="pdk-fs" remote="gh" revision="master" />
