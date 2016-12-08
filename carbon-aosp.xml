@@ -19,6 +19,9 @@
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
+  <project path="bionic" name="CarbonROM/android_bionic" groups="pdk" remote="carbon" />
+
+  <project path="external/sqlite" name="CarbonROM/android_external_sqlite" groups="pdk" remote="carbon" />
   <project path="external/toybox" name="CarbonROM/android_external_toybox" groups="pdk" remote="carbon" />
 
   <project path="frameworks/av" name="CarbonROM/android_frameworks_av" groups="pdk" remote="carbon" />
