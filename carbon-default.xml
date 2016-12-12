@@ -12,6 +12,7 @@
   <project path="bootable/recovery" name="CarbonROM/android_bootable_recovery" groups="pdk" remote="carbon" />
 
   <project path="packages/apps/CarbonFibers" name="CarbonROM/android_packages_apps_CarbonFibers" remote="carbon" />
+  <project path="packages/apps/CarbonStats" name="CarbonROM/android_packages_apps_CarbonStats" remote="carbon" />
 
   <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
   <project path="vendor/chromium" name="CarbonROM/android_vendor_chromium" remote="carbon" />
