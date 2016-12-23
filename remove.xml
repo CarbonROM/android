@@ -42,6 +42,8 @@
   <remove-project name="device/moto/shamu-kernel" />
 
   <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/external/tinyalsa" />
+  <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
 
   <remove-project name="platform/frameworks/av" />
