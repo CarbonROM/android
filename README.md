@@ -1,8 +1,6 @@
 CarbonROM Source
 ===================
 
-[![Build Status](http://jenkins.carbonrom.org/job/CarbonROM/badge/icon)](http://jenkins.carbonrom.org/job/CarbonROM/)
-
 Getting Started
 ---------------
 To get started with the CarbonROM sources, you'll need to get
