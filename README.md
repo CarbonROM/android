@@ -72,6 +72,10 @@ You can do this by using these commands:
     (Make your changes and commit)
     repo upload .
 
+As of January 1st, 2017, we will only allow GPG signed commits on our Gerrit/GitHub orgs.
+You can set up signed commits by setting up the key accoridng to these directions: https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work
+and adding them to [Gerrit|http://review.carbonrom.org/#/settings/gpg-keys]
+
 Note: "." meaning current directory
 For more help on using this tool, use this command: repo help upload
 
