@@ -85,6 +85,7 @@
   <remove-project name="platform/packages/apps/ContactsCommon" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/ExactCalculator" />
+  <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
