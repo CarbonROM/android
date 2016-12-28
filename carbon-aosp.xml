@@ -52,7 +52,7 @@
   <project path="packages/apps/ContactsCommon" name="CarbonROM/android_packages_apps_ContactsCommon" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/Dialer" name="CarbonROM/android_packages_apps_Dialer" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/ExactCalculator" name="CarbonROM/android_packages_apps_ExactCalculator" groups="pdk-fs" remote="carbon" />
-  <project path="packages/apps/Gallery2" name="omnirom/android_packages_apps_Gallery2" groups="pdk-fs" remote="gh" revision="android-7.1" />
+  <project path="packages/apps/Gallery2" name="CarbonROM/android_packages_apps_Gallery2" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/Launcher3" name="CarbonROM/android_packages_apps_Launcher3" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/Nfc" name="CarbonROM/android_packages_apps_Nfc" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/PackageInstaller" name="CarbonROM/android_packages_apps_PackageInstaller" groups="pdk-fs" remote="carbon" />
