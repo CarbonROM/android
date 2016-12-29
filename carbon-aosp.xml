@@ -64,6 +64,7 @@
   <project path="prebuilts/misc" name="CarbonROM/android_prebuilts_misc" groups="pdk" remote="carbon" />
 
   <project path="system/core" name="CarbonROM/android_system_core" groups="pdk" remote="carbon" />
+  <project path="system/extras" name="CarbonROM/android_system_extras" groups="pdk" remote="carbon" />
   <project path="system/sepolicy" name="CarbonROM/android_system_sepolicy" groups="pdk" remote="carbon" />
   <project path="system/vold" name="CarbonROM/android_system_vold" groups="pdk" remote="carbon" />
 
