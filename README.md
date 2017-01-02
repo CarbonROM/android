@@ -77,10 +77,14 @@ You can set up signed commits by setting up the key accoridng to these direction
 and adding them to [Gerrit](http://review.carbonrom.org/#/settings/gpg-keys)
 
 You can enable the signed push with:
-git config --global push.gpgSign if-asked
+
+    git config --global push.gpgSign if-asked
+
 
 and enable signing your commits with:
-git config --global commit.gpgsign true
+
+    git config --global commit.gpgsign true
+
 
 Note: "." meaning current directory
 For more help on using this tool, use this command: repo help upload
