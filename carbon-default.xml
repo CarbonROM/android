@@ -7,10 +7,6 @@
   <include name="carbon-aosp.xml" />
 
   <!-- CarbonROM Projects -->
-  <project path="android" name="CarbonROM/android" groups="pdk" remote="carbon" />
-
-  <project path="bootable/recovery" name="ProjectOpenCannibal/CarbonRecovery" groups="pdk" remote="carbon" />
-
   <project path="packages/apps/CarbonFibers" name="CarbonROM/android_packages_apps_CarbonFibers" remote="carbon" />
   <project path="packages/apps/CarbonStats" name="CarbonROM/android_packages_apps_CarbonStats" remote="carbon" />
 
