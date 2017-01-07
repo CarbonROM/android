@@ -27,7 +27,6 @@
 
   <project path="art" name="CarbonROM/android_art" groups="pdk" remote="carbon" />
 
-  <project path="external/ims" name="CarbonROM/android_external_ims" groups="pdk" remote="carbon" />
   <project path="external/libpng" name="CarbonROM/android_external_libpng" groups="pdk" remote="carbon" />
   <project path="external/sqlite" name="CarbonROM/android_external_sqlite" groups="pdk" remote="carbon" />
   <project path="external/tinyalsa" name="CarbonROM/android_external_tinyalsa" groups="pdk" remote="carbon" />
