@@ -49,6 +49,7 @@
   <project path="hardware/qcom/keymaster" name="CarbonROM/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="carbon" />
   <project path="hardware/qcom/media" name="CarbonROM/android_hardware_qcom_media" groups="qcom,qcom_media" remote="carbon" />
   <project path="hardware/qcom/power" name="CarbonROM/android_hardware_qcom_power" groups="qcom" remote="carbon" />
+  <project path="hardware/qcom/wlan" name="CarbonROM/android_hardware_qcom_wlan" groups="qcom_wlan" remote="carbon" />
   <project path="hardware/ril" name="CarbonROM/android_hardware_ril" groups="pdk" remote="carbon" />
 
   <project path="packages/apps/Bluetooth" name="CarbonROM/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
