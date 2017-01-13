@@ -6,9 +6,13 @@
   <!-- Include forked AOSP -->
   <include name="carbon-aosp.xml" />
 
+  <!-- Include CAF -->
+  <include name="carbon-caf.xml" />
+
   <!-- CarbonROM Projects -->
   <project path="packages/apps/CarbonFibers" name="CarbonROM/android_packages_apps_CarbonFibers" remote="carbon" />
-  <project path="packages/apps/CMUpdater" name="CarbonROM/android_packages_apps_CMUpdater" remote="carbon" revision="cr-5.1" />
+  <project path="packages/apps/CMUpdater" name="CarbonROM/android_packages_apps_CMUpdater" remote="carbon" />
+  <project path="packages/apps/SnapdragonCamera" name="CarbonROM/android_packages_apps_SnapdragonCamera" remote="carbon" />
 
   <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
   <project path="vendor/chromium" name="CarbonROM/android_vendor_chromium" remote="carbon" />
