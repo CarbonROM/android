@@ -14,9 +14,12 @@
   <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
   <project path="vendor/chromium" name="CarbonROM/android_vendor_chromium" remote="carbon" />
 
-  <!-- Begin TeamSubstratum -->
+  <!-- OmniROM Projects -->
+  <project path="packages/apps/OmniStyle" name="CarbonROM/android_packages_apps_OmniStyle" remote="carbon" />
+
+  <!-- TeamSubstratum Projects -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" groups="pdk-fs" remote="gh" revision="n" />
 
-  <!-- Begin Vanilla Music -->
+  <!-- Vanilla Music -->
   <project path="packages/apps/Vanilla" name="vanilla-music/vanilla" groups="pdk-fs" remote="gh" revision="master" />
 </manifest>
