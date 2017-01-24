@@ -19,4 +19,7 @@
 
   <!-- Begin Vanilla Music -->
   <project path="packages/apps/Vanilla" name="vanilla-music/vanilla" groups="pdk-fs" remote="gh" revision="master" />
+
+  <!-- Begin OmniStyle -->
+  <project path="packages/apps/OmniStyle" name="CarbonROM/android_packages_apps_OmniStyle" remote="carbon" revision="cr-5.1" />
 </manifest>
