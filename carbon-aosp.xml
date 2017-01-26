@@ -46,6 +46,7 @@
   <project path="hardware/libhardware" name="CarbonROM/android_hardware_libhardware" groups="pdk" remote="carbon" />
   <project path="hardware/qcom/audio" name="CarbonROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="carbon" />
   <project path="hardware/qcom/bt" name="CarbonROM/android_hardware_qcom_bt" groups="qcom" remote="carbon" />
+  <project path="hardware/qcom/bootctrl" name="CarbonROM/android_hardware_qcom_bootctrl" groups="pdk" remote="carbon" />
   <project path="hardware/qcom/camera" name="CarbonROM/android_hardware_qcom_camera" groups="qcom,qcom_camera" remote="carbon" />
   <project path="hardware/qcom/display" name="CarbonROM/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="carbon" />
   <project path="hardware/qcom/gps" name="CarbonROM/android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="carbon" />
