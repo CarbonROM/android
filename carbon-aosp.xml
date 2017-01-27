@@ -27,12 +27,15 @@
 
   <project path="art" name="CarbonROM/android_art" groups="pdk" remote="carbon" />
 
+  <project path="external/jemalloc" name="CarbonROM/android_external_jemalloc" groups="pdk" remote="carbon" />
+  <project path="external/libjpeg-turbo" name="CarbonROM/android_external_libjpeg-turbo" groups="pdk" remote="carbon" />
   <project path="external/libpng" name="CarbonROM/android_external_libpng" groups="pdk" remote="carbon" />
   <project path="external/skia" name="CarbonROM/android_external_skia" groups="pdk" remote="carbon" />
   <project path="external/sqlite" name="CarbonROM/android_external_sqlite" groups="pdk" remote="carbon" />
   <project path="external/tinyalsa" name="CarbonROM/android_external_tinyalsa" groups="pdk" remote="carbon" />
   <project path="external/tinycompress" name="CarbonROM/android_external_tinycompress" groups="pdk" remote="carbon" />
   <project path="external/toybox" name="CarbonROM/android_external_toybox" groups="pdk" remote="carbon" />
+  <project path="external/zlib" name="CarbonROM/android_external_zlib" groups="pdk" remote="carbon" />
 
   <project path="frameworks/av" name="CarbonROM/android_frameworks_av" groups="pdk" remote="carbon" />
   <project path="frameworks/base" name="CarbonROM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
