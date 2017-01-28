@@ -22,4 +22,6 @@
 
   <!-- Vanilla Music -->
   <project path="packages/apps/Vanilla" name="vanilla-music/vanilla" groups="pdk-fs" remote="gh" revision="master" />
+
+  <project path="prebuilts/build-tools" name="DirtyUnicorns/android_prebuilts_build-tools" remote="gh" revision="n7x" />
 </manifest>
