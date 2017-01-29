@@ -20,6 +20,7 @@
   <project path="build" name="CarbonROM/android_build" groups="pdk" remote="carbon" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="build/kati" name="DirtyUnicorns/android_build_kati" groups="pdk,tradefed" remote="gh" revision="n7x" />
 
   <project path="bionic" name="CarbonROM/android_bionic" groups="pdk" remote="carbon" />
 
