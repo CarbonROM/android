@@ -8,7 +8,6 @@
 
   <!-- CarbonROM Projects -->
   <project path="packages/apps/CarbonFibers" name="CarbonROM/android_packages_apps_CarbonFibers" remote="carbon" />
-  <project path="packages/apps/CarbonStats" name="CarbonROM/android_packages_apps_CarbonStats" remote="carbon" />
   <project path="packages/apps/CMUpdater" name="CarbonROM/android_packages_apps_CMUpdater" remote="carbon" revision="cr-5.1" />
 
   <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
