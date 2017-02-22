@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="lineage"
-           fetch=".."
-           review="review.lineageos.org"
-           revision="refs/heads/cm-14.1"
-           sync-j="8" />
-
-    <!-- CodeAurora additions -->
+  <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" remote="lineage" />
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="lineage" />
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="lineage" />

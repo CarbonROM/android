@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="carbon"
-           fetch="git://github.com/"
-           review="review.carbonrom.org"
-           revision="refs/heads/cr-5.1"
-           sync-j="8" />
-
-  <remote  name="gh"
-           fetch="git://github.com/"
-           sync-c="true"
-           sync-j="8" />
-
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
-
   <project path="android" name="CarbonROM/android" groups="pdk" remote="carbon" />
 
   <project path="build" name="CarbonROM/android_build" groups="pdk" remote="carbon" >
@@ -27,9 +13,11 @@
 
   <project path="art" name="CarbonROM/android_art" groups="pdk" remote="carbon" />
 
-  <project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" groups="pdk" remote="gh" revision="cm-14.1" />
+  <project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" groups="pdk" remote="lineage" />
   <project path="external/jemalloc" name="CarbonROM/android_external_jemalloc" groups="pdk" remote="carbon" />
   <project path="external/libjpeg-turbo" name="CarbonROM/android_external_libjpeg-turbo" groups="pdk" remote="carbon" />
+  <project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" groups="pdk" remote="lineage" />
+  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" groups="pdk" remote="lineage" />
   <project path="external/libpng" name="CarbonROM/android_external_libpng" groups="pdk" remote="carbon" />
   <project path="external/skia" name="CarbonROM/android_external_skia" groups="pdk" remote="carbon" />
   <project path="external/sqlite" name="CarbonROM/android_external_sqlite" groups="pdk" remote="carbon" />
