@@ -35,7 +35,9 @@
   <project path="packages/apps/CMUpdater" name="CarbonROM/android_packages_apps_CMUpdater" remote="carbon" />
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="lineage" />
 
-  <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
+  <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" >
+    <copyfile src="tools/pixelfix/Android.mk" dest="vendor/codeaurora/telephony/Android.mk" />
+  </project>
   <project path="vendor/chromium" name="CarbonROM/android_vendor_chromium" remote="carbon" />
 
   <!-- OmniROM Projects -->
