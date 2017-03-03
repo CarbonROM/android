@@ -9,7 +9,7 @@
 
   <project path="bionic" name="CarbonROM/android_bionic" groups="pdk" remote="carbon" />
 
-  <project path="bootable/recovery" name="ProjectOpenCannibal/CarbonRecovery" groups="pdk" remote="carbon" />
+  <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" remote="lineage" />
 
   <project path="art" name="CarbonROM/android_art" groups="pdk" remote="carbon" />
 
