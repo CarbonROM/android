@@ -42,7 +42,7 @@
   <project path="packages/apps/OmniStyle" name="CarbonROM/android_packages_apps_OmniStyle" remote="carbon" />
 
   <!-- substratum Projects -->
-  <project path="packages/apps/masquerade" name="substratum/masquerade" groups="pdk-fs" remote="gh" revision="n" />
+  <project path="packages/apps/masquerade" name="substratum/masquerade" groups="pdk-fs" remote="gh" revision="n-rootless" />
 
   <!-- Vanilla Music -->
   <project path="packages/apps/Vanilla" name="vanilla-music/vanilla" groups="pdk-fs" remote="gh" revision="master" />
