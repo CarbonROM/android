@@ -13,6 +13,7 @@
 
   <project path="art" name="CarbonROM/android_art" groups="pdk" remote="carbon" />
 
+  <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" remote="lineage" />
   <project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" groups="pdk" remote="lineage" />
   <project path="external/jemalloc" name="CarbonROM/android_external_jemalloc" groups="pdk" remote="carbon" />
   <project path="external/libjpeg-turbo" name="CarbonROM/android_external_libjpeg-turbo" groups="pdk" remote="carbon" />
