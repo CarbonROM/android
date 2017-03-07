@@ -33,10 +33,15 @@
   <!-- CarbonROM Projects -->
   <project path="packages/apps/CarbonFibers" name="CarbonROM/android_packages_apps_CarbonFibers" remote="carbon" />
   <project path="packages/apps/CMUpdater" name="CarbonROM/android_packages_apps_CMUpdater" remote="carbon" />
-  <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="lineage" />
-
+ 
   <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
   <project path="vendor/chromium" name="CarbonROM/android_vendor_chromium" remote="carbon" />
+
+  <!-- Lineage Projects -->
+  <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="lineage" />
+  <project path="external/fuse" name="LineageOS/android_external_fuse" remote="lineage" />
+  <project path="external/exfat" name="LineageOS/android_external_exfat" remote="lineage" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="lineage" />
 
   <!-- OmniROM Projects -->
   <project path="packages/apps/OmniStyle" name="CarbonROM/android_packages_apps_OmniStyle" remote="carbon" />
