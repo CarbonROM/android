@@ -38,6 +38,7 @@
   <project path="vendor/chromium" name="CarbonROM/android_vendor_chromium" remote="carbon" />
 
   <!-- Lineage Projects -->
+  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="lineage" />
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="lineage" />
   <project path="external/fuse" name="LineageOS/android_external_fuse" remote="lineage" />
   <project path="external/exfat" name="LineageOS/android_external_exfat" remote="lineage" />
