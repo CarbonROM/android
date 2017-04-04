@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="android" name="CarbonROM/android" groups="pdk" remote="carbon" />
+
+  <project path="build" name="CarbonROM/android_build" groups="pdk" remote="carbon" >
+  <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="bionic" name="CarbonROM/android_bionic" groups="pdk" remote="carbon" />
+
+  <project path="bootable/recovery" name="ProjectOpenCannibal/CarbonRecovery" groups="pdk" remote="carbon" />
+
+  <project path="external/e2fsprogs" name="CarbonROM/android_external_e2fsprogs" groups="pdk" remote="carbon" />
+  <project path="external/elfutils" name="CarbonROM/android_external_elfutils" groups="pdk" remote="carbon" />
+  <project path="external/f2fs-tools" name="CarbonROM/android_external_f2fs-tools" groups="pdk" remote="carbon" />
+  <project path="external/jemalloc" name="CarbonROM/android_external_jemalloc" groups="pdk" remote="carbon" />
+  <project path="external/libjpeg-turbo" name="CarbonROM/android_external_libjpeg-turbo" groups="pdk" remote="carbon" />
+  <project path="external/libnfc-nci" name="CarbonROM/android_external_libnfc-nci" groups="pdk" remote="carbon" />
+  <project path="external/libnfc-nxp" name="CarbonROM/android_external_libnfc-nxp" groups="pdk" remote="carbon" />
+  <project path="external/libpng" name="CarbonROM/android_external_libpng" groups="pdk" remote="carbon" />
+  <project path="external/skia" name="CarbonROM/android_external_skia" groups="pdk" remote="carbon" />
+  <project path="external/sqlite" name="CarbonROM/android_external_sqlite" groups="pdk" remote="carbon" />
+  <project path="external/tinyalsa" name="CarbonROM/android_external_tinyalsa" groups="pdk" remote="carbon" />
+  <project path="external/tinycompress" name="CarbonROM/android_external_tinycompress" groups="pdk" remote="carbon" />
+  <project path="external/toybox" name="CarbonROM/android_external_toybox" groups="pdk" remote="carbon" />
+  <project path="external/wpa_supplicant_8" name="CarbonROM/android_external_wpa_supplicant_8" groups="pdk" remote="carbon" />
+  <project path="external/zlib" name="CarbonROM/android_external_zlib" groups="pdk" remote="carbon" />
+
+  <project path="frameworks/av" name="CarbonROM/android_frameworks_av" groups="pdk" remote="carbon" />
+  <project path="frameworks/base" name="CarbonROM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="frameworks/native" name="CarbonROM/android_frameworks_native" groups="pdk" remote="carbon" />
+  <project path="frameworks/opt/telephony" name="CarbonROM/android_frameworks_opt_telephony" groups="pdk" remote="carbon" />
+  <project path="frameworks/rs" name="CarbonROM/android_frameworks_rs" groups="pdk" remote="carbon" />
+  <project path="frameworks/support" name="CarbonROM/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+
+  <project path="hardware/broadcom/libbt" name="CarbonROM/android_hardware_broadcom_libbt" groups="pdk" remote="carbon" />
+  <project path="hardware/broadcom/wlan" name="CarbonROM/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="carbon" />
+  <project path="hardware/libhardware" name="CarbonROM/android_hardware_libhardware" groups="pdk" remote="carbon" />
+  <project path="hardware/libhardware_legacy" name="CarbonROM/android_hardware_libhardware_legacy" groups="pdk" remote="carbon" />
+  <project path="hardware/qcom/audio/default" name="CarbonROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="carbon" />
+  <project path="hardware/qcom/bt" name="CarbonROM/android_hardware_qcom_bt" groups="qcom,pdk" remote="carbon" />
+  <project path="hardware/qcom/bootctrl" name="CarbonROM/android_hardware_qcom_bootctrl" groups="pdk" remote="carbon" />
+  <project path="hardware/qcom/camera" name="CarbonROM/android_hardware_qcom_camera" groups="qcom,pdk" remote="carbon" />
+  <project path="hardware/qcom/display" name="CarbonROM/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="carbon" />
+  <project path="hardware/qcom/gps" name="CarbonROM/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="carbon" />
+  <project path="hardware/qcom/keymaster" name="CarbonROM/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="carbon" />
+  <project path="hardware/qcom/media" name="CarbonROM/android_hardware_qcom_media" groups="qcom,pdk" remote="carbon" />
+  <project path="hardware/qcom/wlan" name="CarbonROM/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="carbon" />
+  <project path="hardware/ril" name="CarbonROM/android_hardware_ril" groups="pdk" remote="carbon" />
+
+  <project path="packages/apps/Bluetooth" name="CarbonROM/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="packages/apps/CarrierConfig" name="CarbonROM/android_packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="packages/apps/Contacts" name="CarbonROM/android_packages_apps_Contacts" groups="pdk-fs" remote="carbon" />
+  <project path="packages/apps/ContactsCommon" name="CarbonROM/android_packages_apps_ContactsCommon" groups="pdk-fs" remote="carbon" />
+  <project path="packages/apps/Dialer" name="CarbonROM/android_packages_apps_Dialer" groups="pdk-fs" remote="carbon" />
+  <project path="packages/apps/ExactCalculator" name="CarbonROM/android_packages_apps_ExactCalculator" groups="pdk-fs" remote="carbon" />
+  <project path="packages/apps/Gallery2" name="CarbonROM/android_packages_apps_Gallery2" groups="pdk-fs" remote="carbon" />
+  <project path="packages/apps/Launcher3" name="CarbonROM/android_packages_apps_Launcher3" groups="pdk-fs" remote="carbon" />
+  <project path="packages/apps/Nfc" name="CarbonROM/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="carbon" />
+  <project path="packages/apps/PackageInstaller" name="CarbonROM/android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="packages/apps/PhoneCommon" name="CarbonROM/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="packages/apps/Settings" name="CarbonROM/android_packages_apps_Settings" groups="pdk-fs" remote="carbon" />
+  <project path="packages/providers/DownloadProvider" name="CarbonROM/android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="packages/services/Telephony" name="CarbonROM/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+
+  <project path="prebuilts/misc" name="CarbonROM/android_prebuilts_misc" groups="pdk" remote="carbon" />
+
+  <project path="system/bt" name="CarbonROM/android_system_bt" groups="pdk" remote="carbon" />
+  <project path="system/core" name="CarbonROM/android_system_core" groups="pdk" remote="carbon" />
+  <project path="system/extras" name="CarbonROM/android_system_extras" groups="pdk" remote="carbon" />
+  <project path="system/media" name="CarbonROM/android_system_media" groups="pdk" remote="carbon" />
+  <project path="system/sepolicy" name="CarbonROM/android_system_sepolicy" groups="pdk" remote="carbon" />
+  <project path="system/vold" name="CarbonROM/android_system_vold" groups="pdk" remote="carbon" />
+
+</manifest>

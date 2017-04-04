@@ -2,9 +2,11 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+
   <default revision="refs/tags/android-7.1.2_r2"
+           sync-c="true"
            remote="aosp"
            sync-j="4" />
 
@@ -554,5 +556,8 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
+
+  <!-- CarbonROM -->
+  <include name="carbon-default.xml" />
 
 </manifest>
