@@ -39,6 +39,7 @@
   <remove-project name="device/moto/shamu" />
   <remove-project name="device/moto/shamu-kernel" />
 
+  <remove-project name="platform/external/dhcpcd-6.8.2"/>
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/elfutils" />
   <remove-project name="platform/external/f2fs-tools" />
