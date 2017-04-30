@@ -3,6 +3,8 @@
 
   <project path="android" name="CarbonROM/android" groups="pdk" remote="carbon" />
 
+  <project path="art" name="CarbonROM/android_art" groups="pdk" remote="carbon" />
+
   <project path="build" name="CarbonROM/android_build" groups="pdk" remote="carbon" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -49,6 +51,8 @@
   <project path="hardware/qcom/media" name="CarbonROM/android_hardware_qcom_media" groups="qcom,pdk" remote="carbon" />
   <project path="hardware/qcom/wlan" name="CarbonROM/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="carbon" />
   <project path="hardware/ril" name="CarbonROM/android_hardware_ril" groups="pdk" remote="carbon" />
+
+  <project path="libcore" name="CarbonROM/android_libcore" groups="pdk" remote="carbon" />
 
   <project path="packages/apps/Bluetooth" name="CarbonROM/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/apps/CarrierConfig" name="CarbonROM/android_packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
