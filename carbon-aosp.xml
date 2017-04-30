@@ -3,6 +3,8 @@
 
   <project path="android" name="CarbonROM/android" groups="pdk" remote="carbon" />
 
+  <project path="art" name="CarbonROM/android_art" groups="pdk" remote="carbon" />
+
   <project path="build" name="CarbonROM/android_build" groups="pdk" remote="carbon" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
