@@ -33,9 +33,9 @@
   <!-- CarbonROM Projects -->
   <project path="packages/apps/CarbonFibers" name="CarbonROM/android_packages_apps_CarbonFibers" remote="carbon" />
   <project path="packages/apps/CMUpdater" name="CarbonROM/android_packages_apps_CMUpdater" remote="carbon" />
- 
+  <project path="packages/apps/Quarks" name="CarbonROM/android_packages_apps_Quarks" remote="carbon" />
+
   <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
-  <project path="vendor/chromium" name="CarbonROM/android_vendor_chromium" remote="carbon" />
 
   <!-- Lineage Projects -->
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="lineage" />
