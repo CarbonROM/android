@@ -11,7 +11,7 @@
 
   <project path="bionic" name="CarbonROM/android_bionic" groups="pdk" remote="carbon" />
 
-  <project path="bootable/recovery" name="ProjectOpenCannibal/CarbonRecovery" groups="pdk" remote="carbon" />
+  <project path="bootable/recovery" name="ProjectOpenCannibal/CarbonRecovery" groups="pdk" remote="carbon" revision="cr-5.1-stable" />
 
   <project path="external/dhcpcd-6.8.2" name="CarbonROM/android_external_dhcpcd-6.8.2" groups="pdk" remote="carbon" />
   <project path="external/e2fsprogs" name="CarbonROM/android_external_e2fsprogs" groups="pdk" remote="carbon" />
