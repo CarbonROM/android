@@ -40,9 +40,11 @@
   <!-- Lineage Projects -->
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="lineage" />
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="lineage" />
-  <project path="external/fuse" name="LineageOS/android_external_fuse" remote="lineage" />
   <project path="external/exfat" name="LineageOS/android_external_exfat" remote="lineage" />
+  <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" remote="lineage" />
+  <project path="external/fuse" name="LineageOS/android_external_fuse" remote="lineage" />
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="lineage" />
+  <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" remote="lineage" />
 
   <!-- OmniROM Projects -->
   <project path="packages/apps/OmniStyle" name="CarbonROM/android_packages_apps_OmniStyle" remote="carbon" />
