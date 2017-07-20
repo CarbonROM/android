@@ -38,6 +38,7 @@
   <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
 
   <!-- Lineage Projects -->
+   <project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" remote="lineage" />
   <project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" remote="lineage" />
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="lineage" />
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="lineage" />
