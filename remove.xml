@@ -62,6 +62,7 @@
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/chips" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/rs" />
   <remove-project name="platform/frameworks/support" />
@@ -105,6 +106,7 @@
   <remove-project name="platform/packages/apps/ContactsCommon" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/Email" />
   <remove-project name="platform/packages/apps/ExactCalculator" />
   <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/Launcher3" />
@@ -113,6 +115,7 @@
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/UnifiedEmail" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/services/Telephony" />
