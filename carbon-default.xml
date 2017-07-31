@@ -20,6 +20,10 @@
            review="review.lineageos.org"
            revision="refs/heads/cm-14.1"
            sync-j="8" />
+  
+  <remote  name="github"
+           fetch=".."
+           sync-j="8" />
 
   <!-- FIRST: Remove unused/forked AOSP Projects -->
   <include name="remove.xml" />
