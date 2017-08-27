@@ -2,9 +2,11 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
+
   <default revision="refs/tags/android-8.0.0_r21"
+           sync-c="true"
            remote="aosp"
            sync-j="4" />
 
@@ -618,5 +620,8 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <!-- CarbonROM -->
+  <include name="carbon-default.xml" />
 
 </manifest>
