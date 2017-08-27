@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="android" name="CarbonROM/android" groups="pdk" remote="carbon" />
+
+  <project path="bionic" name="CarbonROM/android_bionic" groups="pdk" remote="carbon" />
+
+  <project path="build/make" name="CarbonROM/android_build_make" groups="pdk" remote="carbon">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/kati" name="CarbonROM/android_build_kati" groups="pdk,tradefed" remote="carbon"/>
+  <project path="build/soong" name="CarbonROM/android_build_soong" groups="pdk,tradefed" remote="carbon">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="bootable/recovery" name="CarbonROM/android_bootable_recovery" groups="pdk" remote="carbon" />
+
+  <project path="external/selinux" name="CarbonROM/android_external_selinux" groups="pdk" remote="carbon" />
+
+  <project path="frameworks/av" name="CarbonROM/android_frameworks_av" groups="pdk" remote="carbon" />
+  <project path="frameworks/base" name="CarbonROM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="frameworks/native" name="CarbonROM/android_frameworks_native" groups="pdk" remote="carbon" />
+  <project path="frameworks/rs" name="CarbonROM/android_frameworks_rs" groups="pdk" remote="carbon" />
+
+  <project path="hardware/libhardware" name="CarbonROM/android_hardware_libhardware" groups="pdk" remote="carbon" />
+  <project path="hardware/qcom/audio/default" name="CarbonROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="carbon" />
+  <project path="hardware/qcom/bt" name="CarbonROM/android_hardware_qcom_bt" groups="qcom,pdk" remote="carbon" />
+  <project path="hardware/qcom/bootctrl" name="CarbonROM/android_hardware_qcom_bootctrl" groups="pdk" remote="carbon" />
+  <project path="hardware/qcom/display" name="CarbonROM/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="carbon" />
+  <project path="hardware/qcom/gps" name="CarbonROM/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="carbon" />
+  <project path="hardware/qcom/keymaster" name="CarbonROM/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="carbon" />
+  <project path="hardware/qcom/media" name="CarbonROM/android_hardware_qcom_media" groups="qcom,pdk" remote="carbon" />
+  <project path="hardware/qcom/wlan" name="CarbonROM/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="carbon" />
+  <project path="hardware/ril" name="CarbonROM/android_hardware_ril" groups="pdk" remote="carbon" />
+
+  <project path="packages/apps/Settings" name="CarbonROM/android_packages_apps_Settings" groups="pdk-fs" remote="carbon" />
+
+  <project path="prebuilts/misc" name="CarbonROM/android_prebuilts_misc" groups="pdk" remote="carbon" />
+
+  <project path="system/core" name="CarbonROM/android_system_core" groups="pdk" remote="carbon" />
+  <project path="system/sepolicy" name="CarbonROM/android_system_sepolicy" groups="pdk" remote="carbon" />
+
+</manifest>
