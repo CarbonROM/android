@@ -61,6 +61,8 @@
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/Settings" />
 
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+
   <remove-project name="platform/prebuilts/misc" />
 
   <remove-project name="platform/system/core" />
