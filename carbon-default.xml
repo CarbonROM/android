@@ -35,6 +35,4 @@
 
   <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
 
-  <!-- Vanilla Music -->
-  <project path="packages/apps/Vanilla" name="vanilla-music/vanilla" groups="pdk-fs" remote="gh" revision="master" />
 </manifest>
