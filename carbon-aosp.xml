@@ -49,6 +49,8 @@
 
   <project path="system/bt" name="CarbonROM/android_system_bt" groups="pdk" remote="carbon" />
   <project path="system/core" name="CarbonROM/android_system_core" groups="pdk" remote="carbon" />
+  <project path="system/media" name="CarbonROM/android_system_media" groups="pdk" remote="carbon" />
   <project path="system/sepolicy" name="CarbonROM/android_system_sepolicy" groups="pdk" remote="carbon" />
+  <project path="system/vold" name="CarbonROM/android_system_vold" groups="pdk" remote="carbon" />
 
 </manifest>
