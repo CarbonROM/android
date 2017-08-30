@@ -18,7 +18,7 @@
   <remote  name="lineage"
            fetch=".."
            review="review.lineageos.org"
-           revision="refs/heads/cm-14.1"
+           revision="refs/heads/lineage-15.0"
            sync-j="8" />
 
   <!-- FIRST: Remove unused/forked AOSP Projects -->
