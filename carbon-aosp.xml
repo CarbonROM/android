@@ -22,6 +22,7 @@
 
   <project path="bootable/recovery" name="CarbonROM/android_bootable_recovery" groups="pdk" remote="carbon" />
 
+  <project path="external/avb" name="CarbonROM/android_external_avb" groups="pdk" remote="carbon" />
   <project path="external/selinux" name="CarbonROM/android_external_selinux" groups="pdk" remote="carbon" />
   <project path="external/skia" name="CarbonROM/android_external_skia" groups="pdk,qcom_msm8x26" remote="carbon" />
 
