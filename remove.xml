@@ -39,6 +39,8 @@
   <remove-project name="device/linaro/hikey" />
   <remove-project name="device/linaro/hikey-kernel" />
 
+  <remove-project name="hardware/interfaces" />
+
   <remove-project name="platform/external/avb" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/skia" />
