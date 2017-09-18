@@ -33,6 +33,9 @@
   <!-- CarbonROM Projects -->
   <project path="packages/apps/Quarks" name="CarbonROM/android_packages_apps_Quarks" remote="carbon" />
 
+  <project path="external/ffmpeg" name="CarbonROM/android_external_ffmpeg" remote="carbon" />
+  <project path="external/stagefright-plugins" name="CarbonROM/android_external_stagefright-plugins" remote="carbon" />
+
   <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
 
 </manifest>
