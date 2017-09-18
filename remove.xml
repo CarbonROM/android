@@ -48,20 +48,26 @@
   <remove-project name="platform/external/elfutils" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/jemalloc" />
+  <remove-project name="platform/external/libavc" />
+  <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libnfc-nci" />
   <remove-project name="platform/external/libnfc-nxp" />
   <remove-project name="platform/external/libpng" />
+  <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/skia" />
+  <remove-project name="platform/external/sonivox" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
+  <remove-project name="platform/external/tremolo" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/zlib" />
 
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/minikin" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/chips" />
   <remove-project name="platform/frameworks/opt/telephony" />
@@ -111,6 +117,7 @@
   <remove-project name="platform/packages/apps/ExactCalculator" />
   <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
