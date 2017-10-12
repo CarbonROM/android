@@ -16,6 +16,7 @@
 
   <project path="external/chromium-webview" name="CarbonROM/android_external_chromium-webview" groups="pdk" remote="carbon" />
   <project path="external/dhcpcd-6.8.2" name="CarbonROM/android_external_dhcpcd-6.8.2" groups="pdk" remote="carbon" />
+  <project path="external/dnsmasq" name="CarbonROM/android_external_dnsmasq" groups="pdk" remote="carbon" />
   <project path="external/e2fsprogs" name="CarbonROM/android_external_e2fsprogs" groups="pdk" remote="carbon" />
   <project path="external/elfutils" name="CarbonROM/android_external_elfutils" groups="pdk" remote="carbon" />
   <project path="external/f2fs-tools" name="CarbonROM/android_external_f2fs-tools" groups="pdk" remote="carbon" />
@@ -25,6 +26,7 @@
   <project path="external/libjpeg-turbo" name="CarbonROM/android_external_libjpeg-turbo" groups="pdk" remote="carbon" />
   <project path="external/libnfc-nci" name="CarbonROM/android_external_libnfc-nci" groups="pdk" remote="carbon" />
   <project path="external/libnfc-nxp" name="CarbonROM/android_external_libnfc-nxp" groups="pdk" remote="carbon" />
+  <project path="external/libmpeg2" name="CarbonROM/android_external_libmpeg2" groups="pdk" remote="carbon" />  
   <project path="external/libpng" name="CarbonROM/android_external_libpng" groups="pdk" remote="carbon" />
   <project path="external/libvpx" name="CarbonROM/android_external_libvpx" groups="pdk" remote="carbon" />
   <project path="external/skia" name="CarbonROM/android_external_skia" groups="pdk" remote="carbon" />
