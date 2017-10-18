@@ -39,7 +39,8 @@
   <remove-project name="device/linaro/hikey" />
   <remove-project name="device/linaro/hikey-kernel" />
 
-  <remove-project name="platform/external/avb" />
+  <remove-project name="platform/external/elfutils" />
+  <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/libnetfilter_conntrack" />
   <remove-project name="platform/external/libnfnetlink" />
   <remove-project name="platform/external/selinux" />
@@ -76,6 +77,7 @@
 
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/nfc" /> 
   <remove-project name="platform/system/sepolicy" />
