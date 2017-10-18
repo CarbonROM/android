@@ -39,6 +39,7 @@
   <remove-project name="device/linaro/hikey" />
   <remove-project name="device/linaro/hikey-kernel" />
 
+  <remove-project name="platform/external/bison" />
   <remove-project name="platform/external/elfutils" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/selinux" />
