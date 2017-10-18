@@ -14,6 +14,8 @@
 
   <project path="bootable/recovery" name="CarbonROM/android_bootable_recovery" groups="pdk" remote="carbon" />
 
+
+  <project path="external/bison" name="CarbonROM/android_external_bison" groups="pdk" remote="carbon" />
   <project path="external/chromium-webview" name="CarbonROM/android_external_chromium-webview" groups="pdk" remote="carbon" />
   <project path="external/dhcpcd-6.8.2" name="CarbonROM/android_external_dhcpcd-6.8.2" groups="pdk" remote="carbon" />
   <project path="external/dnsmasq" name="CarbonROM/android_external_dnsmasq" groups="pdk" remote="carbon" />
