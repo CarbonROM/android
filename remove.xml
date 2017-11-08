@@ -29,6 +29,10 @@
   <remove-project name="device/google/dragon-kernel" />
   <remove-project name="device/google/marlin" />
   <remove-project name="device/google/marlin-kernel" />
+  <remove-project name="device/google/muskie" />
+  <remove-project name="device/google/taimen" />
+  <remove-project name="device/google/wahoo" />
+  <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/huawei/angler" />
   <remove-project name="device/huawei/angler-kernel" />
   <remove-project name="device/lge/bullhead" />
