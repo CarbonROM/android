@@ -36,4 +36,8 @@
 
   <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
 
+  <!-- CarbonROM external repos -->
+  <project path="external/ntfs-3g" name="CarbonROM/android_external_ntfs-3g" remote="carbon" />
+  <project path="external/exfat" name="CarbonROM/android_external_exfat" remote="carbon" />
+
 </manifest>
