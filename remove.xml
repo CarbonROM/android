@@ -87,4 +87,8 @@
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/libhidl" />
+
+  <remove-project path="external/e2fsprogs" />
+  <remove-project path="external/gptfdisk" />
+  <remove-project path="external/zlib" />
 </manifest>
