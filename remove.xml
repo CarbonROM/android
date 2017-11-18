@@ -86,4 +86,5 @@
   <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/libhidl" />
 </manifest>

@@ -65,5 +65,6 @@
   <project path="system/nfc" name="CarbonROM/android_system_nfc" groups="pdk" remote="carbon" />
   <project path="system/sepolicy" name="CarbonROM/android_system_sepolicy" groups="pdk" remote="carbon" />
   <project path="system/vold" name="CarbonROM/android_system_vold" groups="pdk" remote="carbon" />
+  <project path="system/libhidl" name="CarbonROM/platform_system_libhidl" groups="pdk" remote="carbon"/>
 
 </manifest>
