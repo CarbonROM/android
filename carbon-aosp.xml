@@ -67,4 +67,9 @@
   <project path="system/vold" name="CarbonROM/android_system_vold" groups="pdk" remote="carbon" />
   <project path="system/libhidl" name="CarbonROM/platform_system_libhidl" groups="pdk" remote="carbon"/>
 
+  <project path="external/e2fsprogs" name="CarbonROM/android_external_e2fsprogs" groups="pdk" remote="carbon"/>
+  <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" remote="carbon" />
+  <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" remote="carbon" />
+  <project path="external/zlib" name="LineageOS/android_external_libtar" groups="pdk" remote="carbon" />
+
 </manifest>
