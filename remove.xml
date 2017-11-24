@@ -44,6 +44,7 @@
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/libnetfilter_conntrack" />
   <remove-project name="platform/external/libnfnetlink" />
+
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/tinycompress" />
