@@ -21,6 +21,11 @@
            revision="refs/heads/lineage-15.0"
            sync-j="8" />
 
+  <remote  name="zx2c4"
+           fetch="https://git.zx2c4.com/"
+           sync-c="true"
+           sync-j="8" />
+
   <!-- FIRST: Remove unused/forked AOSP Projects -->
   <include name="remove.xml" />
 
@@ -35,5 +40,8 @@
   <project path="packages/apps/Quarks" name="CarbonROM/android_packages_apps_Quarks" remote="carbon" />
 
   <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
+
+  <!-- WireGuard Module -->
+  <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
 
 </manifest>
