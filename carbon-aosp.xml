@@ -45,6 +45,7 @@
   <project path="hardware/qcom/audio/default" name="CarbonROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="carbon" />
   <project path="hardware/qcom/bt" name="CarbonROM/android_hardware_qcom_bt" groups="qcom,pdk" remote="carbon" />
   <project path="hardware/qcom/bootctrl" name="CarbonROM/android_hardware_qcom_bootctrl" groups="pdk" remote="carbon" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="CarbonROM/android_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk" remote="carbon" />
   <project path="hardware/qcom/display" name="CarbonROM/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="carbon" />
   <project path="hardware/qcom/gps" name="CarbonROM/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="carbon" />
   <project path="hardware/qcom/keymaster" name="CarbonROM/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="carbon" />
