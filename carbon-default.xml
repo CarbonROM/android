@@ -18,7 +18,7 @@
   <remote  name="lineage"
            fetch=".."
            review="review.lineageos.org"
-           revision="refs/heads/lineage-15.0"
+           revision="refs/heads/lineage-15.1"
            sync-j="8" />
 
   <!-- FIRST: Remove unused/forked AOSP Projects -->
@@ -35,5 +35,9 @@
   <project path="packages/apps/Quarks" name="CarbonROM/android_packages_apps_Quarks" remote="carbon" />
 
   <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
+
+  <!-- LineageOS Projects -->
+  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="lineage" />
+  
 
 </manifest>
