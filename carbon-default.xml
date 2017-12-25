@@ -43,4 +43,7 @@
   <project path="external/fuse" name="omnirom/android_external_fuse" remote="gh" revision="android-8.0" />
   <project path="external/ntfs-3g" name="omnirom/android_external_ntfs-3g" remote="gh" revision="android-8.1"/>
 
+  <!-- LineageOS Projects -->
+  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="lineage" />
+
 </manifest>
