@@ -36,7 +36,7 @@
   <project path="hardware/qcom/media-caf/msm8974" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" remote="lineage" revision="lineage-15.0-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8994" name="CarbonROM/android_hardware_qcom_media" groups="qcom,pdk" remote="carbon" revision="cr-6.0-caf-8994" />
   <project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" remote="lineage" revision="lineage-15.0-caf-8996" />
-  <project path="hardware/qcom/media-caf/msm8998" name="CarbonROM/android_hardware_qcom_media" groups="qcom,pdk" remote="carbon" revision="cr-6.0-caf-8998" />
+  <project path="hardware/qcom/media-caf/msm8998" name="CarbonROM/android_hardware_qcom_media" groups="qcom,pdk" remote="carbon" revision="cr-6.1-caf-8998" />
   <project path="hardware/qcom/wlan-caf" name="CarbonROM/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="carbon" revision="cr-6.0-caf" />
   <project path="hardware/ril-caf" name="CarbonROM/android_hardware_ril" groups="pdk" remote="carbon" revision="cr-6.0-caf" />
   <project path="system/qcom" name="CarbonROM/android_system_qcom" groups="qcom" remote="carbon" />
