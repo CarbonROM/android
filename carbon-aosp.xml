@@ -15,6 +15,7 @@
   <project path="bootable/recovery" name="CarbonROM/android_bootable_recovery" groups="pdk" remote="carbon" />
 
 
+  <project path="external/aac" name="CarbonROM/android_external_aac" groups="pdk" remote="carbon" />
   <project path="external/bison" name="CarbonROM/android_external_bison" groups="pdk" remote="carbon" />
   <project path="external/chromium-webview" name="CarbonROM/android_external_chromium-webview" groups="pdk" remote="carbon" />
   <project path="external/dhcpcd-6.8.2" name="CarbonROM/android_external_dhcpcd-6.8.2" groups="pdk" remote="carbon" />
@@ -43,6 +44,7 @@
 
   <project path="frameworks/av" name="CarbonROM/android_frameworks_av" groups="pdk" remote="carbon" />
   <project path="frameworks/base" name="CarbonROM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="frameworks/ex" name="CarbonROM/android_frameworks_ex" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="frameworks/minikin" name="CarbonROM/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="frameworks/native" name="CarbonROM/android_frameworks_native" groups="pdk" remote="carbon" />
   <project path="frameworks/opt/chips" name="CarbonROM/android_frameworks_opt_chips" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
