@@ -31,6 +31,8 @@
   <include name="carbon-caf.xml" />
 
   <!-- CarbonROM Projects -->
+  <project path="external/cr-fonts" name="CarbonROM/android_external_cr-fonts" remote="carbon" />
+
   <project path="packages/apps/CarbonFibers" name="CarbonROM/android_packages_apps_CarbonFibers" remote="carbon" />
   <project path="packages/apps/CarbonDelta" name="CarbonROM/android_packages_apps_CarbonDelta" remote="carbon" />
   <project path="packages/apps/Quarks" name="CarbonROM/android_packages_apps_Quarks" remote="carbon" />
