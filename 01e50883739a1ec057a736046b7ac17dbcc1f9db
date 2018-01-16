@@ -1,0 +1,4 @@
+{
+  "pushCert": "certificate version 0.1\npusher CBF54FB8 1516067097 -0500\npushee ssh://review.carbonrom.org:29418/CarbonROM/android\nnonce 1516067097-1CE0410329248D3E159E39670FE6CA029C4FBF40\n\n0000000000000000000000000000000000000000 01e50883739a1ec057a736046b7ac17dbcc1f9db refs/for/cr-6.1%draft\n-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEes0mZaC+fYIfHOUlT7Va2cv1T7gFAlpdWRkACgkQT7Va2cv1\nT7iPYQf+J5Ttha2r8auFric07QNlH/liRlYK6EXhqDyKjr0LEuksqyAgcFcC6UEL\nnv8YLvKEuqAM2cV2/mefXWzmWfGeqxjs8PYZyBKb7KDSkVsoDyMOIR+MA0RSaYUX\nisy8R9dh+x9CWaGfVSaZhiNA96ZDSoiW9t7bnyEoHSZQA19YSEQJcHWDq5JNiKMy\nPSPGMCnG6ijx+pGW3cskqXc7/BWMxeoutfmlPc6Gb4In9d5SlQO2jfld5P2c9+LT\nMOKBvRdxC/oPOmxi0yuC419hkkkwfch89MuqgYToSbULKXdgcoo6FloX+CmeTmXm\nPorGdfnXwEbKxRjqV8IF/8sG43cMrw\u003d\u003d\n\u003de3CE\n-----END PGP SIGNATURE-----\n",
+  "comments": []
+}
