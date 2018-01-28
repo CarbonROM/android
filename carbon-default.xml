@@ -32,6 +32,9 @@
 
   <!-- CarbonROM Projects -->
   <project path="device/carbon/sepolicy" name="CarbonROM/android_device_carbon_sepolicy" remote="carbon" />
+
+  <project path="frameworks/hwkeys-support" name="CarbonROM/android_frameworks_hwkeys-support" remote="carbon" />
+
   <project path="packages/apps/CarbonFibers" name="CarbonROM/android_packages_apps_CarbonFibers" remote="carbon" />
   <project path="packages/apps/CarbonDelta" name="CarbonROM/android_packages_apps_CarbonDelta" remote="carbon" />
   <project path="packages/apps/Quarks" name="CarbonROM/android_packages_apps_Quarks" remote="carbon" />
