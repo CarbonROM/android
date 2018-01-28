@@ -23,6 +23,7 @@
   <project path="bootable/recovery" name="CarbonROM/android_bootable_recovery" groups="pdk" remote="carbon" />
 
   <project path="external/bison" name="CarbonROM/android_external_bison" groups="pdk" remote="carbon" />
+  <project path="external/e2fsprogs" name="CarbonROM/android_external_e2fsprogs" groups="pdk" remote="carbon" />
   <project path="external/elfutils" name="CarbonROM/android_external_elfutils" groups="pdk" remote="carbon" />
   <project path="external/f2fs-tools" name="CarbonROM/android_external_f2fs-tools" groups="pdk" remote="carbon" />
   <project path="external/libnetfilter_conntrack" name="CarbonROM/android_external_libnetfilter_conntrack" groups="pdk" remote="carbon" />
