@@ -41,12 +41,12 @@
   <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
 
   <!-- OmniROM Projects -->
+  <project path="packages/apps/FMRadio" name="omnirom/android_packages_apps_FMRadio" remote="gh" revision="android-8.0" />
   <project path="external/exfat" name="omnirom/android_external_exfat" remote="gh" revision="android-8.1" />
   <project path="external/fuse" name="omnirom/android_external_fuse" remote="gh" revision="android-8.0" />
   <project path="external/ntfs-3g" name="omnirom/android_external_ntfs-3g" remote="gh" revision="android-8.1"/>
 
   <!-- LineageOS Projects -->
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="lineage" />
-  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="lineage" />
 
 </manifest>
