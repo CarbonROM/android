@@ -38,6 +38,7 @@
   <project path="hardware/qcom/wlan-caf" name="CarbonROM/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="carbon" revision="cr-6.1-caf" />
   <project path="hardware/ril-caf" name="CarbonROM/android_hardware_ril" groups="pdk" remote="carbon" revision="cr-6.1-caf" />
   <project path="system/qcom" name="CarbonROM/android_system_qcom" groups="qcom" remote="carbon" />
+  <project path="system/tools/dtbtool" name="CarbonROM/android_system_tools_dtbtool" remote="carbon" revision="cr-6.1" />
   <project path="vendor/codeaurora/telephony" name="CarbonROM/android_vendor_codeaurora_telephony" remote="carbon" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="CarbonROM/android_vendor_qcom_opensource_cryptfs_hw" remote="carbon" />
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="lineage" />
