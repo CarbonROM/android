@@ -43,6 +43,12 @@
   <project path="system/qcom" name="CarbonROM/android_system_qcom" groups="qcom" remote="carbon" />
   <project path="system/tools/dtbtool" name="CarbonROM/android_system_tools_dtbtool" remote="carbon" revision="cr-6.1" />
   <project path="vendor/codeaurora/telephony" name="CarbonROM/android_vendor_codeaurora_telephony" remote="carbon" />
+  <project path="vendor/nxp/interfaces/opensource/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" >
+    <linkfile dest="vendor/nxp/interfaces/Android.bp" src="prop_pickup.bp"/>
+  </project>
+  <project path="vendor/nxp/opensource/external/libnfc-nci" name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" remote="lineage" />
+  <project path="vendor/nxp/opensource/frameworks" name="LineageOS/android_vendor_nxp_opensource_frameworks" remote="lineage" />
+  <project path="vendor/nxp/opensource/packages/apps/Nfc" name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" remote="lineage" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="CarbonROM/android_vendor_qcom_opensource_cryptfs_hw" remote="carbon" />
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="lineage" />
   <project path="vendor/qcom/opensource/interfaces" name="CarbonROM/android_vendor_qcom_opensource_interfaces" remote="carbon" />
