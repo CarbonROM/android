@@ -4,10 +4,9 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
-
   <default revision="refs/tags/android-8.1.0_r15"
-           sync-c="true"
            remote="aosp"
+           sync-c="true"
            sync-j="4" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
