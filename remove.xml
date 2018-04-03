@@ -51,6 +51,7 @@
   <remove-project name="platform/external/libnfnetlink" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/skia" />
+  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/wpa_supplicant_8" />
 
