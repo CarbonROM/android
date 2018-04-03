@@ -32,6 +32,7 @@
   <project path="external/libnfnetlink" name="CarbonROM/android_external_libnfnetlink" groups="pdk" remote="carbon" />
   <project path="external/selinux" name="CarbonROM/android_external_selinux" groups="pdk" remote="carbon" />
   <project path="external/skia" name="CarbonROM/android_external_skia" groups="pdk,qcom_msm8x26" remote="carbon" />
+  <project path="external/sqlite" name="CarbonROM/android_external_sqlite" groups="pdk" remote="carbon" />
   <project path="external/tinycompress" name="CarbonROM/android_external_tinycompress" groups="pdk" remote="carbon" />
   <project path="external/wpa_supplicant_8" name="CarbonROM/android_external_wpa_supplicant_8" groups="pdk" remote="carbon" />
 
