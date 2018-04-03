@@ -3,6 +3,7 @@
 
   <project path="android" name="CarbonROM/android" groups="pdk" remote="carbon" />
 
+  <project path="art" name="CarbonROM/android_art" groups="pdk" remote="carbon" />
   <project path="bionic" name="CarbonROM/android_bionic" groups="pdk" remote="carbon" />
 
   <project path="build/make" name="CarbonROM/android_build_make" groups="pdk" remote="carbon">
