@@ -30,6 +30,7 @@
   <project path="external/libnetfilter_conntrack" name="CarbonROM/android_external_libnetfilter_conntrack" groups="pdk" remote="carbon" />
   <project path="external/libnfc-nxp" name="CarbonROM/android_external_libnfc-nxp" groups="pdk" remote="carbon" />
   <project path="external/libnfnetlink" name="CarbonROM/android_external_libnfnetlink" groups="pdk" remote="carbon" />
+  <project path="external/libpng" name="CarbonROM/android_external_libpng" groups="pdk" remote="carbon" />
   <project path="external/selinux" name="CarbonROM/android_external_selinux" groups="pdk" remote="carbon" />
   <project path="external/skia" name="CarbonROM/android_external_skia" groups="pdk,qcom_msm8x26" remote="carbon" />
   <project path="external/sqlite" name="CarbonROM/android_external_sqlite" groups="pdk" remote="carbon" />
