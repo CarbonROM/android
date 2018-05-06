@@ -3,43 +3,42 @@ CarbonROM Source
 
 Getting Started
 ---------------
-To get started with the CarbonROM sources, you'll need to get
-familiar with [Git and Repo](http://source.android.com/source/version-control.html).
-
+To get started with the CarbonROM sources, you'll need to get familiar with [Git and Repo](http://source.android.com/source/version-control.html).
 
 Create the Directories
 ----------------------
 
-You will need to set up some directories in your build environment.
-
-To create them run:
+You will need to set up some directories in your build environment:
 
     mkdir -p ~/bin
-    mkdir -p ~/carbon
+    mkdir -p ~/CarbonROM
 
+~/bin will store the **repo** executable
 
-Install the Repository
+~/CarbonROM will store the repositories synced from GitHub
+
+Install repo
 ----------------------
 
 Enter the following to download the "repo" binary and make it executable:
 
-curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo && chmod a+x ~/bin/repo
+	curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo && chmod a+x ~/bin/repo
 
 You may need to reboot for these changes to take effect.
+
+
+
+Init and Sync the Repositories:
+---------------
 Now enter the following to initialize the repository:
 
     cd ~/CarbonROM
+The following command initializes and then synchronizes your local project directories with the remote repositories specified in the manifest. As your local project does not yet exist (if you run this the first time), it will clone a new local directory from the remote repository:
 
-
-Repositories:
----------------
-
-Before you continue --> run this in the terminal
-----------------------------------------
     repo init -u https://github.com/CarbonROM/android.git -b cr-6.1 && repo sync -f
 
-*PLEASE NOTE THAT YOU MUST USE THE -f flag when repo syncing/initializing if you want to sync with our default -j8 setup as android.googlesource seems to like to reject your requests if you set your -jflag too high.
-if you wish to avoid this issue run it repo sync -j1 otherwise -f (force) is recommended so it will resync the repos it gets error codes on. Thank you and have a nice day.*
+*Note that you MUST use the **-f** flag when repo syncing/initializing if you want to sync with our default **-j 4** setup (4 projects to fetch simultaneously as specified in default.xml) as android.googlesource seems to like to reject your requests if you set your **-j** flag too high.
+If you wish to avoid this issue run repo sync with **-j1**. Otherwise **-f** (force) is recommended so it will resync the projects it gets error codes on.*
 
 
 Building the System
@@ -66,11 +65,22 @@ You can do this by using these commands:
     git config --global review.review.carbonrom.org.username <Your username registered at CarbonROM gerrit>
     git config --global review.review.carbonrom.org.email <Your email registered at CarbonROM gerrit>
 
-    (From root android directory)
+    (From CarbonROM/android directory)
     . build/envsetup.sh
     repo start cr-6.1 .
     (Make your changes and commit)
     repo upload .
+
+Note: "." meaning current directory
+For more help on using this tool, use this command: repo help upload
+
+Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
+Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
+
+To view the status of your and others' patches, visit [CarbonROM Code Review](http://review.carbonrom.org/)
+
+Signing Commits
+-------------------
 
 As of January 1st, 2017, we will only allow GPG signed commits on our Gerrit/GitHub orgs, as well as require a signed push.
 You can set up signed commits by setting up the key accoridng to these directions on the [Git-SCM Site](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work)
@@ -86,19 +96,19 @@ and enable signing your commits with:
     git config --global commit.gpgsign true
 
 
-Note: "." meaning current directory
-For more help on using this tool, use this command: repo help upload
 
-Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
-Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
 
-To view the status of your and others' patches, visit [CarbonROM Code Review](http://review.carbonrom.org/)
-
+Get in Contact
+-------------------
 If you have any issues/questions please contact us in channel:
- #carbonrom       //General-related questions
- #carbonrom-dev   //Development-related questions
+
+ [#carbonrom](http://webchat.freenode.net/?channels=carbonrom)       //General-related questions
+
+ [#carbonrom-dev](http://webchat.freenode.net/?channels=carbonrom-dev)   //Development-related questions
 
  server: irc.freenode.net
+
+ Or meet us on [CarbonROM Discord](https://discord.gg/3eZCPTx)
 
 Attention Themers
 ------------------
