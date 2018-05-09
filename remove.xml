@@ -86,6 +86,7 @@
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/CarrierConfig" />
   <remove-project name="platform/packages/apps/DeskClock" />
+  <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Music" />
