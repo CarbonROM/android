@@ -28,6 +28,7 @@
   <project path="external/elfutils" name="CarbonROM/android_external_elfutils" groups="pdk" remote="carbon" />
   <project path="external/f2fs-tools" name="CarbonROM/android_external_f2fs-tools" groups="pdk" remote="carbon" />
   <project path="external/libdrm" name="LineageOS/android_external_libdrm" groups="pdk" remote="lineage" />
+  <project path="external/libjpeg-turbo" name="CarbonROM/android_external_libjpeg-turbo" groups="pdk" remote="carbon" />
   <project path="external/libnetfilter_conntrack" name="CarbonROM/android_external_libnetfilter_conntrack" groups="pdk" remote="carbon" />
   <project path="external/libnfc-nxp" name="CarbonROM/android_external_libnfc-nxp" groups="pdk" remote="carbon" />
   <project path="external/libnfnetlink" name="CarbonROM/android_external_libnfnetlink" groups="pdk" remote="carbon" />
