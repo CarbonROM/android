@@ -110,11 +110,6 @@ If you have any issues/questions please contact us in channel:
 
  Or meet us on [CarbonROM Discord](https://discord.gg/3eZCPTx)
 
-Attention Themers
-------------------
-You can find all CarbonROM Resources that need to be themed [here](https://github.com/CarbonROM/ThemeResources)
-Let us know when there is anything else we can help with, we will gladly do.
-
 Help in translating CarbonROM
 ---------------
 We use crowdin for our ROMs translation. If you want to help with that, you can do so here.
