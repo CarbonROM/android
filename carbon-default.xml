@@ -37,5 +37,6 @@
   <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
 
   <!-- LineageOS Projects -->
+  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" />
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="lineage" />
 </manifest>
