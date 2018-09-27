@@ -58,4 +58,5 @@
   <project path="prebuilts/build-tools" name="CarbonROM/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="carbon" />
 
   <project path="system/core" name="CarbonROM/android_system_core" groups="pdk" remote="carbon" />
+  <project path="system/vold" name="CarbonROM/android_system_core" groups="pdk" remote="carbon" />
 </manifest>
