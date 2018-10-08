@@ -84,6 +84,8 @@
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
 
+  <remove-project name="platform/packages/providers/MediaProvider" />
+
   <remove-project name="platform/prebuilts/build-tools" />
 
   <remove-project name="platform/system/core" />
