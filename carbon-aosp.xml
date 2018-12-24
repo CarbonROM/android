@@ -38,6 +38,7 @@
   <project path="frameworks/rs" name="CarbonROM/android_frameworks_rs" groups="pdk" remote="carbon" />
   <project path="frameworks/support" name="CarbonROM/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
 
+  <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="lineage" />
   <project path="hardware/broadcom/wlan" name="LineageOS/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="lineage" />
   <project path="hardware/interfaces" name="CarbonROM/android_hardware_interfaces" groups="pdk" remote="carbon" />
   <project path="hardware/libhardware" name="CarbonROM/android_hardware_libhardware" groups="pdk" remote="carbon" />
