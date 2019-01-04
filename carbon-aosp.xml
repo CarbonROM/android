@@ -35,6 +35,7 @@
   <project path="frameworks/base" name="CarbonROM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="frameworks/compile/mclinker" name="CarbonROM/android_frameworks_compile_mclinker" groups="pdk" remote="carbon" />
   <project path="frameworks/native" name="CarbonROM/android_frameworks_native" groups="pdk" remote="carbon" />
+  <project path="frameworks/opt/telephony" name="CarbonROM/android_frameworks_opt_telephony" groups="pdk" remote="carbon" />
   <project path="frameworks/rs" name="CarbonROM/android_frameworks_rs" groups="pdk" remote="carbon" />
   <project path="frameworks/support" name="CarbonROM/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
 
