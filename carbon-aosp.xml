@@ -46,6 +46,7 @@
   <project path="hardware/interfaces" name="CarbonROM/android_hardware_interfaces" groups="pdk" remote="carbon" />
   <project path="hardware/libhardware" name="CarbonROM/android_hardware_libhardware" groups="pdk" remote="carbon" />
   <project path="hardware/libhardware_legacy" name="CarbonROM/android_hardware_libhardware_legacy" groups="pdk" remote="carbon" />
+  <project path="hardware/nxp/nfc" name="LineageOS/android_hardware_nxp_nfc" groups="pdk" remote="lineage" />
   <project path="hardware/qcom/audio/default" name="CarbonROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="carbon" />
   <project path="hardware/qcom/bt" name="CarbonROM/android_hardware_qcom_bt" groups="qcom,pdk" remote="carbon" />
   <project path="hardware/qcom/bootctrl" name="CarbonROM/android_hardware_qcom_bootctrl" groups="pdk" remote="carbon" />
