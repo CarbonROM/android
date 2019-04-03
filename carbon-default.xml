@@ -36,7 +36,7 @@
   <project path="device/carbon/sepolicy" name="CarbonROM/android_device_carbon_sepolicy" remote="carbon" />
 
   <project path="packages/apps/Snap" name="CarbonROM/android_packages_apps_Snap" remote="carbon" />
-  <project path="packages/apps/Quarks" name="CarbonROM/android_packages_apps_Quarks" remote="carbon" />
+  <!-- <project path="packages/apps/Quarks" name="CarbonROM/android_packages_apps_Quarks" remote="carbon" /> -->
   <project path="packages/apps/CarbonDelta" name="CarbonROM/android_packages_apps_CarbonDelta" remote="carbon" />
   <project path="packages/apps/CarbonFibers" name="CarbonROM/android_packages_apps_CarbonFibers" remote="carbon" />
 
@@ -48,4 +48,7 @@
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="lineage" />
   <project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" remote="lineage" />
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="lineage" />
+
+  <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="lineage" />
+
 </manifest>
