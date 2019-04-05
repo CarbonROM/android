@@ -86,6 +86,7 @@
   <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" remote="lineage" />
   <project path="system/core" name="CarbonROM/android_system_core" groups="pdk" remote="carbon" />
   <project path="system/libhidl" name="CarbonROM/android_system_libhidl" groups="pdk" remote="carbon" />
+  <project path="system/netd" name="CarbonROM/android_system_netd" groups="pdk" remote="carbon"/>
   <project path="system/sepolicy" name="CarbonROM/android_system_sepolicy" groups="pdk" remote="carbon" />
   <project path="system/update_engine" name="CarbonROM/android_system_update_engine" groups="pdk" remote="carbon" />
   <project path="system/vold" name="CarbonROM/android_system_vold" groups="pdk" remote="carbon" />
