@@ -51,4 +51,6 @@
 
   <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="lineage" />
 
+  <!-- OmniROM Projects -->
+  <project path="vendor/interfaces" name="omnirom/android_vendor_interfaces" remote="gh" revision="android-9.0" />
 </manifest>
