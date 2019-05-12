@@ -81,6 +81,7 @@
   <project path="packages/providers/DownloadProvider" name="CarbonROM/android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/providers/MediaProvider" name="CarbonROM/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
 
+  <project path="prebuilts/abi-dumps/ndk" name="CarbonROM/android_prebuilts_abi-dumps_ndk" groups="pdk-fs" clone-depth="1" remote="carbon" />
   <project path="prebuilts/build-tools" name="CarbonROM/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="carbon" />
 
   <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" remote="lineage" />
