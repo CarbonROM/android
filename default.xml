@@ -4,6 +4,8 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
   <default revision="refs/tags/android-9.0.0_r40"
            remote="aosp"
            sync-c="true"
