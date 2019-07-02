@@ -23,10 +23,12 @@
   <remove-project name="device/google/accessory/arduino" />
   <remove-project name="device/google/accessory/demokit" />
   <remove-project name="device/google/atv" />
+  <remove-project name="device/google/bonito" />
+  <remove-project name="device/google/bonito-kernel" />
+  <remove-project name="device/google/bonito-sepolicy" />
   <remove-project name="device/google/crosshatch" />
   <remove-project name="device/google/crosshatch-kernel" />
   <remove-project name="device/google/crosshatch-sepolicy" />
-
   <remove-project name="device/google/cuttlefish" />
   <remove-project name="device/google/cuttlefish_common" />
   <remove-project name="device/google/cuttlefish_kernel" />
@@ -76,6 +78,12 @@
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/power" />
+  <remove-project name="platform/hardware/qcom/sdm710/data/ipacfg-mgr" />
+  <remove-project name="platform/hardware/qcom/sdm710/display" />
+  <remove-project name="platform/hardware/qcom/sdm710/gps" />
+  <remove-project name="platform/hardware/qcom/sdm710/media" />
+  <remove-project name="platform/hardware/qcom/sdm710/thermal" />
+  <remove-project name="platform/hardware/qcom/sdm710/vr" />
   <remove-project name="platform/hardware/qcom/sdm845/bt" />
   <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/qcom/sdm845/display" />
