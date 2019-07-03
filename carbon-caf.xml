@@ -38,6 +38,10 @@
   <project path="hardware/qcom/wlan-caf" name="CarbonROM/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="carbon" revision="cr-7.0-caf" />
   <project path="hardware/ril-caf" name="CarbonROM/android_hardware_ril" groups="pdk" remote="carbon" revision="cr-7.0-caf" />
 
+  <project path="hardware/qcom/audio-caf/sm8150" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="lineage" revision="lineage-16.0-caf-8150" />
+  <project path="hardware/qcom/media-caf/sm8150" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" remote="lineage" revision="lineage-16.0-caf-8150" />
+  <project path="hardware/qcom/display-caf/sm8150" name="LineageOS/android_hardware_qcom_display" groups="qcom,qcom_display,pdk" remote="lineage"  revision="lineage-16.0-caf-8150" />
+
   <project path="system/tools/dtbtool" name="CarbonROM/android_system_tools_dtbtool" remote="carbon" />
   <project path="system/qcom" name="CarbonROM/android_system_qcom" groups="qcom" remote="carbon" />
 
