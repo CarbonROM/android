@@ -57,6 +57,7 @@
   <project path="hardware/qcom/gps" name="CarbonROM/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="carbon" />
   <project path="hardware/qcom/keymaster" name="CarbonROM/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="carbon" />
   <project path="hardware/qcom/media" name="CarbonROM/android_hardware_qcom_media" groups="qcom,pdk" remote="carbon" />
+  <project path="hardware/qcom/msm8998" name="CarbonROM/android_hardware_qcom_msm8998" groups="qcom_msm8998,pdk-qcom" remote="carbon" />
   <project path="hardware/qcom/wlan" name="CarbonROM/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="carbon" />
   <project path="hardware/ril" name="CarbonROM/android_hardware_ril" groups="pdk" remote="carbon" />
 
