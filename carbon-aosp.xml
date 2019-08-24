@@ -25,16 +25,21 @@
 
   <project path="external/bison" name="CarbonROM/android_external_bison" groups="pdk" remote="carbon" />
   <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lineage" />
+  <project path="external/chromium-libpac" name="CarbonROM/android_external_chromium-libpac" groups="pdk" remote="carbon" />
   <project path="external/e2fsprogs" name="CarbonROM/android_external_e2fsprogs" groups="pdk" remote="carbon" />
   <project path="external/elfutils" name="CarbonROM/android_external_elfutils" groups="pdk" remote="carbon" />
   <project path="external/f2fs-tools" name="CarbonROM/android_external_f2fs-tools" groups="pdk" remote="carbon" />
+  <project path="external/libavc" name="CarbonROM/android_external_libavc"  groups="pdk" remote="carbon" />
   <project path="external/libdrm" name="LineageOS/android_external_libdrm" groups="pdk" remote="lineage" />
+  <project path="external/libhevc" name="CarbonROM/android_external_libhevc" groups="pdk" remote="carbon" />
   <project path="external/libjpeg-turbo" name="CarbonROM/android_external_libjpeg-turbo" groups="pdk" remote="carbon" />
   <project path="external/libnetfilter_conntrack" name="CarbonROM/android_external_libnetfilter_conntrack" groups="pdk" remote="carbon" />
   <project path="external/libnfc-nxp" name="CarbonROM/android_external_libnfc-nxp" groups="pdk" remote="carbon" />
   <project path="external/libnfnetlink" name="CarbonROM/android_external_libnfnetlink" groups="pdk" remote="carbon" />
   <project path="external/libpng" name="CarbonROM/android_external_libpng" groups="pdk" remote="carbon" />
+  <project path="external/libvpx" name="CarbonROM/android_external_libvpx" groups="pdk" remote="carbon" />
   <project path="external/selinux" name="CarbonROM/android_external_selinux" groups="pdk" remote="carbon" />
+  <project path="external/sfntly" name="CarbonROM/android_external_sfntly" groups="pdk,qcom_msm8x26" remote="carbon" />
   <project path="external/skia" name="CarbonROM/android_external_skia" groups="pdk,qcom_msm8x26" remote="carbon" />
   <project path="external/sqlite" name="CarbonROM/android_external_sqlite" groups="pdk" remote="carbon" />
   <project path="external/tinycompress" name="CarbonROM/android_external_tinycompress" groups="pdk" remote="carbon" />
@@ -81,6 +86,7 @@
   <project path="packages/inputmethods/LatinIME" name="CarbonROM/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="carbon" />
 
   <project path="packages/providers/DownloadProvider" name="CarbonROM/android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="packages/providers/TelephonyProvider" name="CarbonROM/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
 
   <project path="packages/services/Telecomm" name="CarbonROM/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/services/Telephony" name="CarbonROM/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
@@ -95,5 +101,9 @@
   <project path="system/sepolicy" name="CarbonROM/android_system_sepolicy" groups="pdk" remote="carbon" />
   <project path="system/update_engine" name="CarbonROM/android_system_update_engine" groups="pdk" remote="carbon" />
   <project path="system/vold" name="CarbonROM/android_system_vold" groups="pdk" remote="carbon" />
+  <project path="system/libhidl" name="CarbonROM/android_system_libhidl" groups="pdk" remote="carbon" />
+  <project path="system/libhwbinder" name="CarbonROM/android_system_libhwbinder" groups="pdk" remote="carbon" />
+  <project path="system/security" name="CarbonROM/android_system_security" groups="pdk" remote="carbon" />
+  <project path="system/tools/hidl" name="CarbonROM/android_system_tools_hidl" groups="pdk" remote="carbon" />
 
 </manifest>
