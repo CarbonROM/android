@@ -24,6 +24,8 @@
 
   <project path="bootable/recovery" name="CarbonROM/android_bootable_recovery" groups="pdk" remote="carbon" />
 
+  <project path="external/libcups" name="LineageOS/android_external_libcups" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
+  <project path="external/libhevc" name="LineageOS/android_external_libhevc" groups="pdk" remote="lineage" />
   <project path="external/tinycompress" name="CarbonROM/android_external_tinycompress" groups="pdk" remote="carbon" />
   <project path="external/perfetto" name="CarbonROM/android_external_perfetto" groups="pdk" remote="carbon" />
   <project path="external/selinux" name="CarbonROM/android_external_selinux" groups="pdk" remote="carbon" />
@@ -89,6 +91,7 @@
   <project path="system/core" name="CarbonROM/android_system_core" groups="pdk" remote="carbon" />
   <project path="system/libhidl" name="CarbonROM/android_system_libhidl" groups="pdk" remote="carbon" />
   <project path="system/netd" name="CarbonROM/android_system_netd" groups="pdk" remote="carbon"/>
+  <project path="system/nfc" name="LineageOS/android_system_nfc" groups="pdk" remote="lineage" />
   <project path="system/sepolicy" name="CarbonROM/android_system_sepolicy" groups="pdk" remote="carbon" />
   <project path="system/update_engine" name="CarbonROM/android_system_update_engine" groups="pdk" remote="carbon" />
   <project path="system/vold" name="CarbonROM/android_system_vold" groups="pdk" remote="carbon" />
