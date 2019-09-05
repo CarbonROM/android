@@ -44,6 +44,8 @@
   <remove-project name="device/linaro/hikey" />
   <remove-project name="device/linaro/hikey-kernel" />
 
+  <remove-project name="platform/external/libcups" />
+  <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/selinux" />
@@ -100,6 +102,7 @@
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
+  <remove-project name="platform/packages/apps/Email" />
   <remove-project name="platform/packages/apps/EmergencyInfo" />
   <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/Launcher3" />
@@ -126,6 +129,7 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/libhidl" />
   <remove-project name="platform/system/netd" />
+  <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
