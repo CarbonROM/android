@@ -66,16 +66,16 @@
   <remove-project name="platform/frameworks/compile/mclinker" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/net/ims" />
-  <remove-project name="platform/frameworks/opt/net/wifi" />
+<!--  <remove-project name="platform/frameworks/opt/net/wifi" /> -->
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/rs" />
 
-  <remove-project name="platform/hardware/broadcom/libbt" />
-  <remove-project name="platform/hardware/broadcom/wlan" />
+<!--  <remove-project name="platform/hardware/broadcom/libbt" />
+  <remove-project name="platform/hardware/broadcom/wlan" /> -->
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
-  <remove-project name="platform/hardware/nxp/nfc" />
+<!--  <remove-project name="platform/hardware/nxp/nfc" /> -->
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="platform/hardware/qcom/bt" />
@@ -130,7 +130,7 @@
   <remove-project name="platform/prebuilts/abi-dumps/ndk" />
   <remove-project name="platform/prebuilts/build-tools" />
 
-  <remove-project name="platform/system/bt" />
+<!--  <remove-project name="platform/system/bt" /> -->
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/libhidl" />
   <remove-project name="platform/system/netd" />
