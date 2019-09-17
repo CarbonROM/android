@@ -101,6 +101,7 @@
   <remove-project name="platform/hardware/ril" />
 
   <remove-project name="platform/packages/apps/Browser2" />
+  <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Dialer" />
@@ -131,7 +132,7 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
 
-<!--  <remove-project name="platform/system/bt" /> -->
+  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/libhidl" />
   <remove-project name="platform/system/netd" />
