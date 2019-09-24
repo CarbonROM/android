@@ -3,9 +3,9 @@
   <project path="device/qcom/sepolicy" name="CarbonROM/android_device_qcom_sepolicy" remote="carbon" groups="qcom,pdk-qcom" />
   <project path="device/qcom/sepolicy-legacy-um" name="CarbonROM/android_device_qcom_sepolicy" remote="carbon" groups="qcom,pdk-qcom" revision="cr-8.0-legacy-um" />
   <project path="device/qcom/sepolicy-legacy" name="CarbonROM/android_device_qcom_sepolicy-legacy" remote="carbon" groups="qcom,pdk-qcom" />
-<!--  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="lineage" />
-  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="lineage" />
-  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="lineage" /> -->
+  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="lineage" groups="qcom,pdk-qcom" />
+  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="lineage" groups="qcom,pdk-qcom"/>
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="lineage" groups="qcom,pdk-qcom" />
   <project path="external/json-c" name="LineageOS/android_external_json-c" remote="lineage" groups="qcom,pdk-qcom" />
   <project path="hardware/qcom/fm" name="CarbonROM/android_hardware_qcom_fm" groups="qcom,qcom_fm,pdk-qcom" remote="carbon" />
     <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="lineage" >
