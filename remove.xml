@@ -44,14 +44,19 @@
   <remove-project name="device/linaro/hikey" />
   <remove-project name="device/linaro/hikey-kernel" />
 
+  <remove-project name="platform/external/chromium-libpac" />
   <remove-project name="platform/external/libcups" />
+  <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libhevc" />
+  <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/skqp" />
+  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/vixl" />
+  <remove-project name="platform/external/v8" />
   <remove-project name="platform/external/chromium-webview" />
 
   <remove-project name="platform/frameworks/av" />
@@ -97,6 +102,7 @@
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
 
+  <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DeskClock" />
@@ -106,6 +112,7 @@
   <remove-project name="platform/packages/apps/EmergencyInfo" />
   <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/ManagedProvisioning" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/Nfc" />
@@ -121,6 +128,8 @@
 
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <remove-project name="platform/packages/providers/TvProvider" />
 
   <remove-project name="platform/prebuilts/abi-dumps/ndk" />
   <remove-project name="platform/prebuilts/build-tools" />
