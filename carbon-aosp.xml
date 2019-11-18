@@ -31,6 +31,7 @@
   <project path="external/f2fs-tools" name="CarbonROM/android_external_f2fs-tools" groups="pdk" remote="carbon" />
   <project path="external/libavc" name="CarbonROM/android_external_libavc"  groups="pdk" remote="carbon" />
   <project path="external/libcups" name="CarbonROM/android_external_libcups"  groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="external/libcxx" name="CarbonROM/android_external_libcxx"  groups="pdk" remote="carbon" />
   <project path="external/libdrm" name="LineageOS/android_external_libdrm" groups="pdk" remote="lineage" />
   <project path="external/libhevc" name="CarbonROM/android_external_libhevc" groups="pdk" remote="carbon" />
   <project path="external/libjpeg-turbo" name="CarbonROM/android_external_libjpeg-turbo" groups="pdk" remote="carbon" />
@@ -44,6 +45,7 @@
   <project path="external/skia" name="CarbonROM/android_external_skia" groups="pdk,qcom_msm8x26" remote="carbon" />
   <project path="external/sqlite" name="CarbonROM/android_external_sqlite" groups="pdk" remote="carbon" />
   <project path="external/tinycompress" name="CarbonROM/android_external_tinycompress" groups="pdk" remote="carbon" />
+  <project path="external/v8" name="CarbonROM/android_external_v8" groups="pdk" remote="carbon" />
   <project path="external/wpa_supplicant_8" name="CarbonROM/android_external_wpa_supplicant_8" groups="pdk" remote="carbon" />
 
   <project path="frameworks/av" name="CarbonROM/android_frameworks_av" groups="pdk" remote="carbon" />

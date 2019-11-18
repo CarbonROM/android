@@ -52,6 +52,7 @@
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/libavc" />
   <remove-project name="platform/external/libcups" />
+  <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libdrm" />
   <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/libjpeg-turbo" />
@@ -64,6 +65,7 @@
   <remove-project name="platform/external/sfntly" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/v8" />
   <remove-project name="platform/external/wpa_supplicant_8" />
 
   <remove-project name="platform/frameworks/av" />
