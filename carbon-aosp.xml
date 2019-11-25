@@ -75,6 +75,8 @@
   <project path="packages/apps/PhoneCommon" name="CarbonROM/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/apps/Settings" name="CarbonROM/android_packages_apps_Settings" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/SettingsIntelligence" name="CarbonROM/android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="carbon" />
+  <project path="packages/apps/ThemePicker" name="CarbonROM/android_packages_apps_ThemePicker" groups="pdk-fs" remote="carbon" />
+  <project path="packages/apps/WallpaperPicker2" name="CarbonROM/android_packages_apps_WallpaperPicker2" groups="pdk-fs" remote="carbon" />
 
   <project path="packages/inputmethods/LatinIME" name="CarbonROM/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="carbon" />
 
