@@ -24,14 +24,19 @@
 
   <project path="bootable/recovery" name="CarbonROM/android_bootable_recovery" groups="pdk" remote="carbon" />
 
+  <project path="external/chromium-libpac" name="LineageOS/android_external_chromium-libpac" groups="pdk" remote="lineage" />
   <project path="external/libcups" name="LineageOS/android_external_libcups" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
+  <project path="external/libcxx" name="LineageOS/android_external_libcxx" groups="pdk" remote="lineage" />
   <project path="external/libhevc" name="LineageOS/android_external_libhevc" groups="pdk" remote="lineage" />
+  <project path="external/libjpeg-turbo" name="LineageOS/android_external_libjpeg-turbo" groups="pdk" remote="lineage" />
   <project path="external/tinycompress" name="CarbonROM/android_external_tinycompress" groups="pdk" remote="carbon" />
   <project path="external/perfetto" name="CarbonROM/android_external_perfetto" groups="pdk" remote="carbon" />
   <project path="external/selinux" name="CarbonROM/android_external_selinux" groups="pdk" remote="carbon" />
   <project path="external/skia" name="CarbonROM/android_external_skia" groups="pdk,qcom_msm8x26" remote="carbon" />
   <project path="external/skqp" name="CarbonROM/android_external_skqp" groups="cts" clone-depth="1" remote="carbon" />
+  <project path="external/sqlite" name="LineageOS/android_external_sqlite" groups="pdk" remote="lineage" />
   <project path="external/vixl" name="CarbonROM/android_external_vixl" groups="pdk" remote="carbon" />
+  <project path="external/v8" name="LineageOS/android_external_v8" groups="pdk" remote="lineage" />
   <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lineage" />
 
   <project path="frameworks/av" name="CarbonROM/android_frameworks_av" groups="pdk" remote="carbon" />
@@ -63,6 +68,7 @@
   <project path="hardware/qcom/wlan" name="CarbonROM/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="carbon" />
   <project path="hardware/ril" name="CarbonROM/android_hardware_ril" groups="pdk" remote="carbon" />
 
+  <project path="packages/apps/Bluetooth" name="CarbonROM/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/apps/Contacts" name="CarbonROM/android_packages_apps_Contacts" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/DeskClock" name="CarbonROM/android_packages_apps_DeskClock" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/Dialer" name="CarbonROM/android_packages_apps_Dialer" groups="pdk-fs" remote="carbon" />
@@ -71,6 +77,7 @@
   <project path="packages/apps/EmergencyInfo" name="CarbonROM/android_packages_apps_EmergencyInfo" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/Gallery2" name="CarbonROM/android_packages_apps_Gallery2" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/Launcher3" name="CarbonROM/android_packages_apps_Launcher3" groups="pdk-fs" remote="carbon" />
+  <project path="packages/apps/ManagedProvisioning" name="CarbonROM/android_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/Messaging" name="CarbonROM/android_packages_apps_Messaging" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/Nfc" name="CarbonROM/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="carbon" />
   <project path="packages/apps/PhoneCommon" name="CarbonROM/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
@@ -84,6 +91,8 @@
 
   <project path="packages/providers/DownloadProvider" name="CarbonROM/android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/providers/MediaProvider" name="CarbonROM/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="packages/providers/TelephonyProvider" name="CarbonROM/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="packages/providers/TvProvider" name="CarbonROM/android_packages_providers_TvProvider" groups="pdk-fs" remote="carbon" />
 
   <project path="prebuilts/abi-dumps/ndk" name="CarbonROM/android_prebuilts_abi-dumps_ndk" groups="pdk-fs" clone-depth="1" remote="carbon" />
   <project path="prebuilts/build-tools" name="CarbonROM/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="carbon" />
