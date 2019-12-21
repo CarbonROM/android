@@ -10,6 +10,8 @@
 
   <remove-project name="platform/bootable/recovery" />
 
+  <remove-project name="platform/development" />
+
   <remove-project name="device/generic/car" />
   <remove-project name="device/generic/mini-emulator-arm64" />
   <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
