@@ -25,6 +25,8 @@
 
   <project path="bootable/recovery" name="CarbonROM/android_bootable_recovery" groups="pdk" remote="carbon" />
 
+  <project path="development" name="CarbonROM/android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="carbon" />
+
   <project path="external/mksh" name="CarbonROM/android_external_mksh" groups="pdk" remote="carbon" />
   <project path="external/tinycompress" name="CarbonROM/android_external_tinycompress" groups="pdk" remote="carbon" />
   <project path="external/selinux" name="CarbonROM/android_external_selinux" groups="pdk" remote="carbon" />
