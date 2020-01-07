@@ -7,6 +7,7 @@
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="lineage" />
   <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="lineage" /> -->
   <project path="external/json-c" name="LineageOS/android_external_json-c" remote="lineage" groups="qcom,pdk-qcom" />
+  <project path="hardware/nxp/nfc" name="LineageOS/android_hardware_nxp_nfc" remote="lineage" />
   <project path="hardware/qcom/fm" name="CarbonROM/android_hardware_qcom_fm" groups="qcom,qcom_fm,pdk-qcom" remote="carbon" />
     <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="lineage" >
     <!-- add guard for AOSP hardware/qcom dir -->
