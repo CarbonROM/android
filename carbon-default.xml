@@ -44,7 +44,7 @@
   <project path="hardware/lineage/interfaces" name="CarbonROM/android_hardware_lineage_interfaces" remote="carbon" />
   <!-- LineageOS Projects -->
   <project path="external/exfat" name="LineageOS/android_external_exfat" remote="lineage" />
-  <!-- <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="lineage" /> -->
+  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="lineage" />
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="lineage" />
   <!-- <project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" remote="lineage" /> -->
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
