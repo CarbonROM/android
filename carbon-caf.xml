@@ -67,7 +67,6 @@
   <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="lineage-17.1-caf" remote="lineage" />
-  <project path="hardware/ril-caf" name="CarbonROM/android_hardware_ril" groups="pdk" remote="carbon" revision="cr-8.0-caf" />
   <project path="system/tools/dtbtool" name="CarbonROM/android_system_tools_dtbtool" remote="carbon" />
   <project path="system/qcom" name="CarbonROM/android_system_qcom" groups="qcom" remote="carbon" />
 
