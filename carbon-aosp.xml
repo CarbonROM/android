@@ -26,6 +26,7 @@
 
   <project path="external/chromium-libpac" name="LineageOS/android_external_chromium-libpac" groups="pdk" remote="lineage" />
   <project path="external/ImageMagick" name="LineageOS/android_external_ImageMagick" groups="pdk" remote="lineage" />
+  <project path="external/libavc" name="LineageOS/android_external_libavc" groups="pdk" remote="lineage" />
   <project path="external/libcups" name="LineageOS/android_external_libcups" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="external/libcxx" name="LineageOS/android_external_libcxx" groups="pdk" remote="lineage" />
   <project path="external/libhevc" name="LineageOS/android_external_libhevc" groups="pdk" remote="lineage" />
