@@ -29,6 +29,7 @@
 
   <project path="external/mksh" name="CarbonROM/android_external_mksh" groups="pdk" remote="carbon" />
   <project path="external/tinycompress" name="CarbonROM/android_external_tinycompress" groups="pdk" remote="carbon" />
+  <project path="external/toybox" name="CarbonROM/android_external_toybox" groups="pdk" remote="carbon" />
   <project path="external/selinux" name="CarbonROM/android_external_selinux" groups="pdk" remote="carbon" />
 <!--  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lineage" revision="master" /> -->
 
