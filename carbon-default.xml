@@ -35,6 +35,8 @@
 
   <project path="device/carbon/sepolicy" name="CarbonROM/android_device_carbon_sepolicy" remote="carbon" />
 
+  <project path="external/pngquant" name="CarbonROM/android_external_pngquant" remote="carbon" />
+
   <project path="hardware/lineage/interfaces" name="CarbonROM/android_hardware_lineage_interfaces" remote="carbon" />
 
   <project path="packages/apps/Snap" name="CarbonROM/android_packages_apps_Snap" remote="carbon" />
