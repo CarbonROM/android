@@ -42,6 +42,8 @@
   <project path="packages/apps/CarbonDelta" name="CarbonROM/android_packages_apps_CarbonDelta" remote="carbon" />
   <project path="packages/apps/CarbonFibers" name="CarbonROM/android_packages_apps_CarbonFibers" remote="carbon" />
   <project path="packages/apps/CarbonSetupWizard" name="CarbonROM/android_packages_apps_CarbonSetupWizard" remote="carbon" />
+  <project path="packages/apps/HwKeyHandler" name="CarbonROM/android_packages_apps_HwKeyHandler" remote="carbon" />
+  <project path="packages/apps/SmartActions" name="CarbonROM/android_packages_apps_SmartActions" remote="carbon" />
 
   <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
   <project path="vendor/themes" name="CarbonROM/android_vendor_themes" remote="carbon" />
