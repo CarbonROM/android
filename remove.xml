@@ -57,6 +57,7 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/selinux" />
