@@ -45,6 +45,7 @@
   <remove-project name="device/linaro/hikey-kernel" />
 
   <remove-project name="platform/external/chromium-libpac" />
+  <remove-project name="platform/external/libexif" />
   <remove-project name="platform/external/ImageMagick" />
   <remove-project name="platform/external/libavc" />
   <remove-project name="platform/external/libcups" />
