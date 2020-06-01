@@ -37,7 +37,7 @@
   <project path="frameworks/base" name="CarbonROM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="frameworks/native" name="CarbonROM/android_frameworks_native" groups="pdk" remote="carbon" />
   <project path="frameworks/opt/net/ims" name="CarbonROM/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="carbon" />
-<!--  <project path="frameworks/opt/net/wifi" name="LineageOS/android_frameworks_opt_net_wifi" groups="pdk" remote="lineage" /> -->
+  <project path="frameworks/opt/net/wifi" name="CarbonROM/android_frameworks_opt_net_wifi" groups="pdk" remote="carbon" />
   <project path="frameworks/opt/telephony" name="CarbonROM/android_frameworks_opt_telephony" groups="pdk" remote="carbon" />
   <project path="frameworks/rs" name="CarbonROM/android_frameworks_rs" groups="pdk" remote="carbon" />
 
