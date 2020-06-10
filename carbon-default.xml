@@ -48,7 +48,9 @@
   <project path="vendor/themes" name="CarbonROM/android_vendor_themes" remote="carbon" />
 
   <!-- LineageOS Projects -->
+  <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" remote="lineage" />
   <project path="external/exfat" name="LineageOS/android_external_exfat" remote="lineage" />
+  <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" remote="lineage" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="lineage" />
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="lineage" />
   <project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" remote="lineage" />
