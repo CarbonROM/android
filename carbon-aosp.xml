@@ -27,10 +27,12 @@
 
   <project path="development" name="CarbonROM/android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="carbon" />
 
+  <project path="external/e2fsprogs" name="CarbonROM/android_external_e2fsprogs" remote="carbon" />
+  <project path="external/gptfdisk" name="CarbonROM/android_external_gptfdisk" remote="carbon" />
   <project path="external/mksh" name="CarbonROM/android_external_mksh" groups="pdk" remote="carbon" />
+  <project path="external/selinux" name="CarbonROM/android_external_selinux" groups="pdk" remote="carbon" />
   <project path="external/tinycompress" name="CarbonROM/android_external_tinycompress" groups="pdk" remote="carbon" />
   <project path="external/toybox" name="CarbonROM/android_external_toybox" groups="pdk" remote="carbon" />
-  <project path="external/selinux" name="CarbonROM/android_external_selinux" groups="pdk" remote="carbon" />
 <!--  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lineage" revision="master" /> -->
 
   <project path="frameworks/av" name="CarbonROM/android_frameworks_av" groups="pdk" remote="carbon" />
