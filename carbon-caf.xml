@@ -95,4 +95,5 @@
   <project path="vendor/qcom/opensource/interfaces" name="CarbonROM/android_vendor_qcom_opensource_interfaces" remote="carbon" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/power" name="LineageOS/android_vendor_qcom_opensource_power" remote="lineage" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" remote="lineage" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" remote="lineage" groups="qcom,pdk-qcom" />
 </manifest>
