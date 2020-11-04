@@ -55,4 +55,5 @@
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
 
   <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="lineage" />
+  <project path="packages/apps/SeedVault" name="LineageOS/android_packages_apps_SeedVault" remote="lineage" />
 </manifest>
