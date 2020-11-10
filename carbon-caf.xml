@@ -3,6 +3,7 @@
   <project path="device/qcom/sepolicy" name="CarbonROM/android_device_qcom_sepolicy" remote="carbon" groups="qcom,pdk-qcom" />
 <!--  <project path="device/qcom/sepolicy-legacy" name="CarbonROM/android_device_qcom_sepolicy" remote="carbon" groups="qcom,pdk-qcom" revision="cr-9.0-legacy" />-->
   <project path="device/qcom/sepolicy-legacy-um" name="CarbonROM/android_device_qcom_sepolicy" remote="carbon" groups="qcom,pdk-qcom" revision="cr-9.0-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr" name="CarbonROM/android_device_qcom_sepolicy_vndr" remote="carbon" groups="qcom,pdk-qcom" />
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="lineage" groups="qcom,pdk-qcom" />
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="lineage" groups="qcom,pdk-qcom"/>
   <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="lineage" groups="qcom,pdk-qcom" />
