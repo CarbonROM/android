@@ -88,10 +88,10 @@
   <project path="vendor/nxp/opensource/sn100x/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" revision="lineage-18.0-sn100x" remote="lineage" />
   <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" revision="lineage-18.0-sn100x" remote="lineage" />
   <project path="vendor/qcom/opensource/audio" name="CarbonROM/android_vendor_qcom_opensource_audio" remote="carbon" groups="qcom,pdk-qcom" />
-<!--  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="lineage" groups="qcom,pdk-qcom" />-->
-<!--  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="LineageOS/android_vendor_qcom_opensource_bluetooth_ext" remote="lineage" groups="qcom,pdk-qcom"/>-->
-<!--  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="lineage" groups="qcom,pdk-qcom" />-->
-<!--  <project path="vendor/qcom/opensource/commonsys/system/bt" name="LineageOS/android_vendor_qcom_opensource_system_bt" remote="lineage" groups="qcom,pdk-qcom"/>-->
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="CarbonROM/android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="carbon" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="CarbonROM/android_vendor_qcom_opensource_bluetooth_ext" remote="carbon" groups="qcom,pdk-qcom"/>
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="CarbonROM/android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="carbon" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="CarbonROM/android_vendor_qcom_opensource_system_bt" remote="carbon" groups="qcom,pdk-qcom"/>
   <project path="vendor/qcom/opensource/cryptfs_hw" name="CarbonROM/android_vendor_qcom_opensource_cryptfs_hw" remote="carbon" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="CarbonROM/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="carbon" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/dataservices" name="CarbonROM/android_vendor_qcom_opensource_dataservices" remote="carbon" groups="qcom,pdk-qcom" />
