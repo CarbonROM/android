@@ -11,6 +11,7 @@
   <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" remote="lineage" />
   <project path="external/json-c" name="LineageOS/android_external_json-c" remote="lineage" groups="qcom,pdk-qcom" />
 <!--  <project path="hardware/qcom/fm" name="CarbonROM/android_hardware_qcom_fm" groups="qcom,qcom_fm,pdk-qcom" remote="carbon" />-->
+  <project path="hardware/qcom-caf/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="lineage" revision="lineage-18.1-caf" />
   <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="lineage" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
