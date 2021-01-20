@@ -57,6 +57,7 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <remove-project name="platform/external/aac" />
+  <remove-project name="platform/external/libaom" />
   <remove-project name="platform/external/libexif" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
