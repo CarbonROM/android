@@ -29,6 +29,7 @@
 
   <project path="external/aac" name="LineageOS/android_external_aac" groups="pdk" remote="lineage" />
   <project path="external/e2fsprogs" name="CarbonROM/android_external_e2fsprogs" remote="carbon" />
+  <project path="external/gptfdisk" name="LineageOS/android_external_libaom" groups="pdk" remote="lineage" />
   <project path="external/libaom" name="LineageOS/android_external_libaom" groups="pdk" remote="lineage" />
   <project path="external/libexif" name="LineageOS/android_external_libexif" groups="pdk" remote="lineage" />
   <project path="external/gptfdisk" name="CarbonROM/android_external_gptfdisk" remote="carbon" />
@@ -41,6 +42,7 @@
 
   <project path="frameworks/av" name="CarbonROM/android_frameworks_av" groups="pdk" remote="carbon" />
   <project path="frameworks/base" name="CarbonROM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="frameworks/minikin" name="LineageOS/android_frameworks_minikin" groups="pdk" remote="lineage" />
   <project path="frameworks/native" name="CarbonROM/android_frameworks_native" groups="pdk" remote="carbon" />
   <project path="frameworks/opt/net/ims" name="CarbonROM/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="frameworks/opt/net/wifi" name="CarbonROM/android_frameworks_opt_net_wifi" groups="pdk" remote="carbon" />
@@ -101,6 +103,7 @@
   <project path="system/keymaster" name="CarbonROM/android_system_keymaster" groups="pdk" remote="carbon" />
   <project path="system/netd" name="CarbonROM/android_system_netd" groups="pdk" remote="carbon" />
   <project path="system/nfc" name="LineageOS/android_system_nfc" groups="pdk" remote="lineage" />
+  <project path="system/security" name="LineageOS/android_system_security" groups="pdk" remote="lineage" />
   <project path="system/sepolicy" name="CarbonROM/android_system_sepolicy" groups="pdk" remote="carbon" />
   <project path="system/update_engine" name="CarbonROM/android_system_update_engine" groups="pdk" remote="carbon" />
   <project path="system/vold" name="CarbonROM/android_system_vold" groups="pdk" remote="carbon" />
