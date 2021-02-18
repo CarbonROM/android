@@ -30,14 +30,17 @@
   <project path="external/aac" name="LineageOS/android_external_aac" groups="pdk" remote="lineage" />
   <project path="external/e2fsprogs" name="CarbonROM/android_external_e2fsprogs" remote="carbon" />
   <project path="external/libaom" name="LineageOS/android_external_libaom" groups="pdk" remote="lineage" />
+  <project path="external/libavc" name="LineageOS/android_external_libavc" groups="pdk" remote="lineage" />
   <project path="external/libexif" name="LineageOS/android_external_libexif" groups="pdk" remote="lineage" />
   <project path="external/gptfdisk" name="CarbonROM/android_external_gptfdisk" remote="carbon" />
   <project path="external/mksh" name="CarbonROM/android_external_mksh" groups="pdk" remote="carbon" />
+  <project path="external/okhttp" name="LineageOS/android_external_okhttp" groups="pdk" remote="lineage" />
   <project path="external/selinux" name="CarbonROM/android_external_selinux" groups="pdk" remote="carbon" />
   <project path="external/sonivox" name="LineageOS/android_external_sonivox" groups="pdk" remote="lineage" />
   <project path="external/tinycompress" name="CarbonROM/android_external_tinycompress" groups="pdk" remote="carbon" />
   <project path="external/toybox" name="CarbonROM/android_external_toybox" groups="pdk" remote="carbon" />
   <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lineage" revision="master" />
+  <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="lineage" />
 
   <project path="frameworks/av" name="CarbonROM/android_frameworks_av" groups="pdk" remote="carbon" />
   <project path="frameworks/base" name="CarbonROM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
@@ -67,6 +70,8 @@
   <project path="hardware/qcom/wlan" name="CarbonROM/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="carbon" />
   <project path="hardware/ril" name="CarbonROM/android_hardware_ril" groups="pdk" remote="carbon" />
 
+  <project path="libcore" name="LineageOS/android_libcore" groups="pdk" remote="lineage" />
+
   <project path="packages/apps/Bluetooth" name="CarbonROM/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/apps/Contacts" name="CarbonROM/android_packages_apps_Contacts" groups="pdk-fs" remote="carbon" />
@@ -84,7 +89,7 @@
 
   <project path="packages/inputmethods/LatinIME" name="CarbonROM/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="carbon" />
 
-  <project path="packages/providers/MediaProvider" name="CarbonROM/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="packages/providers/MediaProvider" name="LineageOS/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
 
   <project path="packages/services/Telecomm" name="CarbonROM/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/services/Telephony" name="CarbonROM/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
