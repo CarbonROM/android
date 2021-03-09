@@ -6,6 +6,7 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/libcore" />
 
   <remove-project name="platform/bootable/recovery" />
 
@@ -54,6 +55,7 @@
   <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/okhttp" />
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/ppp" />
   <remove-project name="platform/external/selinux" />
@@ -63,6 +65,7 @@
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/vixl" />
   <remove-project name="platform/external/v8" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/chromium-webview" />
 
   <remove-project name="platform/frameworks/av" />

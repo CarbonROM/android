@@ -33,6 +33,7 @@
   <project path="external/libcxx" name="LineageOS/android_external_libcxx" groups="pdk" remote="lineage" />
   <project path="external/libhevc" name="LineageOS/android_external_libhevc" groups="pdk" remote="lineage" />
   <project path="external/libjpeg-turbo" name="LineageOS/android_external_libjpeg-turbo" groups="pdk" remote="lineage" />
+  <project path="external/okhttp" name="LineageOS/android_external_okhttp" groups="pdk" remote="lineage" />
   <project path="external/tinycompress" name="CarbonROM/android_external_tinycompress" groups="pdk" remote="carbon" />
   <project path="external/perfetto" name="CarbonROM/android_external_perfetto" groups="pdk" remote="carbon" />
   <project path="external/ppp" name="LineageOS/android_external_ppp" groups="pdk" remote="lineage" />
@@ -42,7 +43,8 @@
   <project path="external/sqlite" name="LineageOS/android_external_sqlite" groups="pdk" remote="lineage" />
   <project path="external/vixl" name="CarbonROM/android_external_vixl" groups="pdk" remote="carbon" />
   <project path="external/v8" name="LineageOS/android_external_v8" groups="pdk" remote="lineage" />
-  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lineage" />
+  <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="lineage" />
+  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview_backup-20210212" groups="pdk" clone-depth="1" remote="lineage" />
 
   <project path="frameworks/av" name="CarbonROM/android_frameworks_av" groups="pdk" remote="carbon" />
   <project path="frameworks/base" name="CarbonROM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
@@ -105,6 +107,7 @@
   <project path="prebuilts/abi-dumps/ndk" name="CarbonROM/android_prebuilts_abi-dumps_ndk" groups="pdk-fs" clone-depth="1" remote="carbon" />
   <project path="prebuilts/build-tools" name="CarbonROM/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="carbon" />
 
+  <project path="libcore" name="LineageOS/android_libcore" groups="pdk" remote="lineage" />
   <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" remote="lineage" />
   <project path="system/core" name="CarbonROM/android_system_core" groups="pdk" remote="carbon" />
   <project path="system/libhidl" name="CarbonROM/android_system_libhidl" groups="pdk" remote="carbon" />
