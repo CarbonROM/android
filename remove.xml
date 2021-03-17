@@ -57,6 +57,7 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <remove-project name="platform/external/aac" />
+  <remove-project name="platform/external/dnsmasq" />
   <remove-project name="platform/external/libaom" />
   <remove-project name="platform/external/libavc" />
   <remove-project name="platform/external/libexif" />
@@ -67,6 +68,7 @@
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/sonivox" />
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/v8" />
   <remove-project name="platform/external/wpa_supplicant_8" />
 
   <remove-project name="platform/frameworks/av" />
@@ -147,6 +149,7 @@
 
   <remove-project name="platform/system/apex" />
   <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/connectivity/wificond" />
   <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/keymaster" />
@@ -154,6 +157,7 @@
   <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/tools/hidl" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
 
