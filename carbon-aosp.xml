@@ -26,6 +26,7 @@
 
   <project path="external/chromium-libpac" name="LineageOS/android_external_chromium-libpac" groups="pdk" remote="lineage" />
   <project path="external/dng_sdk" name="LineageOS/android_external_dng_sdk" groups="pdk" remote="lineage" />
+  <project path="external/dnsmasq" name="LineageOS/android_external_dnsmasq" groups="pdk" remote="lineage" />
   <project path="external/libexif" name="LineageOS/android_external_libexif" groups="pdk" remote="lineage" />
   <project path="external/ImageMagick" name="LineageOS/android_external_ImageMagick" groups="pdk" remote="lineage" />
   <project path="external/libavc" name="LineageOS/android_external_libavc" groups="pdk" remote="lineage" />
@@ -109,6 +110,7 @@
 
   <project path="libcore" name="LineageOS/android_libcore" groups="pdk" remote="lineage" />
   <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" remote="lineage" />
+  <project path="system/connectivity/wificond" name="LineageOS/android_system_connectivity_wificond" groups="pdk" remote="lineage" />
   <project path="system/core" name="CarbonROM/android_system_core" groups="pdk" remote="carbon" />
   <project path="system/libhidl" name="CarbonROM/android_system_libhidl" groups="pdk" remote="carbon" />
   <project path="system/netd" name="CarbonROM/android_system_netd" groups="pdk" remote="carbon"/>
