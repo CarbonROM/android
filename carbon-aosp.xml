@@ -46,6 +46,7 @@
 
   <project path="frameworks/av" name="CarbonROM/android_frameworks_av" groups="pdk" remote="carbon" />
   <project path="frameworks/base" name="CarbonROM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="frameworks/hardware/interfaces" name="LineageOS/android_frameworks_hardware_interfaces" groups="pdk" remote="lineage" />
   <project path="frameworks/minikin" name="LineageOS/android_frameworks_minikin" groups="pdk" remote="lineage" />
   <project path="frameworks/native" name="CarbonROM/android_frameworks_native" groups="pdk" remote="carbon" />
   <project path="frameworks/opt/net/ims" name="CarbonROM/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="carbon" />
@@ -77,6 +78,7 @@
   <project path="packages/apps/Bluetooth" name="CarbonROM/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/apps/Contacts" name="CarbonROM/android_packages_apps_Contacts" groups="pdk-fs" remote="carbon" />
+  <project path="packages/apps/ContactsProvider" name="LineageOS/android_packages_apps_ContactsProvider" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/DeskClock" name="CarbonROM/android_packages_apps_DeskClock" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/Dialer" name="CarbonROM/android_packages_apps_Dialer" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/Launcher3" name="CarbonROM/android_packages_apps_Launcher3" groups="pdk-fs" remote="carbon" />
