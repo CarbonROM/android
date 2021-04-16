@@ -73,6 +73,7 @@
 
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/hardware/interfaces" />
   <remove-project name="platform/frameworks/minikin" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/net/ims" />
@@ -136,6 +137,7 @@
 
   <remove-project name="platform/packages/inputmethods/LatinIME" />
 
+  <remove-project name="platform/packages/providers/ContactsProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
 
   <remove-project name="platform/packages/services/Telecomm" />
