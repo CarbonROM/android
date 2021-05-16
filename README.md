@@ -148,6 +148,10 @@ If you have any issues/questions please contact us in channel:
 
  server: irc.freenode.net
 
+ You can also find us on Discord: https://discord.gg/DUbE6fM3
+
+ And Telegram: https://t.me/CarbonROMChat
+
 ## Translating CarbonROM
 
 We use crowdin for our ROMs translation. If you want to help with that, you can do so here.
