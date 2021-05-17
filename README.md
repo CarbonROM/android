@@ -4,7 +4,7 @@ Thanks for choosing CarbonROM!
 
 ## Getting Started
 
-To get started with the CarbonROM sources, you'll should be familiar with [Git and Repo](http://source.android.com/source/version-control.html).
+To get started with the CarbonROM sources, you should be familiar with the [Source Control Tools](https://source.android.com/setup/develop).
 
 ## Create the Directories
 
