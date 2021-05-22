@@ -31,7 +31,7 @@
   <include name="carbon-caf.xml" />
 
   <!-- CarbonROM Projects -->
-  <project path="crowdin" name="CarbonROM/carbon_crowdin" remote="carbon" />
+  <project path="crowdin" name="CarbonROM/carbon_crowdin" remote="carbon" revision="master" />
 
   <project path="device/carbon/sepolicy" name="CarbonROM/android_device_carbon_sepolicy" remote="carbon" />
 
