@@ -21,10 +21,10 @@
     <!-- add guards for CAF repositories -->
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
-    <!--<linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" />-->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />
-    <!--<linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />-->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
@@ -49,18 +49,18 @@
   <project path="hardware/qcom-caf/msm8916/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-msm8916" remote="lineage" />
   <project path="hardware/qcom-caf/msm8916/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-18.1-caf-msm8916" remote="lineage" />
   <project path="hardware/qcom-caf/msm8916/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-18.1-caf-msm8916" remote="lineage" />
-  <!--<project path="hardware/qcom-caf/msm8952/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.0-caf-msm8952" remote="lineage" />-->
-  <!--<project path="hardware/qcom-caf/msm8952/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-18.0-caf-msm8952" remote="lineage" />-->
-  <!--<project path="hardware/qcom-caf/msm8952/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-18.0-caf-msm8952" remote="lineage" />-->
+  <project path="hardware/qcom-caf/msm8952/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-msm8952" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8952/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-18.1-caf-msm8952" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8952/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-18.1-caf-msm8952" remote="lineage" />
   <project path="hardware/qcom-caf/msm8960/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-msm8960" remote="lineage" />
   <project path="hardware/qcom-caf/msm8960/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-18.1-caf-msm8960" remote="lineage" />
   <project path="hardware/qcom-caf/msm8960/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-18.1-caf-msm8960" remote="lineage" />
   <project path="hardware/qcom-caf/msm8974/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-msm8974" remote="lineage" />
   <project path="hardware/qcom-caf/msm8974/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-18.1-caf-msm8974" remote="lineage" />
   <project path="hardware/qcom-caf/msm8974/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-18.1-caf-msm8974" remote="lineage" />
-  <!--<project path="hardware/qcom-caf/msm8994/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.0-caf-msm8994" remote="lineage" />-->
-  <!--<project path="hardware/qcom-caf/msm8994/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-18.0-caf-msm8994" remote="lineage" />-->
-  <!--<project path="hardware/qcom-caf/msm8994/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-18.0-caf-msm8994" remote="lineage" />-->
+  <project path="hardware/qcom-caf/msm8994/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-msm8994" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8994/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-18.1-caf-msm8994" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8994/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-18.1-caf-msm8994" remote="lineage" />
   <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-msm8996" remote="lineage" />
   <project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-18.1-caf-msm8996" remote="lineage" />
   <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-18.1-caf-msm8996" remote="lineage" />
@@ -108,8 +108,5 @@
   <project path="vendor/qcom/opensource/usb" name="LineageOS/android_vendor_qcom_opensource_usb" remote="lineage" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" remote="lineage" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" remote="lineage" groups="qcom,pdk" />
-
-  <project path="hardware/qcom/sm8150/display" name="LineageOS/android_hardware_qcom_sm8150_display" remote="lineage" groups="qcom_sm8150" />
-  <project path="hardware/qcom/sm8150/media" name="LineageOS/android_hardware_qcom_sm8150_media" remote="lineage" groups="qcom_sm8150" />
 
 </manifest>
