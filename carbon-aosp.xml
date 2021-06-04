@@ -57,6 +57,19 @@
   <project path="hardware/qcom/gps" name="CarbonROM/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="carbon" />
   <project path="hardware/qcom/keymaster" name="CarbonROM/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="carbon" />
   <project path="hardware/qcom/media" name="CarbonROM/android_hardware_qcom_media" groups="qcom,pdk" remote="carbon" />
+  <project path="hardware/qcom/sdm845/display" name="CarbonROM/android_hardware_qcom_sdm845_display" groups="generic_fs,qcom_sdm845" remote="carbon" />
+  <project path="hardware/qcom/sm7250/display" name="CarbonROM/android_hardware_qcom_sm7250_display" groups="qcom_sm7250" remote="carbon" />
+  <project path="hardware/qcom/sm7250/gps" name="CarbonROM/android_hardware_qcom_sm7250_gps" groups="qcom_sm7250" remote="carbon" >
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm7250/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sm7250/Android.bp" />
+  </project>
+  <project path="hardware/qcom/sm7250/media" name="CarbonROM/android_hardware_qcom_sm7250_media" groups="qcom_sm7250" remote="carbon" />
+  <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="CarbonROM/android_hardware_qcom_sm8150_data_ipacfg-mgr" groups="qcom_sm8150" remote="carbon" >
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
+  </project>
+  <project path="hardware/qcom/sm8150/display" name="CarbonROM/android_hardware_qcom_sm8150_display" groups="qcom_sm8150" remote="carbon" />
+  <project path="hardware/qcom/sm8150/media" name="CarbonROM/android_hardware_qcom_sm8150_media" groups="qcom_sm8150" remote="carbon" />
   <project path="hardware/qcom/wlan" name="CarbonROM/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="carbon" />
   <project path="hardware/ril" name="CarbonROM/android_hardware_ril" groups="pdk" remote="carbon" />
 
