@@ -53,6 +53,7 @@
   <project path="frameworks/hardware/interfaces" name="LineageOS/android_frameworks_hardware_interfaces" groups="pdk" remote="lineage" />
   <project path="frameworks/native" name="CarbonROM/android_frameworks_native" groups="pdk" remote="carbon" />
   <project path="frameworks/opt/net/ims" name="CarbonROM/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="frameworks/opt/net/voip" name="LineageOS/android_frameworks_opt_net_voip" groups="pdk" remote="lineage" />
   <project path="frameworks/opt/net/wifi" name="LineageOS/android_frameworks_opt_net_wifi" groups="pdk" remote="lineage" />
   <project path="frameworks/opt/telephony" name="CarbonROM/android_frameworks_opt_telephony" groups="pdk" remote="carbon" />
   <project path="frameworks/rs" name="CarbonROM/android_frameworks_rs" groups="pdk" remote="carbon" />
@@ -101,6 +102,7 @@
   <project path="packages/services/Telecomm" name="CarbonROM/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/services/Telephony" name="CarbonROM/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
 
+  <project path="packages/providers/ContactsProvider" name="LineageOS/android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/providers/DownloadProvider" name="CarbonROM/android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/providers/MediaProvider" name="CarbonROM/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/providers/TelephonyProvider" name="CarbonROM/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
@@ -113,7 +115,9 @@
   <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" remote="lineage" />
   <project path="system/connectivity/wificond" name="LineageOS/android_system_connectivity_wificond" groups="pdk" remote="lineage" />
   <project path="system/core" name="CarbonROM/android_system_core" groups="pdk" remote="carbon" />
+  <project path="system/libfmq" name="LineageOS/android_system_libfmq" groups="pdk" remote="lineage" />
   <project path="system/libhidl" name="CarbonROM/android_system_libhidl" groups="pdk" remote="carbon" />
+  <project path="system/libhwbinder" name="LineageOS/android_system_libhwbinder" groups="pdk" remote="lineage" />
   <project path="system/netd" name="CarbonROM/android_system_netd" groups="pdk" remote="carbon"/>
   <project path="system/nfc" name="LineageOS/android_system_nfc" groups="pdk" remote="lineage" />
   <project path="system/security" name="CarbonROM/android_system_security" groups="pdk" remote="carbon" />
