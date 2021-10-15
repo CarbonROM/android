@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="carbon"
+           fetch="git://github.com/"
+           review="review.carbonrom.org"
+           revision="refs/heads/cr-10.0"
+           sync-j="8" />
+
+  <remote  name="gh"
+           fetch="git://github.com/"
+           sync-c="true"
+           sync-j="8" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <remote  name="lineage"
+           fetch=".."
+           review="review.lineageos.org"
+           revision="refs/heads/lineage-18.1"
+           sync-j="8" />
+
+  <!-- FIRST: Remove unused/forked AOSP Projects -->
+  <include name="remove.xml" />
+
+  <!-- Include forked AOSP -->
+  <include name="carbon-aosp.xml" />
+
+  <!-- Include CAF -->
+  <include name="carbon-caf.xml" />
+
+  <!-- CarbonROM Projects -->
+  <project path="crowdin" name="CarbonROM/carbon_crowdin" remote="carbon" revision="master" />
+
+  <project path="device/carbon/sepolicy" name="CarbonROM/android_device_carbon_sepolicy" remote="carbon" />
+
+  <project path="hardware/lineage/interfaces" name="CarbonROM/android_hardware_lineage_interfaces" remote="carbon" />
+
+  <project path="packages/apps/Snap" name="CarbonROM/android_packages_apps_Snap" remote="carbon" />
+  <!-- <project path="packages/apps/Quarks" name="CarbonROM/android_packages_apps_Quarks" remote="carbon" /> -->
+  <project path="packages/apps/CarbonDelta" name="CarbonROM/android_packages_apps_CarbonDelta" remote="carbon" />
+  <project path="packages/apps/CarbonFibers" name="CarbonROM/android_packages_apps_CarbonFibers" remote="carbon" />
+  <project path="packages/apps/CarbonSetupWizard" name="CarbonROM/android_packages_apps_CarbonSetupWizard" remote="carbon" />
+
+  <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
+  <project path="vendor/themes" name="CarbonROM/android_vendor_themes" remote="carbon" />
+
+  <!-- LineageOS Projects -->
+  <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />
+  <project path="external/htop" name="LineageOS/android_external_htop" remote="lineage" />
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="lineage" />
+  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="lineage" />
+  <project path="external/nano" name="LineageOS/android_external_nano" remote="lineage" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="lineage" />
+  <project path="external/p7zip" name="LineageOS/android_external_p7zip" remote="lineage" />
+  <project path="external/pigz" name="LineageOS/android_external_pigz" remote="lineage" />
+  <project path="external/unrar" name="LineageOS/android_external_unrar" remote="lineage" />
+  <project path="external/zip" name="LineageOS/android_external_zip" remote="lineage" />
+
+  <project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" remote="lineage" />
+  <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" remote="lineage" />
+  <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
+  <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="lineage" />
+
+  <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" remote="lineage" />
+  <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" groups="pdk-fs" remote="lineage" />
+  <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="lineage" />
+</manifest>

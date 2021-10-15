@@ -2,10 +2,11 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-12.0.0_r18"
            remote="aosp"
+           sync-c="true"
            sync-j="4" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-12.0.0_r18" />
@@ -1102,5 +1103,8 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <!-- CarbonROM -->
+  <include name="carbon-default.xml" />
 
 </manifest>
