@@ -31,7 +31,6 @@
   <remove-project name="device/generic/uml" />
   <remove-project name="device/generic/x86" />
   <remove-project name="device/generic/x86_64" />
-  <remove-project name="device/generic/vulkan-cereal" />
   <remove-project name="device/google/atv" />
   <remove-project name="device/google/barbet" />
   <remove-project name="device/google/barbet-kernel" />
