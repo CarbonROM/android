@@ -64,7 +64,7 @@
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="lineage" />
 
   <!-- <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" remote="lineage" /> -->
-  <project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault" remote="lineage" />
-  <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" groups="pdk-fs" remote="lineage" />
-  <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="lineage" />
+  <project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault" revision="lineage-19.0" remote="lineage" />
+  <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" revision="lineage-19.0" groups="pdk-fs" remote="lineage" />
+  <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" revision="lineage-19.0" remote="lineage" />
 </manifest>
