@@ -19,6 +19,7 @@
   <remove-project name="device/generic/art" />
   <remove-project name="device/generic/car" />
   <remove-project name="device/generic/common" />
+  <remove-project name="device/generic/goldfish" />
   <remove-project name="device/generic/mini-emulator-arm64" />
   <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
   <remove-project name="device/generic/mini-emulator-x86" />
