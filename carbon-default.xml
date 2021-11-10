@@ -34,7 +34,9 @@
   <project path="crowdin" name="CarbonROM/carbon_crowdin" remote="carbon" revision="master" />
 
   <project path="device/carbon/sepolicy" name="CarbonROM/android_device_carbon_sepolicy" remote="carbon" />
+
   <project path="external/material-color-utilities" name="CarbonROM/android_external_material-color-utilities" remote="carbon" />
+  <project path="external/raygun4java" name="CarbonROM/android_external_raygun4android" remote="carbon" />
 
   <project path="hardware/lineage/interfaces" name="CarbonROM/android_hardware_lineage_interfaces" remote="carbon" />
 
