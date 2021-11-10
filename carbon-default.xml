@@ -47,6 +47,8 @@
   <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
   <project path="vendor/themes" name="CarbonROM/android_vendor_themes" remote="carbon" />
 
+  <project path="external/raygun4java" name="CarbonROM/android_external_raygun4android" remote="carbon" />
+
   <!-- LineageOS Projects -->
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />
   <project path="external/htop" name="LineageOS/android_external_htop" remote="lineage" />
