@@ -31,6 +31,7 @@
   <project path="external/gptfdisk" name="CarbonROM/android_external_gptfdisk" remote="carbon" />
   <project path="external/mksh" name="CarbonROM/android_external_mksh" groups="pdk" remote="carbon" />
   <project path="external/perfetto" name="CarbonROM/android_external_perfetto" groups="pdk" remote="carbon" />
+  <project path="external/robolectric-shadows" name="LineageOS/android_external_robolectric-shadows" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="external/selinux" name="CarbonROM/android_external_selinux" groups="pdk" remote="carbon" />
   <project path="external/tinycompress" name="CarbonROM/android_external_tinycompress" groups="pdk" remote="carbon" />
   <project path="external/toybox" name="CarbonROM/android_external_toybox" groups="pdk" remote="carbon" />
@@ -79,6 +80,7 @@
   <project path="packages/apps/DeskClock" name="CarbonROM/android_packages_apps_DeskClock" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/Dialer" name="CarbonROM/android_packages_apps_Dialer" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/Launcher3" name="CarbonROM/android_packages_apps_Launcher3" groups="pdk-fs" remote="carbon" />
+  <project path="packages/apps/ManagedProvisioning" name="CarbonROM/android_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/Messaging" name="CarbonROM/android_packages_apps_Messaging" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/Nfc" name="CarbonROM/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="carbon" />
   <project path="packages/apps/PermissionController" name="CarbonROM/android_packages_apps_PackageInstaller" remote="carbon" />
