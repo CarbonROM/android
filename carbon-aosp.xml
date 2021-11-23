@@ -29,9 +29,12 @@
   <project path="device/generic/goldfish" name="CarbonROM/android_device_generic_goldfish" groups="pdk" remote="carbon" />
 
   <project path="external/boringssl" name="CarbonROM/android_external_boringssl" groups="pdk" remote="carbon" />
+  <project path="external/cblas" name="CarbonROM/android_external_cblas" groups="pdk" remote="carbon" />
   <project path="external/chromium-webview" name="CarbonROM/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="carbon" />
+  <project path="external/curl" name="CarbonROM/android_external_curl" groups="pdk" remote="carbon" />
   <project path="external/e2fsprogs" name="CarbonROM/android_external_e2fsprogs" remote="carbon" />
   <project path="external/gptfdisk" name="CarbonROM/android_external_gptfdisk" remote="carbon" />
+  <project path="external/libcap" name="CarbonROM/android_external_libcap" groups="pdk" remote="carbon" />
   <project path="external/mksh" name="CarbonROM/android_external_mksh" groups="pdk" remote="carbon" />
   <project path="external/openssh" name="CarbonROM/android_external_openssh" groups="pdk" remote="carbon" />
   <project path="external/perfetto" name="CarbonROM/android_external_perfetto" groups="pdk" remote="carbon" />
