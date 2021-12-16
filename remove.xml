@@ -70,6 +70,7 @@
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/sonivox" />
   <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/external/tremolo" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/v8" />
   <remove-project name="platform/external/wpa_supplicant_8" />
@@ -127,6 +128,7 @@
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/KeyChain" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Music" />
