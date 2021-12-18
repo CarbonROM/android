@@ -35,6 +35,7 @@
   <project path="external/selinux" name="CarbonROM/android_external_selinux" groups="pdk" remote="carbon" />
   <project path="external/tinycompress" name="CarbonROM/android_external_tinycompress" groups="pdk" remote="carbon" />
   <project path="external/toybox" name="CarbonROM/android_external_toybox" groups="pdk" remote="carbon" />
+  <project path="external/tremolo" name="LineageOS/android_external_tremolo" groups="pdk" remote="lineage" />
   <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lineage" revision="master" />
 
   <project path="frameworks/av" name="CarbonROM/android_frameworks_av" groups="pdk" remote="carbon" />
@@ -79,6 +80,7 @@
   <project path="packages/apps/Contacts" name="CarbonROM/android_packages_apps_Contacts" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/DeskClock" name="CarbonROM/android_packages_apps_DeskClock" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/Dialer" name="CarbonROM/android_packages_apps_Dialer" groups="pdk-fs" remote="carbon" />
+  <project path="packages/apps/KeyChain" name="CarbonROM/android_packages_apps_KeyChain" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/Launcher3" name="CarbonROM/android_packages_apps_Launcher3" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/ManagedProvisioning" name="CarbonROM/android_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/Messaging" name="CarbonROM/android_packages_apps_Messaging" groups="pdk-fs" remote="carbon" />
@@ -93,6 +95,7 @@
 
   <project path="packages/inputmethods/LatinIME" name="CarbonROM/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="carbon" />
 
+  <project path="packages/providers/ContactsProvider" name="CarbonROM/android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/providers/MediaProvider" name="CarbonROM/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
 
   <project path="packages/services/Telecomm" name="CarbonROM/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
@@ -112,6 +115,7 @@
   <project path="system/netd" name="CarbonROM/android_system_netd" groups="pdk" remote="carbon" />
   <project path="system/nfc" name="CarbonROM/android_system_nfc" groups="pdk" remote="carbon" />
   <project path="system/sepolicy" name="CarbonROM/android_system_sepolicy" groups="pdk" remote="carbon" />
+  <project path="system/tools/aidl" name="LineageOS/android_system_tools_aidl" groups="pdk" remote="lineage" />
   <project path="system/update_engine" name="CarbonROM/android_system_update_engine" groups="pdk" remote="carbon" />
   <project path="system/vold" name="CarbonROM/android_system_vold" groups="pdk" remote="carbon" />
 
