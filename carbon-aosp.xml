@@ -39,6 +39,7 @@
   <project path="external/mksh" name="CarbonROM/android_external_mksh" groups="pdk" remote="carbon" />
   <project path="external/openssh" name="CarbonROM/android_external_openssh" groups="pdk" remote="carbon" />
   <project path="external/perfetto" name="CarbonROM/android_external_perfetto" groups="pdk" remote="carbon" />
+  <project path="external/python/distro" name="CarbonROM/android_external_python_distro" remote="carbon" />
   <project path="external/selinux" name="CarbonROM/android_external_selinux" groups="pdk" remote="carbon" />
   <project path="external/tinycompress" name="CarbonROM/android_external_tinycompress" groups="pdk" remote="carbon" />
   <project path="external/toybox" name="CarbonROM/android_external_toybox" groups="pdk" remote="carbon" />
@@ -113,6 +114,7 @@
   <project path="system/update_engine" name="CarbonROM/android_system_update_engine" groups="pdk" remote="carbon" />
   <project path="system/vold" name="CarbonROM/android_system_vold" groups="pdk" remote="carbon" />
 
+  <project path="tools/acloud" name="CarbonROM/android_tools_acloud" groups="tools,vts,projectarch,pdk,tradefed" remote="carbon" />
   <project path="tools/metalava" name="CarbonROM/android_tools_metalava" groups="pdk,tools" remote="carbon" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" revision="master" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" revision="master" />
