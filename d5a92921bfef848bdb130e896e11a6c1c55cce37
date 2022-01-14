@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e82a6caa_dc485853",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 273
+      },
+      "writtenOn": "2022-01-14T22:23:05Z",
+      "side": 1,
+      "message": "error: hardware/qcom/sm8150/display/Android.bp:1:1: module \"soong_namespace\": namespace vendor/qcom/opensource/display does not exist\n\nAs I understand, need to apply this\nhttps://github.com/LineageOS/android/commit/44d4f09ab763394193b8e23ee5306ea2991a4d6a",
+      "revId": "d5a92921bfef848bdb130e896e11a6c1c55cce37",
+      "serverId": "4c0b52a2-b090-4331-a190-b288d812d081"
+    }
+  ]
+}
