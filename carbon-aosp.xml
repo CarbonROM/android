@@ -29,6 +29,8 @@
   <project path="external/boringssl" name="CarbonROM/android_external_boringssl" groups="pdk" remote="carbon" />
   <project path="external/e2fsprogs" name="CarbonROM/android_external_e2fsprogs" remote="carbon" />
   <project path="external/gptfdisk" name="CarbonROM/android_external_gptfdisk" remote="carbon" />
+  <project path="external/libavc" name="CarbonROM/android_external_libavc" groups="pdk" remote="carbon" />
+  <project path="external/libexif" name="CarbonROM/android_external_libexif" groups="pdk" remote="carbon" />
   <project path="external/mksh" name="CarbonROM/android_external_mksh" groups="pdk" remote="carbon" />
   <project path="external/perfetto" name="CarbonROM/android_external_perfetto" groups="pdk" remote="carbon" />
   <project path="external/robolectric-shadows" name="LineageOS/android_external_robolectric-shadows" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
