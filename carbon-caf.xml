@@ -11,7 +11,7 @@
 <!--  <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" remote="lineage" /> -->
   <project path="external/json-c" name="LineageOS/android_external_json-c" remote="lineage" groups="qcom,pdk-qcom" />
 <!--  <project path="hardware/qcom/fm" name="CarbonROM/android_hardware_qcom_fm" groups="qcom,qcom_fm,pdk-qcom" remote="carbon" />-->
-<!--  <project path="hardware/qcom-caf/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="lineage" revision="lineage-19.0-caf" /> -->
+  <project path="hardware/qcom-caf/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="lineage" revision="lineage-19.0-caf" />
   <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="lineage" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
@@ -42,7 +42,7 @@
 <!--    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" /> -->
 <!--    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" /> -->
   </project>
-<!--  <project path="hardware/qcom-caf/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk-qcom" revision="lineage-19.0-caf" remote="lineage" /> -->
+  <project path="hardware/qcom-caf/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk-qcom" revision="lineage-18.0-caf" remote="lineage" />
 <!--  <project path="hardware/qcom-caf/apq8084/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.0-caf-apq8084" remote="lineage" /> -->
 <!--  <project path="hardware/qcom-caf/apq8084/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.0-caf-apq8084" remote="lineage" /> -->
 <!--  <project path="hardware/qcom-caf/apq8084/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.0-caf-apq8084" remote="lineage" /> -->
@@ -79,9 +79,9 @@
 <!--  <project path="hardware/qcom-caf/sm8350/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.0-caf-sm8350" remote="lineage" /> -->
 <!--  <project path="hardware/qcom-caf/sm8350/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.0-caf-sm8350" remote="lineage" /> -->
 <!--  <project path="hardware/qcom-caf/sm8350/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.0-caf-sm8350" remote="lineage" /> -->
-<!--  <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="lineage" /> -->
-<!--  <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="lineage" /> -->
-<!--  <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="lineage-19.0-caf" remote="lineage" /> -->
+  <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="lineage-19.0-caf" remote="lineage" />
   <project path="system/tools/dtbtool" name="CarbonROM/android_system_tools_dtbtool" remote="carbon" />
 
   <project path="vendor/codeaurora/telephony" name="CarbonROM/android_vendor_codeaurora_telephony" remote="carbon" />
@@ -96,7 +96,8 @@
   <project path="vendor/qcom/opensource/audio" name="CarbonROM/android_vendor_qcom_opensource_audio" remote="carbon" groups="qcom,pdk-qcom" />
 <!--  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="CarbonROM/android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="carbon" groups="qcom,pdk-qcom" /> -->
 <!--  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="CarbonROM/android_vendor_qcom_opensource_bluetooth_ext" remote="carbon" groups="qcom,pdk-qcom"/> -->
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" remote="lineage" groups="qcom,pdk-qcom"/>
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" remote="lineage" revision="lineage-19.0" groups="qcom,pdk-qcom"/>
+  <project path="vendor/qcom/opensource/display" name="LineageOS/android_vendor_qcom_opensource_display" remote="lineage" revision="lineage-19.0" groups="qcom,pdk-qcom"/>
 <!--  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="CarbonROM/android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="carbon" groups="qcom,pdk-qcom" /> -->
 <!--  <project path="vendor/qcom/opensource/commonsys/system/bt" name="CarbonROM/android_vendor_qcom_opensource_system_bt" remote="carbon" groups="qcom,pdk-qcom"/> -->
   <project path="vendor/qcom/opensource/cryptfs_hw" name="CarbonROM/android_vendor_qcom_opensource_cryptfs_hw" remote="carbon" groups="qcom,pdk-qcom" />
@@ -106,7 +107,7 @@
   <project path="vendor/qcom/opensource/power" name="CarbonROM/android_vendor_qcom_opensource_power" remote="carbon" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" remote="lineage" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/usb" name="LineageOS/android_vendor_qcom_opensource_usb" remote="lineage" groups="qcom,pdk-qcom" />
-  <!-- <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" remote="lineage" groups="qcom,pdk-qcom" /> -->
+  <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" remote="lineage" revision="lineage-19.0" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" remote="lineage" groups="qcom,pdk" />
 
 </manifest>
