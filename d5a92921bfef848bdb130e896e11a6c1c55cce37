@@ -16,6 +16,24 @@
       "message": "error: hardware/qcom/sm8150/display/Android.bp:1:1: module \"soong_namespace\": namespace vendor/qcom/opensource/display does not exist\n\nAs I understand, need to apply this\nhttps://github.com/LineageOS/android/commit/44d4f09ab763394193b8e23ee5306ea2991a4d6a",
       "revId": "d5a92921bfef848bdb130e896e11a6c1c55cce37",
       "serverId": "4c0b52a2-b090-4331-a190-b288d812d081"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7e774771_850a2af3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 258
+      },
+      "writtenOn": "2022-02-14T19:31:57Z",
+      "side": 1,
+      "message": "Yes. this is only enabling the sm8150 repos. I need to enable the other car repos too. will be uploaded today",
+      "parentUuid": "e82a6caa_dc485853",
+      "revId": "d5a92921bfef848bdb130e896e11a6c1c55cce37",
+      "serverId": "4c0b52a2-b090-4331-a190-b288d812d081"
     }
   ]
 }
