@@ -96,17 +96,17 @@
   <project path="vendor/qcom/opensource/audio" name="CarbonROM/android_vendor_qcom_opensource_audio" remote="carbon" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="CarbonROM/android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="carbon" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="CarbonROM/android_vendor_qcom_opensource_bluetooth_ext" remote="carbon" groups="qcom,pdk-qcom"/>
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" remote="lineage" groups="qcom,pdk-qcom"/>
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="CarbonROM/android_vendor_qcom_opensource_display-commonsys-intf" remote="carbon" groups="qcom,pdk-qcom"/>
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="CarbonROM/android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="carbon" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="CarbonROM/android_vendor_qcom_opensource_system_bt" remote="carbon" groups="qcom,pdk-qcom"/>
   <project path="vendor/qcom/opensource/cryptfs_hw" name="CarbonROM/android_vendor_qcom_opensource_cryptfs_hw" remote="carbon" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="CarbonROM/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="carbon" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/dataservices" name="CarbonROM/android_vendor_qcom_opensource_dataservices" remote="carbon" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/interfaces" name="CarbonROM/android_vendor_qcom_opensource_interfaces" remote="carbon" groups="qcom,pdk-qcom" />
-  <project path="vendor/qcom/opensource/power" name="LineageOS/android_vendor_qcom_opensource_power" remote="lineage" groups="qcom,pdk-qcom" />
-  <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" remote="lineage" groups="qcom,pdk-qcom" />
-  <project path="vendor/qcom/opensource/usb" name="LineageOS/android_vendor_qcom_opensource_usb" remote="lineage" groups="qcom,pdk-qcom" />
-  <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" remote="lineage" groups="qcom,pdk-qcom" />
-  <project path="vendor/qcom/opensource/wfd-commonsys" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" remote="lineage" groups="qcom,pdk" />
+  <project path="vendor/qcom/opensource/power" name="CarbonROM/android_vendor_qcom_opensource_power" remote="carbon" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="CarbonROM/android_vendor_qcom_opensource_thermal-engine" remote="carbon" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/usb" name="CarbonROM/android_vendor_qcom_opensource_usb" remote="carbon" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/vibrator" name="CarbonROM/android_vendor_qcom_opensource_vibrator" remote="carbon" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/wfd-commonsys" name="CarbonROM/android_vendor_qcom_opensource_wfd-commonsys" remote="carbon" groups="qcom,pdk" />
 
 </manifest>
