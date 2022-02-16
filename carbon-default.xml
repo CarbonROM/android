@@ -18,7 +18,7 @@
   <remote  name="lineage"
            fetch=".."
            review="review.lineageos.org"
-           revision="refs/heads/lineage-18.1"
+           revision="refs/heads/lineage-19.0"
            sync-j="8" />
 
   <!-- FIRST: Remove unused/forked AOSP Projects -->
@@ -51,7 +51,7 @@
   <project path="external/exfatprogs" name="CarbonROM/android_external_exfatprogs" remote="carbon" />
   <project path="external/htop" name="CarbonROM/android_external_htop" remote="carbon" />
   <project path="external/libncurses" name="CarbonROM/android_external_libncurses" remote="carbon" />
-  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="lineage" />
+  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="lineage" revision="lineage-18.1" />
   <project path="external/nano" name="CarbonROM/android_external_nano" remote="carbon" />
   <project path="external/ntfs-3g" name="CarbonROM/android_external_ntfs-3g" remote="carbon" />
   <project path="external/p7zip" name="CarbonROM/android_external_p7zip" remote="carbon" />
@@ -59,13 +59,13 @@
   <project path="external/unrar" name="CarbonROM/android_external_unrar" remote="carbon" />
   <project path="external/zip" name="CarbonROM/android_external_zip" remote="carbon" />
 
-  <project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" remote="lineage" />
+  <project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" remote="lineage" revision="lineage-18.1" />
   <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" remote="lineage" />
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="lineage" />
 
-  <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" revision="lineage-19.0" remote="lineage" />
+  <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" remote="lineage" />
   <project path="packages/apps/Seedvault" name="CarbonROM/android_packages_apps_Seedvault" remote="carbon" />
-  <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" revision="lineage-19.0" groups="pdk-fs" remote="lineage" />
-  <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" revision="lineage-19.0" remote="lineage" />
+  <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" groups="pdk-fs" remote="lineage" />
+  <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="lineage" />
 </manifest>
