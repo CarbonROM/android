@@ -153,13 +153,14 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/apps/WallpaperPicker" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
 
   <remove-project name="platform/packages/inputmethods/LatinIME" />
 
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
-
+  <remove-project name="platform/packages/wallpapers/LivePicker" />
 
   <remove-project name="platform/prebuilts/build-tools" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
