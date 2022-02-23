@@ -53,6 +53,24 @@
       "parentUuid": "5ed5b002_3e81f26a",
       "revId": "71c56dc85b1c6b12734430ba944f75b18bfcdb41",
       "serverId": "4c0b52a2-b090-4331-a190-b288d812d081"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8b9e58d7_c6a064c6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 341
+      },
+      "writtenOn": "2022-02-23T11:22:02Z",
+      "side": 1,
+      "message": "Wrong commit: https://review.carbonrom.org/c/CarbonROM/android_hardware_qcom_display/+/17304",
+      "parentUuid": "7ceccbea_8fe7998c",
+      "revId": "71c56dc85b1c6b12734430ba944f75b18bfcdb41",
+      "serverId": "4c0b52a2-b090-4331-a190-b288d812d081"
     }
   ]
 }
