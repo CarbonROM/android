@@ -17,6 +17,24 @@
       "message": "8350 is not ready",
       "revId": "71c56dc85b1c6b12734430ba944f75b18bfcdb41",
       "serverId": "4c0b52a2-b090-4331-a190-b288d812d081"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5ed5b002_3e81f26a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 341
+      },
+      "writtenOn": "2022-02-23T10:30:43Z",
+      "side": 1,
+      "message": "currently sm8350 hals error when building any target with the following. I\u0027m not sure if we\u0027re missing a commit or LOS IS:\n\n```\nFAILED: out/soong/build.ninja\ncd \"$(dirname \"out/soong/.bootstrap/bin/soong_build\")\" \u0026\u0026 BUILDER\u003d\"$PWD/$(basename \"out/soong/.bootstrap/bin/soong_build\")\" \u0026\u0026 cd / \u0026\u0026 env -i \"$BUILDER\"     --top \"$TOP\"     --out \"out/soong\"     -n \"out\"     -d \"out/soong/build.ninja.d\"     -t -l out/.module_paths/Android.bp.list -globFile out/soong/.bootstrap/build-globs.ninja -o out/soong/build.ninja --available_env out/soong/soong.environment.available --used_env out/soong/soong.environment.used Android.bp\nerror: hardware/qcom-caf/sm8350/display/Android.bp:78:1: \"display_headers\" depends on undefined module \"display_intf_headers\"\nModule \"display_headers\" is defined in namespace \".\" which can read these 1 namespaces: [\".\"]\nModule \"display_intf_headers\" can be found in these namespaces: [\"hardware/qcom/display/msm8909\" \"hardware/qcom/sdm845\" \"vendor/qcom/opensource/commonsys-intf/display\"]\n```",
+      "parentUuid": "29087e2d_b530d1b7",
+      "revId": "71c56dc85b1c6b12734430ba944f75b18bfcdb41",
+      "serverId": "4c0b52a2-b090-4331-a190-b288d812d081"
     }
   ]
 }
