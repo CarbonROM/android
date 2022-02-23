@@ -35,6 +35,24 @@
       "parentUuid": "29087e2d_b530d1b7",
       "revId": "71c56dc85b1c6b12734430ba944f75b18bfcdb41",
       "serverId": "4c0b52a2-b090-4331-a190-b288d812d081"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7ceccbea_8fe7998c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 341
+      },
+      "writtenOn": "2022-02-23T11:20:54Z",
+      "side": 1,
+      "message": "I\u0027ve started forking sm8350 to fix it up. First commit: https://review.carbonrom.org/c/CarbonROM/android_hardware_qcom_display/+/17303",
+      "parentUuid": "5ed5b002_3e81f26a",
+      "revId": "71c56dc85b1c6b12734430ba944f75b18bfcdb41",
+      "serverId": "4c0b52a2-b090-4331-a190-b288d812d081"
     }
   ]
 }
