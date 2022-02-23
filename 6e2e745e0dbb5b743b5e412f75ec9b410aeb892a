@@ -17,6 +17,24 @@
       "message": "These two will help, but not fully fix. \n\nhttps://review.lineageos.org/c/LineageOS/android_build_soong/+/319213\nhttps://review.lineageos.org/c/LineageOS/android_build_soong/+/320152",
       "revId": "6e2e745e0dbb5b743b5e412f75ec9b410aeb892a",
       "serverId": "4c0b52a2-b090-4331-a190-b288d812d081"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "573f7745_875b9c93",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 341
+      },
+      "writtenOn": "2022-02-23T11:18:18Z",
+      "side": 1,
+      "message": "Done and merged",
+      "parentUuid": "b184e931_5789744d",
+      "revId": "6e2e745e0dbb5b743b5e412f75ec9b410aeb892a",
+      "serverId": "4c0b52a2-b090-4331-a190-b288d812d081"
     }
   ]
 }
