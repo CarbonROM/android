@@ -2,13 +2,13 @@
 <manifest>
 
   <remote  name="carbon"
-           fetch="git://github.com/"
+           fetch="https://github.com/"
            review="review.carbonrom.org"
            revision="refs/heads/cr-8.0"
            sync-j="8" />
 
   <remote  name="gh"
-           fetch="git://github.com/"
+           fetch="https://github.com/"
            sync-c="true"
            sync-j="8" />
 
