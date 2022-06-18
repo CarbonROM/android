@@ -85,6 +85,7 @@
   <project path="packages/apps/Contacts" name="CarbonROM/android_packages_apps_Contacts" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/DeskClock" name="CarbonROM/android_packages_apps_DeskClock" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/Dialer" name="CarbonROM/android_packages_apps_Dialer" groups="pdk-fs" remote="carbon" />
+  <project path="packages/apps/EmergencyInfo" name="LineageOS/android_packages_apps_EmergencyInfo" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/KeyChain" name="LineageOS/android_packages_apps_KeyChain" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/Launcher3" name="CarbonROM/android_packages_apps_Launcher3" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/ManagedProvisioning" name="LineageOS/android_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="lineage" />
@@ -126,6 +127,7 @@
   <project path="system/nfc" name="LineageOS/android_system_nfc" groups="pdk" remote="lineage" />
   <project path="system/security" name="LineageOS/android_system_security" groups="pdk" remote="lineage" />
   <project path="system/sepolicy" name="CarbonROM/android_system_sepolicy" groups="pdk" remote="carbon" />
+  <project path="system/tools/aidl" name="LineageOS/android_system_tools_aidl" groups="pdk" remote="lineage" />
   <project path="system/tools/hidl" name="LineageOS/android_system_tools_hidl" groups="pdk" remote="lineage" />
   <project path="system/update_engine" name="CarbonROM/android_system_update_engine" groups="pdk" remote="carbon" />
   <project path="system/vold" name="CarbonROM/android_system_vold" groups="pdk" remote="carbon" />
