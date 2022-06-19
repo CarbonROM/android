@@ -16,6 +16,23 @@
       "message": "https://github.com/Roker2/platform_external_Camera/tree/cr-9.0",
       "revId": "814371210c315151016a6696ebe6e1a4b55aa585",
       "serverId": "4c0b52a2-b090-4331-a190-b288d812d081"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "10000624_4b64eca9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 273
+      },
+      "writtenOn": "2022-06-19T20:07:18Z",
+      "side": 1,
+      "message": "It works fine.",
+      "revId": "814371210c315151016a6696ebe6e1a4b55aa585",
+      "serverId": "4c0b52a2-b090-4331-a190-b288d812d081"
     }
   ]
 }
