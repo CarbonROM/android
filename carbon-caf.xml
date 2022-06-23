@@ -85,14 +85,14 @@
   <project path="system/tools/dtbtool" name="CarbonROM/android_system_tools_dtbtool" remote="carbon" />
 
   <project path="vendor/codeaurora/telephony" name="CarbonROM/android_vendor_codeaurora_telephony" remote="carbon" />
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" remote="lineage" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="LineageOS/android_vendor_nxp_opensource_frameworks" remote="lineage" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="CarbonROM/android_vendor_nxp_interfaces_opensource_nfc" remote="carbon" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="CarbonROM/android_vendor_nxp_opensource_external_libnfc-nci" remote="carbon" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="CarbonROM/android_vendor_nxp_opensource_frameworks" remote="carbon" />
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="CarbonROM/android_vendor_nxp_opensource_packages_apps_Nfc" remote="carbon" />
-  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" revision="lineage-18.1-pn5xx" remote="lineage" />
-  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" revision="lineage-18.1-pn5xx" remote="lineage" />
-  <project path="vendor/nxp/opensource/sn100x/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" revision="lineage-18.1-sn100x" remote="lineage" />
-  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" revision="lineage-18.1-sn100x" remote="lineage" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="CarbonROM/android_vendor_nxp_opensource_halimpl" revision="cr-9.0-pn5xx" remote="carbon" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="CarbonROM/android_vendor_nxp_opensource_hidlimpl" revision="cr-9.0-pn5xx" remote="carbon" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="CarbonROM/android_vendor_nxp_opensource_halimpl" revision="cr-9.0-sn100x" remote="carbon" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="CarbonROM/android_vendor_nxp_opensource_hidlimpl" revision="cr-9.0-sn100x" remote="carbon" />
   <project path="vendor/qcom/opensource/audio" name="CarbonROM/android_vendor_qcom_opensource_audio" remote="carbon" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="CarbonROM/android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="carbon" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="CarbonROM/android_vendor_qcom_opensource_bluetooth_ext" remote="carbon" groups="qcom,pdk-qcom"/>
