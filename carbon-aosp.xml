@@ -26,9 +26,11 @@
 
   <project path="development" name="CarbonROM/android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="carbon" />
 
+  <project path="external/aac" name="CarbonROM/android_external_aac" groups="pdk" remote="carbon" />
   <project path="external/boringssl" name="CarbonROM/android_external_boringssl" groups="pdk" remote="carbon" />
   <project path="external/e2fsprogs" name="CarbonROM/android_external_e2fsprogs" remote="carbon" />
   <project path="external/gptfdisk" name="CarbonROM/android_external_gptfdisk" remote="carbon" />
+  <project path="external/libaom" name="CarbonROM/android_external_libaom" groups="pdk" remote="carbon" />
   <project path="external/libavc" name="CarbonROM/android_external_libavc" groups="pdk" remote="carbon" />
   <project path="external/libexif" name="CarbonROM/android_external_libexif" groups="pdk" remote="carbon" />
   <project path="external/mksh" name="CarbonROM/android_external_mksh" groups="pdk" remote="carbon" />
@@ -83,6 +85,7 @@
   <project path="packages/apps/Contacts" name="CarbonROM/android_packages_apps_Contacts" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/DeskClock" name="CarbonROM/android_packages_apps_DeskClock" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/Dialer" name="CarbonROM/android_packages_apps_Dialer" groups="pdk-fs" remote="carbon" />
+  <project path="packages/apps/EmergencyInfo" name="CarbonROM/android_packages_apps_EmergencyInfo" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/KeyChain" name="CarbonROM/android_packages_apps_KeyChain" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/Launcher3" name="CarbonROM/android_packages_apps_Launcher3" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/ManagedProvisioning" name="CarbonROM/android_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="carbon" />
@@ -102,6 +105,7 @@
   <project path="packages/providers/DownloadProvider" name="CarbonROM/android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/providers/MediaProvider" name="CarbonROM/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
 
+  <project path="packages/services/Car" name="CarbonROM/android_packages_services_Car" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/services/Telecomm" name="CarbonROM/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/services/Telephony" name="CarbonROM/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
 
