@@ -75,6 +75,7 @@
   <remove-project name="platform/external/boringssl" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/expat" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/libaom" />
   <remove-project name="platform/external/libavc" />

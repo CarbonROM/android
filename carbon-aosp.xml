@@ -29,6 +29,7 @@
   <project path="external/aac" name="CarbonROM/android_external_aac" groups="pdk" remote="carbon" />
   <project path="external/boringssl" name="CarbonROM/android_external_boringssl" groups="pdk" remote="carbon" />
   <project path="external/e2fsprogs" name="CarbonROM/android_external_e2fsprogs" remote="carbon" />
+  <project path="external/expat" name="CarbonROM/android_external_expat" groups="pdk" remote="carbon" />
   <project path="external/gptfdisk" name="CarbonROM/android_external_gptfdisk" remote="carbon" />
   <project path="external/libaom" name="CarbonROM/android_external_libaom" groups="pdk" remote="carbon" />
   <project path="external/libavc" name="CarbonROM/android_external_libavc" groups="pdk" remote="carbon" />
