@@ -54,7 +54,6 @@
   <project path="external/exfatprogs" name="CarbonROM/android_external_exfatprogs" remote="carbon" />
   <project path="external/htop" name="CarbonROM/android_external_htop" remote="carbon" />
   <project path="external/libncurses" name="CarbonROM/android_external_libncurses" remote="carbon" />
-  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="lineage" revision="lineage-18.1" />
   <project path="external/nano" name="CarbonROM/android_external_nano" remote="carbon" />
   <project path="external/ntfs-3g" name="CarbonROM/android_external_ntfs-3g" remote="carbon" />
   <project path="external/p7zip" name="CarbonROM/android_external_p7zip" remote="carbon" />
@@ -62,7 +61,6 @@
   <project path="external/unrar" name="CarbonROM/android_external_unrar" remote="carbon" />
   <project path="external/zip" name="CarbonROM/android_external_zip" remote="carbon" />
 
-  <project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" remote="lineage" revision="lineage-18.1" />
   <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" remote="lineage" />
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="lineage" />
