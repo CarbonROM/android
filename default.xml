@@ -2,10 +2,11 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-13.0.0_r52"
            remote="aosp"
+           sync-c="true"
            sync-j="4" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r52"/>
@@ -1188,4 +1189,8 @@
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
   <!-- END open-source projects -->
+
+  <!-- CarbonROM -->
+  <include name="carbon-default.xml" />
+
 </manifest>
