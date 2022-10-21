@@ -69,5 +69,5 @@
   <!-- <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" remote="lineage" /> -->
   <project path="packages/apps/Seedvault" name="CarbonROM/android_packages_apps_Seedvault" remote="carbon" />
   <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" groups="pdk-fs" remote="lineage" />
-  <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="lineage" />
+  <project path="packages/apps/Jelly" name="CarbonROM/android_packages_apps_Jelly" remote="carbon" />
 </manifest>
