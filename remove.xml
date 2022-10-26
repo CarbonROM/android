@@ -74,6 +74,7 @@
   <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/boringssl" />
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/expat" />
   <remove-project name="platform/external/gptfdisk" />
