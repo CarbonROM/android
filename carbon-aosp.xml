@@ -52,7 +52,6 @@
   <project path="frameworks/opt/telephony" name="CarbonROM/android_frameworks_opt_telephony" groups="pdk" remote="carbon" />
   <project path="frameworks/rs" name="CarbonROM/android_frameworks_rs" groups="pdk" remote="carbon" />
 
-  <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="lineage" revision="lineage-18.1" />
   <project path="hardware/interfaces" name="CarbonROM/android_hardware_interfaces" groups="pdk" remote="carbon" />
   <project path="hardware/libhardware" name="CarbonROM/android_hardware_libhardware" groups="pdk" remote="carbon" />
   <project path="hardware/libhardware_legacy" name="CarbonROM/android_hardware_libhardware_legacy" groups="pdk" remote="carbon" />
@@ -110,6 +109,7 @@
   <project path="system/keymaster" name="CarbonROM/android_system_keymaster" groups="pdk" remote="carbon" />
   <project path="system/netd" name="CarbonROM/android_system_netd" groups="pdk" remote="carbon" />
   <project path="system/nfc" name="CarbonROM/android_system_nfc" groups="pdk" remote="carbon" />
+  <project path="system/security" name="CarbonROM/android_system_security" groups="pdk" remote="carbon" />
   <project path="system/sepolicy" name="CarbonROM/android_system_sepolicy" groups="pdk" remote="carbon" />
   <project path="system/update_engine" name="CarbonROM/android_system_update_engine" groups="pdk" remote="carbon" />
   <project path="system/vold" name="CarbonROM/android_system_vold" groups="pdk" remote="carbon" />
