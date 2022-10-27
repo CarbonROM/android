@@ -102,7 +102,6 @@
   <project path="packages/wallpapers/LivePicker" name="CarbonROM/android_packages_wallpapers_LivePicker" groups="pdk-fs" remote="carbon" />
 
   <project path="prebuilts/build-tools" name="CarbonROM/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="carbon" />
-  <project path="prebuilts/tools-carbon" name="CarbonROM/android_prebuilts_tools-carbon" groups="pdk" clone-depth="1" revision="master" remote="carbon" />
 
   <project path="system/apex" name="CarbonROM/android_system_apex" groups="pdk" remote="carbon" />
   <project path="system/core" name="CarbonROM/android_system_core" groups="pdk" remote="carbon" />
