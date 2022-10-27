@@ -62,6 +62,7 @@
   <project path="external/zip" name="CarbonROM/android_external_zip" remote="carbon" />
 
   <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" remote="lineage" />
+  <project path="prebuilts/tools-carbon" name="CarbonROM/android_prebuilts_tools-carbon" groups="pdk" clone-depth="1" revision="master" remote="carbon" />
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="lineage" />
 
