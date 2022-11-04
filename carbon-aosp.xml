@@ -78,6 +78,7 @@
   <project path="hardware/qcom/sm8150/display" name="CarbonROM/android_hardware_qcom_sm8150_display" groups="qcom_sm8150" remote="carbon" />
   <project path="hardware/qcom/sm8150/media" name="CarbonROM/android_hardware_qcom_sm8150_media" groups="qcom_sm8150" remote="carbon" />
   <project path="hardware/ril" name="CarbonROM/android_hardware_ril" groups="pdk" remote="carbon" />
+  <project path="hardware/qcom/wlan" name="CarbonROM/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="carbon" />
 
   <project path="packages/apps/Contacts" name="CarbonROM/android_packages_apps_Contacts" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/DeskClock" name="CarbonROM/android_packages_apps_DeskClock" groups="pdk-fs" remote="carbon" />
