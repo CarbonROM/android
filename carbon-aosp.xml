@@ -106,6 +106,7 @@
   <project path="packages/providers/ContactsProvider" name="CarbonROM/android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/providers/DownloadProvider" name="CarbonROM/android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/providers/MediaProvider" name="CarbonROM/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="packages/providers/TelephonyProvider" name="CarbonROM/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
 
   <project path="packages/services/Car" name="CarbonROM/android_packages_services_Car" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/services/Telecomm" name="CarbonROM/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
