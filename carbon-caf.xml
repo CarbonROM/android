@@ -100,7 +100,6 @@
   <project path="vendor/qcom/opensource/commonsys/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys" remote="lineage" groups="qcom,pdk-qcom"/>
 <!--  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="CarbonROM/android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="carbon" groups="qcom,pdk-qcom" /> -->
 <!--  <project path="vendor/qcom/opensource/commonsys/system/bt" name="CarbonROM/android_vendor_qcom_opensource_system_bt" remote="carbon" groups="qcom,pdk-qcom"/> -->
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="CarbonROM/android_vendor_qcom_opensource_cryptfs_hw" remote="carbon" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="CarbonROM/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="carbon" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/dataservices" name="CarbonROM/android_vendor_qcom_opensource_dataservices" remote="carbon" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/display" name="LineageOS/android_vendor_qcom_opensource_display" remote="lineage" groups="qcom,pdk-qcom"/>
