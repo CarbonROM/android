@@ -65,6 +65,7 @@
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
 
+  <remove-project name="kernel/configs" />
   <remove-project name="kernel/prebuilts/4.19/arm64" />
   <remove-project name="kernel/prebuilts/5.4/arm64" />
   <remove-project name="kernel/prebuilts/5.4/x86-64" />

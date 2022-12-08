@@ -80,6 +80,8 @@
   <project path="hardware/ril" name="CarbonROM/android_hardware_ril" groups="pdk" remote="carbon" />
   <project path="hardware/qcom/wlan" name="CarbonROM/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="carbon" />
 
+  <project path="kernel/configs" name="CarbonROM/android_kernel_configs" groups="vts,pdk" remote="carbon" />
+
   <project path="packages/apps/Contacts" name="CarbonROM/android_packages_apps_Contacts" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/DeskClock" name="CarbonROM/android_packages_apps_DeskClock" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/Dialer" name="CarbonROM/android_packages_apps_Dialer" groups="pdk-fs" remote="carbon" />
