@@ -49,6 +49,7 @@
   <project path="packages/apps/CarbonSetupWizard" name="CarbonROM/android_packages_apps_CarbonSetupWizard" remote="carbon" />
 
   <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
+  <project path="vendor/themes" name="CarbonROM/android_vendor_themes" remote="carbon" />
 
   <!-- LineageOS Projects -->
   <project path="external/exfatprogs" name="CarbonROM/android_external_exfatprogs" remote="carbon" />
