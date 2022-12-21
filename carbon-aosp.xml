@@ -16,7 +16,6 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/blueprint" name="CarbonROM/android_build_blueprint" groups="pdk,tradefed" remote="carbon" />
   <project path="build/soong" name="CarbonROM/android_build_soong" groups="pdk,tradefed" remote="carbon" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -24,12 +23,9 @@
 
   <project path="bootable/recovery" name="CarbonROM/android_bootable_recovery" groups="pdk" remote="carbon" />
 
-  <project path="development" name="CarbonROM/android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="carbon" />
-
   <project path="device/generic/goldfish" name="CarbonROM/android_device_generic_goldfish" groups="pdk" remote="carbon" />
   <project path="device/google/cuttlefish" name="CarbonROM/android_device_google_cuttlefish" groups="device,pdk" remote="carbon" />
 
-  <project path="external/boringssl" name="CarbonROM/android_external_boringssl" groups="pdk" remote="carbon" />
   <project path="external/cblas" name="CarbonROM/android_external_cblas" groups="pdk" remote="carbon" />
   <project path="external/chromium-webview" name="CarbonROM/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="carbon" />
   <project path="external/curl" name="CarbonROM/android_external_curl" groups="pdk" remote="carbon" />
@@ -39,30 +35,23 @@
   <project path="external/libcap" name="CarbonROM/android_external_libcap" groups="pdk" remote="carbon" />
   <project path="external/mksh" name="CarbonROM/android_external_mksh" groups="pdk" remote="carbon" />
   <project path="external/openssh" name="CarbonROM/android_external_openssh" groups="pdk" remote="carbon" />
-  <project path="external/perfetto" name="CarbonROM/android_external_perfetto" groups="pdk" remote="carbon" />
   <project path="external/python/distro" name="CarbonROM/android_external_python_distro" remote="carbon" />
-  <project path="external/selinux" name="CarbonROM/android_external_selinux" groups="pdk" remote="carbon" />
   <project path="external/tinycompress" name="CarbonROM/android_external_tinycompress" groups="pdk" remote="carbon" />
-  <project path="external/toybox" name="CarbonROM/android_external_toybox" groups="pdk" remote="carbon" />
 
   <project path="frameworks/av" name="CarbonROM/android_frameworks_av" groups="pdk" remote="carbon" />
   <project path="frameworks/base" name="CarbonROM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="frameworks/native" name="CarbonROM/android_frameworks_native" groups="pdk" remote="carbon" />
-  <project path="frameworks/opt/net/ims" name="CarbonROM/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="frameworks/opt/telephony" name="CarbonROM/android_frameworks_opt_telephony" groups="pdk" remote="carbon" />
   <project path="frameworks/rs" name="CarbonROM/android_frameworks_rs" groups="pdk" remote="carbon" />
 
   <project path="hardware/interfaces" name="CarbonROM/android_hardware_interfaces" groups="pdk" remote="carbon" />
   <project path="hardware/libhardware" name="CarbonROM/android_hardware_libhardware" groups="pdk" remote="carbon" />
   <project path="hardware/libhardware_legacy" name="CarbonROM/android_hardware_libhardware_legacy" groups="pdk" remote="carbon" />
-  <project path="hardware/nxp/nfc" name="CarbonROM/android_hardware_nxp_nfc" groups="pdk" remote="carbon" />
   <project path="hardware/qcom/audio" name="CarbonROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="carbon" />
-  <project path="hardware/qcom/bt" name="CarbonROM/android_hardware_qcom_bt" groups="qcom,pdk" remote="carbon" />
   <project path="hardware/qcom/camera" name="CarbonROM/android_hardware_qcom_camera" groups="qcom_camera" remote="carbon" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="CarbonROM/android_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk" remote="carbon" />
   <project path="hardware/qcom/display" name="CarbonROM/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="carbon" />
   <project path="hardware/qcom/gps" name="CarbonROM/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="carbon" />
-  <project path="hardware/qcom/keymaster" name="CarbonROM/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="carbon" />
   <project path="hardware/qcom/media" name="CarbonROM/android_hardware_qcom_media" groups="qcom,pdk" remote="carbon" />
   <project path="hardware/qcom/sdm845/display" name="CarbonROM/android_hardware_qcom_sdm845_display" groups="generic_fs,qcom_sdm845" remote="carbon" />
   <project path="hardware/qcom/sm7250/display" name="CarbonROM/android_hardware_qcom_sm7250_display" groups="qcom_sm7250" remote="carbon" />
@@ -106,18 +95,14 @@
 
   <project path="prebuilts/build-tools" name="CarbonROM/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="carbon" />
 
-  <project path="system/apex" name="CarbonROM/android_system_apex" groups="pdk" remote="carbon" />
   <project path="system/core" name="CarbonROM/android_system_core" groups="pdk" remote="carbon" />
   <project path="system/keymaster" name="CarbonROM/android_system_keymaster" groups="pdk" remote="carbon" />
   <project path="system/libhidl" name="CarbonROM/android_system_libhidl" groups="pdk" remote="carbon" />
-  <project path="system/netd" name="CarbonROM/android_system_netd" groups="pdk" remote="carbon" />
-  <project path="system/nfc" name="CarbonROM/android_system_nfc" groups="pdk" remote="carbon" />
   <project path="system/security" name="CarbonROM/android_system_security" groups="pdk" remote="carbon" />
   <project path="system/sepolicy" name="CarbonROM/android_system_sepolicy" groups="pdk" remote="carbon" />
   <project path="system/update_engine" name="CarbonROM/android_system_update_engine" groups="pdk" remote="carbon" />
   <project path="system/vold" name="CarbonROM/android_system_vold" groups="pdk" remote="carbon" />
 
   <project path="tools/acloud" name="CarbonROM/android_tools_acloud" groups="tools,vts,projectarch,pdk,tradefed" remote="carbon" />
-  <project path="tools/metalava" name="CarbonROM/android_tools_metalava" groups="pdk,tools" remote="carbon" />
 
 </manifest>
