@@ -117,7 +117,7 @@
   <project path="system/update_engine" name="CarbonROM/android_system_update_engine" groups="pdk" remote="carbon" />
   <project path="system/vold" name="CarbonROM/android_system_vold" groups="pdk" remote="carbon" />
 
-  <project path="tools/acloud" name="CarbonROM/android_tools_acloud" groups="tools,vts,projectarch,pdk,tradefed" revision="master" remote="carbon" />
+  <project path="tools/acloud" name="CarbonROM/android_tools_acloud" groups="tools,vts,projectarch,pdk,tradefed" remote="carbon" />
   <project path="tools/metalava" name="CarbonROM/android_tools_metalava" groups="pdk,tools" remote="carbon" />
 
 </manifest>
