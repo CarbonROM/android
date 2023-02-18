@@ -81,6 +81,7 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/hardware/interfaces" />
   <remove-project name="platform/frameworks/minikin" />
+  <remove-project name="platform/frameworks/ml" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/net/ims" />
   <remove-project name="platform/frameworks/opt/net/voip" />
