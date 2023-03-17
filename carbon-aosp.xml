@@ -49,6 +49,7 @@
   <project path="external/v8" name="LineageOS/android_external_v8" groups="pdk" remote="lineage" />
   <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="lineage" />
   <project path="external/expat" name="LineageOS/android_external_expat" groups="pdk" remote="lineage" />
+  <project path="external/zlib" name="CarbonROM/android_external_zlib" groups="pdk" remote="carbon" />
 
   <project path="frameworks/av" name="CarbonROM/android_frameworks_av" groups="pdk" remote="carbon" />
   <project path="frameworks/base" name="CarbonROM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
