@@ -50,7 +50,7 @@ Move to the CarbonROM working directory and initialise the repo using the manife
 
 ```sh
 cd ~/carbon
-repo init -u https://github.com/CarbonROM/android.git -b cr-8.0
+repo init -u https://github.com/CarbonROM/android.git -b cr-8.0 --git-lfs
 repo sync -j8
 ```
 
