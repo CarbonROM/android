@@ -33,6 +33,7 @@
   <project path="external/dtc" name="LineageOS/android_external_dtc" groups="pdk" remote="lineage" />
   <project path="external/e2fsprogs" name="CarbonROM/android_external_e2fsprogs" remote="carbon" />
   <project path="external/freetype" name="CarbonROM/android_external_freetype" groups="pdk" remote="carbon" />
+  <project path="external/icu" name="CarbonROM/android_external_icu" groups="pdk" remote="carbon" />
   <project path="external/libaom" name="LineageOS/android_external_libaom" groups="pdk" remote="lineage" />
   <project path="external/libavc" name="LineageOS/android_external_libavc" groups="pdk" remote="lineage" />
   <project path="external/libexif" name="LineageOS/android_external_libexif" groups="pdk" remote="lineage" />
@@ -142,6 +143,7 @@
   <project path="system/nfc" name="CarbonROM/android_system_nfc" groups="pdk" remote="carbon" />
   <project path="system/security" name="LineageOS/android_system_security" groups="pdk" remote="lineage" />
   <project path="system/sepolicy" name="CarbonROM/android_system_sepolicy" groups="pdk" remote="carbon" />
+  <project path="system/timezone" name="CarbonROM/android_system_timezone" groups="pdk" remote="carbon" />
   <project path="system/tools/aidl" name="LineageOS/android_system_tools_aidl" groups="pdk" remote="lineage" />
   <project path="system/tools/hidl" name="LineageOS/android_system_tools_hidl" groups="pdk" remote="lineage" />
   <project path="system/update_engine" name="CarbonROM/android_system_update_engine" groups="pdk" remote="carbon" />
