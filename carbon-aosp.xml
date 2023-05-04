@@ -29,7 +29,6 @@
   <project path="external/cblas" name="CarbonROM/android_external_cblas" groups="pdk" remote="carbon" />
   <project path="external/chromium-webview" name="CarbonROM/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="carbon" />
   <project path="external/curl" name="CarbonROM/android_external_curl" groups="pdk" remote="carbon" />
-  <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
   <project path="external/e2fsprogs" name="CarbonROM/android_external_e2fsprogs" remote="carbon" />
   <project path="external/gptfdisk" name="CarbonROM/android_external_gptfdisk" remote="carbon" />
   <project path="external/libcap" name="CarbonROM/android_external_libcap" groups="pdk" remote="carbon" />
