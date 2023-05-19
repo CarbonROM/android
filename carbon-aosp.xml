@@ -85,6 +85,7 @@
 
   <project path="packages/inputmethods/LatinIME" name="CarbonROM/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="carbon" />
 
+  <project path="packages/modules/Bluetooth" name="CarbonROM/android_packages_modules_Bluetooth" groups="pdk" remote="carbon" />
   <project path="packages/modules/Connectivity" name="CarbonROM/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
 
   <project path="packages/services/Telecomm" name="CarbonROM/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
