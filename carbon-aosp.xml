@@ -102,6 +102,7 @@
   <project path="packages/apps/SettingsIntelligence" name="CarbonROM/android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/SimpleDeviceConfig" name="CarbonROM/android_packages_apps_SimpleDeviceConfig" remote="carbon" />
   <project path="packages/apps/ThemePicker" name="CarbonROM/android_packages_apps_ThemePicker" groups="pdk-fs" remote="carbon" />
+  <project path="packages/apps/Traceur" name="CarbonROM/android_packages_apps_Traceur" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/WallpaperPicker2" name="CarbonROM/android_packages_apps_WallpaperPicker2" groups="pdk-fs" remote="carbon" />
 
   <project path="packages/inputmethods/LatinIME" name="CarbonROM/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="carbon" />
