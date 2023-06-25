@@ -76,6 +76,7 @@
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="lineage" />
 
   <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" remote="lineage" />
+  <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" remote="lineage" />
   <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" remote="lineage" />
   <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="lineage" />
