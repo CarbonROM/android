@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8bc67d3a_e23a3891",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 628
+      },
+      "writtenOn": "2023-07-23T01:55:43Z",
+      "side": 1,
+      "message": "I think is only for Ubuntu-based distros.",
+      "revId": "d9f1d22fee067520d19c1e542c55459793550315",
+      "serverId": "4c0b52a2-b090-4331-a190-b288d812d081"
+    }
+  ]
+}
