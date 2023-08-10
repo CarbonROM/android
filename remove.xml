@@ -60,6 +60,7 @@
   <remove-project name="platform/external/chromium-libpac" />
   <remove-project name="platform/external/dnsmasq" />
   <remove-project name="platform/external/dtc" />
+  <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/libaom" />
   <remove-project name="platform/external/libavc" />
   <remove-project name="platform/external/libexif" />
@@ -184,4 +185,5 @@
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
 
+  <remove-project name="platform/tools/apksig" />
 </manifest>
