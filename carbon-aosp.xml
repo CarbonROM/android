@@ -30,6 +30,7 @@
   <project path="external/boringssl" name="CarbonROM/android_external_boringssl" groups="pdk" remote="carbon" />
   <project path="external/dtc" name="CarbonROM/android_external_dtc" groups="pdk" remote="carbon" />
   <project path="external/e2fsprogs" name="CarbonROM/android_external_e2fsprogs" remote="carbon" />
+  <project path="external/freetype" name="CarbonROM/android_external_freetype" groups="pdk" remote="carbon" />
   <project path="external/expat" name="CarbonROM/android_external_expat" groups="pdk" remote="carbon" />
   <project path="external/gptfdisk" name="CarbonROM/android_external_gptfdisk" remote="carbon" />
   <project path="external/libaom" name="CarbonROM/android_external_libaom" groups="pdk" remote="carbon" />
@@ -135,5 +136,6 @@
   <project path="system/update_engine" name="CarbonROM/android_system_update_engine" groups="pdk" remote="carbon" />
   <project path="system/vold" name="CarbonROM/android_system_vold" groups="pdk" remote="carbon" />
 
+  <project path="tools/apksig" name="CarbonROM/android_tools_apksig" groups="pdk,tradefed" remote="carbon" />
   <project path="tools/metalava" name="CarbonROM/android_tools_metalava" groups="pdk,tools" remote="carbon" />
 </manifest>
