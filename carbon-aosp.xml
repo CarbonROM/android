@@ -27,7 +27,7 @@
 
   <project path="development" name="CarbonROM/android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="carbon" />
 
-  <project path="external/aac" name="LineageOS/android_external_aac" groups="pdk" remote="lineage" />
+  <project path="external/aac" name="android_external_aac" groups="pdk" remote="carbon" />
   <project path="external/chromium-libpac" name="LineageOS/android_external_chromium-libpac" groups="pdk" remote="lineage" />
   <project path="external/dnsmasq" name="LineageOS/android_external_dnsmasq" groups="pdk" remote="lineage" />
   <project path="external/dtc" name="LineageOS/android_external_dtc" groups="pdk" remote="lineage" />
@@ -72,8 +72,6 @@
   <project path="frameworks/opt/telephony" name="CarbonROM/android_frameworks_opt_telephony" groups="pdk" remote="carbon" />
   <project path="frameworks/rs" name="CarbonROM/android_frameworks_rs" groups="pdk" remote="carbon" />
 
-<!--  <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="lineage" />
-  <project path="hardware/broadcom/wlan" name="LineageOS/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="lineage" /> -->
   <project path="hardware/interfaces" name="CarbonROM/android_hardware_interfaces" groups="pdk" remote="carbon" />
   <project path="hardware/libhardware" name="CarbonROM/android_hardware_libhardware" groups="pdk" remote="carbon" />
   <project path="hardware/libhardware_legacy" name="CarbonROM/android_hardware_libhardware_legacy" groups="pdk" remote="carbon" />
@@ -120,7 +118,7 @@
   <project path="packages/providers/CalendarProvider" name="LineageOS/android_packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/providers/ContactsProvider" name="LineageOS/android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/providers/MediaProvider" name="CarbonROM/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
-  <project path="packages/providers/TelephonyProvider" name="LineageOS/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
 
   <project path="packages/services/Telecomm" name="CarbonROM/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/services/Telephony" name="CarbonROM/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
@@ -134,6 +132,7 @@
   <project path="system/apex" name="CarbonROM/android_system_apex" groups="pdk" remote="carbon" />
   <project path="system/bt" name="CarbonROM/android_system_bt" groups="pdk" remote="carbon" />
   <project path="system/bpf" name="CarbonROM/android_system_bpf" groups="pdk" remote="carbon" />
+  <project path="system/ca-certificates" name="android_system_ca-certificates" groups="pdk" remote="carbon" />
   <project path="system/connectivity/wificond" name="LineageOS/android_system_connectivity_wificond" groups="pdk" remote="lineage" />
   <project path="system/core" name="CarbonROM/android_system_core" groups="pdk" remote="carbon" />
   <project path="system/keymaster" name="CarbonROM/android_system_keymaster" groups="pdk" remote="carbon" />
