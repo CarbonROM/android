@@ -109,12 +109,6 @@
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/msm8998" />
   <remove-project name="platform/hardware/qcom/power" />
-<!--  <remove-project name="platform/hardware/qcom/sdm710/data/ipacfg-mgr" />
-  <remove-project name="platform/hardware/qcom/sdm710/display" />
-  <remove-project name="platform/hardware/qcom/sdm710/gps" />
-  <remove-project name="platform/hardware/qcom/sdm710/media" />
-  <remove-project name="platform/hardware/qcom/sdm710/thermal" />
-  <remove-project name="platform/hardware/qcom/sdm710/vr" /> -->
   <remove-project name="platform/hardware/qcom/sdm845/bt" />
   <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/qcom/sdm845/display" />
@@ -171,6 +165,7 @@
 
   <remove-project name="platform/system/apex" />
   <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/ca-certificates" />
   <remove-project name="platform/system/connectivity/wificond" />
   <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/core" />
