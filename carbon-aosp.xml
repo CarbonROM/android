@@ -41,7 +41,9 @@
   <project path="frameworks/av" name="CarbonROM/android_frameworks_av" groups="pdk" remote="carbon" />
   <project path="frameworks/base" name="CarbonROM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="frameworks/native" name="CarbonROM/android_frameworks_native" groups="pdk" remote="carbon" />
+  <project path="frameworks/opt/colorpicker" name="CarbonROM/android_frameworks_opt_colorpicker" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="frameworks/opt/telephony" name="CarbonROM/android_frameworks_opt_telephony" groups="pdk" remote="carbon" />
+  <project path="frameworks/opt/timezonepicker" name="CarbonROM/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="frameworks/rs" name="CarbonROM/android_frameworks_rs" groups="pdk" remote="carbon" />
 
   <project path="hardware/interfaces" name="CarbonROM/android_hardware_interfaces" groups="pdk" remote="carbon" />
