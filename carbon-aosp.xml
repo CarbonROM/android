@@ -37,6 +37,7 @@
   <project path="external/icu" name="CarbonROM/android_external_icu" groups="pdk" remote="carbon" />
   <project path="external/libaom" name="LineageOS/android_external_libaom" groups="pdk" remote="lineage" />
   <project path="external/libavc" name="LineageOS/android_external_libavc" groups="pdk" remote="lineage" />
+  <project path="external/libxml2" name="CarbonROM/android_external_libxml2" groups="pdk" remote="carbon" />
   <project path="external/libvpx" name="CarbonROM/android_external_libvpx" groups="pdk" remote="carbon" />
   <project path="external/libexif" name="LineageOS/android_external_libexif" groups="pdk" remote="lineage" />
   <project path="external/gptfdisk" name="CarbonROM/android_external_gptfdisk" remote="carbon" />
