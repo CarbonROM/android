@@ -37,6 +37,7 @@
   <project path="external/libavc" name="CarbonROM/android_external_libavc" groups="pdk" remote="carbon" />
   <project path="external/libcups" name="CarbonROM/android_external_libcups" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="external/libexif" name="CarbonROM/android_external_libexif" groups="pdk" remote="carbon" />
+  <project path="external/libxml2" name="CarbonROM/android_external_libxml2" groups="pdk,libxml2" remote="carbon" />
   <project path="external/mksh" name="CarbonROM/android_external_mksh" groups="pdk" remote="carbon" />
   <project path="external/perfetto" name="CarbonROM/android_external_perfetto" groups="pdk" remote="carbon" />
   <project path="external/robolectric-shadows" name="CarbonROM/android_external_robolectric-shadows" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
