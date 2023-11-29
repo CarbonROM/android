@@ -81,6 +81,7 @@
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/libaom" />
   <remove-project name="platform/external/libavc" />
+  <remove-project name="platform/external/libcups" />
   <remove-project name="platform/external/libexif" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/perfetto" />

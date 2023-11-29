@@ -35,6 +35,7 @@
   <project path="external/gptfdisk" name="CarbonROM/android_external_gptfdisk" remote="carbon" />
   <project path="external/libaom" name="CarbonROM/android_external_libaom" groups="pdk" remote="carbon" />
   <project path="external/libavc" name="CarbonROM/android_external_libavc" groups="pdk" remote="carbon" />
+  <project path="external/libcups" name="CarbonROM/android_external_libcups" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="external/libexif" name="CarbonROM/android_external_libexif" groups="pdk" remote="carbon" />
   <project path="external/mksh" name="CarbonROM/android_external_mksh" groups="pdk" remote="carbon" />
   <project path="external/perfetto" name="CarbonROM/android_external_perfetto" groups="pdk" remote="carbon" />
