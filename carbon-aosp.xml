@@ -23,6 +23,8 @@
 
   <project path="bootable/recovery" name="CarbonROM/android_bootable_recovery" groups="pdk" remote="carbon" />
 
+  <project path="cts" name="CarbonROM/android_cts" groups="cts,pdk-cw-fs,pdk-fs" remote="carbon" />
+
   <project path="device/generic/goldfish" name="CarbonROM/android_device_generic_goldfish" groups="pdk" remote="carbon" />
   <project path="device/google/cuttlefish" name="CarbonROM/android_device_google_cuttlefish" groups="device,pdk" remote="carbon" />
 
