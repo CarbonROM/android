@@ -78,11 +78,14 @@
   <remove-project name="platform/external/cblas" />
   <remove-project name="platform/external/curl" />
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/libcap" />
+  <remove-project name="platform/external/libxml2" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/pdfium" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/webp" />
 
@@ -143,6 +146,9 @@
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Wifi" />
 
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
+
   <remove-project name="platform/packages/inputmethods/LatinIME" />
 
   <remove-project name="platform/packages/services/Telecomm" />
@@ -161,5 +167,6 @@
   <remove-project name="platform/system/vold" />
 
   <remove-project name="platform/tools/acloud" />
+  <remove-project name="platform/tools/apksig" />
 
 </manifest>

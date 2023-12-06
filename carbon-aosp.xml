@@ -29,11 +29,14 @@
   <project path="external/cblas" name="CarbonROM/android_external_cblas" groups="pdk" remote="carbon" />
   <project path="external/chromium-webview" name="CarbonROM/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="carbon" />
   <project path="external/curl" name="CarbonROM/android_external_curl" groups="pdk" remote="carbon" />
+  <project path="external/dtc" name="CarbonROM/android_external_dtc" groups="pdk" remote="carbon" />
   <project path="external/e2fsprogs" name="CarbonROM/android_external_e2fsprogs" remote="carbon" />
   <project path="external/gptfdisk" name="CarbonROM/android_external_gptfdisk" remote="carbon" />
   <project path="external/libcap" name="CarbonROM/android_external_libcap" groups="pdk" remote="carbon" />
+  <project path="external/libxml2" name="CarbonROM/android_external_libxml2" groups="pdk,libxml2" remote="carbon" />
   <project path="external/mksh" name="CarbonROM/android_external_mksh" groups="pdk" remote="carbon" />
   <project path="external/openssh" name="CarbonROM/android_external_openssh" groups="pdk" remote="carbon" />
+  <project path="external/pdfium" name="CarbonROM/android_external_pdfium" groups="pdk" remote="carbon" />
   <project path="external/python/distro" name="CarbonROM/android_external_python_distro" remote="carbon" />
   <project path="external/tinycompress" name="CarbonROM/android_external_tinycompress" groups="pdk" remote="carbon" />
   <project path="external/webp" name="CarbonROM/android_external_webp" groups="pdk,qcom_msm8x26" remote="carbon" />
@@ -90,7 +93,12 @@
 
   <project path="packages/modules/Bluetooth" name="CarbonROM/android_packages_modules_Bluetooth" groups="pdk" remote="carbon" />
   <project path="packages/modules/Connectivity" name="CarbonROM/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="packages/modules/DnsResolver" name="CarbonROM/android_packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="packages/modules/StatsD" name="CarbonROM/android_packages_modules_StatsD" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/modules/Wifi" name="CarbonROM/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+
+  <project path="packages/providers/MediaProvider" name="CarbonROM/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="packages/providers/TelephonyProvider" name="CarbonROM/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
 
   <project path="packages/services/Telecomm" name="CarbonROM/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/services/Telephony" name="CarbonROM/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
@@ -99,6 +107,7 @@
 
   <project path="prebuilts/build-tools" name="CarbonROM/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="carbon" />
 
+  <project path="system/ca-certificates" name="CarbonROM/android_system_ca-certificates" groups="pdk" remote="carbon" />
   <project path="system/core" name="CarbonROM/android_system_core" groups="pdk" remote="carbon" />
   <project path="system/keymaster" name="CarbonROM/android_system_keymaster" groups="pdk" remote="carbon" />
   <project path="system/libhidl" name="CarbonROM/android_system_libhidl" groups="pdk" remote="carbon" />
@@ -109,5 +118,6 @@
   <project path="system/vold" name="CarbonROM/android_system_vold" groups="pdk" remote="carbon" />
 
   <project path="tools/acloud" name="CarbonROM/android_tools_acloud" groups="tools,vts,projectarch,pdk,tradefed" remote="carbon" />
+  <project path="tools/apksig" name="CarbonROM/android_tools_apksig" groups="pdk,tradefed"  remote="carbon" />
 
 </manifest>
