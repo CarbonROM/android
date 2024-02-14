@@ -105,10 +105,12 @@
   <project path="packages/modules/Bluetooth" name="CarbonROM/android_packages_modules_Bluetooth" groups="pdk" remote="carbon" />
   <project path="packages/modules/Connectivity" name="CarbonROM/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/modules/DnsResolver" name="CarbonROM/android_packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="packages/modules/Permission" name="CarbonROM/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/modules/StatsD" name="CarbonROM/android_packages_modules_StatsD" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/modules/NeuralNetworks" name="CarbonROM/android_packages_modules_NeuralNetworks" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/modules/Wifi" name="CarbonROM/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
 
+  <project path="packages/providers/DownloadProvider" name="CarbonROM/android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/providers/MediaProvider" name="CarbonROM/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/providers/TelephonyProvider" name="CarbonROM/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
 
