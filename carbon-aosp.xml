@@ -16,6 +16,13 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+
+  <project path="build/bazel" name="CarbonROM/android_build_bazel" groups="pdk" remote="carbon" >
+    <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
+    <linkfile src="bazel.sh" dest="tools/bazel" />
+    <linkfile src="bazel.BUILD" dest="BUILD" />
+  </project>
+
   <project path="build/soong" name="CarbonROM/android_build_soong" groups="pdk,tradefed" remote="carbon" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -78,6 +85,8 @@
 
   <project path="kernel/configs" name="CarbonROM/android_kernel_configs" groups="vts,pdk" remote="carbon" />
 
+
+  <project path="packages/apps/Camera2" name="CarbonROM/android_packages_apps_Camera2" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/Contacts" name="CarbonROM/android_packages_apps_Contacts" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/DeskClock" name="CarbonROM/android_packages_apps_DeskClock" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/Dialer" name="CarbonROM/android_packages_apps_Dialer" groups="pdk-fs" remote="carbon" />
@@ -97,6 +106,7 @@
   <project path="packages/modules/Connectivity" name="CarbonROM/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/modules/DnsResolver" name="CarbonROM/android_packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/modules/StatsD" name="CarbonROM/android_packages_modules_StatsD" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="packages/modules/NeuralNetworks" name="CarbonROM/android_packages_modules_NeuralNetworks" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/modules/Wifi" name="CarbonROM/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
 
   <project path="packages/providers/MediaProvider" name="CarbonROM/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
@@ -114,6 +124,7 @@
   <project path="system/keymaster" name="CarbonROM/android_system_keymaster" groups="pdk" remote="carbon" />
   <project path="system/libhidl" name="CarbonROM/android_system_libhidl" groups="pdk" remote="carbon" />
   <project path="system/media" name="CarbonROM/android_system_media" groups="pdk" remote="carbon" />
+  <project path="system/netd" name="CarbonROM/android_system_netd" groups="pdk" remote="carbon" />
   <project path="system/security" name="CarbonROM/android_system_security" groups="pdk" remote="carbon" />
   <project path="system/sepolicy" name="CarbonROM/android_system_sepolicy" groups="pdk" remote="carbon" />
   <project path="system/update_engine" name="CarbonROM/android_system_update_engine" groups="pdk" remote="carbon" />
